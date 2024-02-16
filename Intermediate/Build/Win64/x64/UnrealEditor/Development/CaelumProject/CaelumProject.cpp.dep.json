@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "g:\\unreal projects\\caelumproject\\source\\caelumproject\\caelumproject.cpp",
+        "ProvidedModule": "",
+        "PCH": "g:\\unreal projects\\caelumproject\\intermediate\\build\\win64\\x64\\caelumprojecteditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "g:\\unreal projects\\caelumproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\caelumproject\\definitions.caelumproject.h",
+            "g:\\unreal projects\\caelumproject\\source\\caelumproject\\caelumproject.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

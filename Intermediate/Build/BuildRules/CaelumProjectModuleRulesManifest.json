@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"G:\\Unreal Projects\\CaelumProject\\Source\\CaelumProject\\CaelumProject.Build.cs",
+		"G:\\Unreal Projects\\CaelumProject\\Source\\CaelumProject.Target.cs",
+		"G:\\Unreal Projects\\CaelumProject\\Source\\CaelumProjectEditor.Target.cs"
+	],
+	"EngineVersion": "5.2.1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CaelumProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CaelumProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CaelumProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CaelumProject">
+      <UniqueIdentifier>{DCA90494-0D8B-36C8-A82B-AD34DBF45EF3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CaelumProject\CaelumProject.Build.cs">
+      <Filter>Source\CaelumProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CaelumProject\CaelumProject.cpp">
+      <Filter>Source\CaelumProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CaelumProject\CaelumProject.h">
+      <Filter>Source\CaelumProject</Filter>
+    </ClInclude>
+    <Filter Include="Source\CaelumProject\Player">
+      <UniqueIdentifier>{5936DDC0-153A-308A-879D-8C808726F2A5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CaelumProject\Player\MainCharacter.cpp">
+      <Filter>Source\CaelumProject\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CaelumProject\Player\MainCharacter.h">
+      <Filter>Source\CaelumProject\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

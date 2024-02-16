@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CaelumProject",
+			"Path": "G:\\Unreal Projects\\CaelumProject\\Source\\CaelumProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CaelumProjectEditor",
+			"Path": "G:\\Unreal Projects\\CaelumProject\\Source\\CaelumProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

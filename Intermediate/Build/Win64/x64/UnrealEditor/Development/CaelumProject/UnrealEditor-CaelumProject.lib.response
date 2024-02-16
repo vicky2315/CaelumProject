@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CaelumProject.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"G:\Unreal Projects\CaelumProject\Intermediate\Build\Win64\x64\CaelumProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"G:\Unreal Projects\CaelumProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\CaelumProject\CaelumProject.init.gen.cpp.obj"
+"G:\Unreal Projects\CaelumProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\CaelumProject\MainCharacter.gen.cpp.obj"
+"G:\Unreal Projects\CaelumProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\CaelumProject\CaelumProject.cpp.obj"
+"G:\Unreal Projects\CaelumProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\CaelumProject\MainCharacter.cpp.obj"
+"G:\Unreal Projects\CaelumProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\CaelumProject\Default.rc2.res"
+/OUT:"G:\Unreal Projects\CaelumProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\CaelumProject\UnrealEditor-CaelumProject.lib"
