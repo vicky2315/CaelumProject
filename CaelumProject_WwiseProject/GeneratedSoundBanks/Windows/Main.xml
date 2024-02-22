@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{13BA53CC-6A26-51E8-86A6-3D0B16E7517A}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="495183384" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>shotgun_fire.wav</ShortName>
+					<CachePath>SFX/shotgun_fire_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4258653052" Name="test_event" ObjectPath="\Events\Default Work Unit\test_event" GUID="{22FC727B-7168-47B1-A161-F4D92796DFC6}" DurationType="OneShot" DurationMin="1.9849167" DurationMax="1.9849167">
+					<MediaRefs>
+						<MediaRef Id="495183384"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{DADFF5EE-0ABB-D745-8C83-163F1CD80E66}</FileHash>
+</SoundBanksInfo>
