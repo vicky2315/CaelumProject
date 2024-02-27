@@ -1,6 +1,17 @@
 Event	ID	Name			Wwise Object Path	Notes
-	4258653052	test_event			\Default Work Unit\test_event	
+	516873896	train_ambient			\Default Work Unit\train_ambient	
+	1866025847	Footstep			\Default Work Unit\Footstep	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	495183384	shotgun_fire_test	Z:\Uni\DES207\github\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\shotgun_fire_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\shotgun_fire_test		381200
+	53509335	metal_footstep-003	Z:\Uni\DES207\github\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\metal_footstep-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\metalFootstep\metal_footstep-003		42068
+	286635439	metal_footstep	Z:\Uni\DES207\github\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\metal_footstep_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\metalFootstep\metal_footstep		39476
+	367097514	metal_footstep-007	Z:\Uni\DES207\github\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\metal_footstep-007_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\metalFootstep\metal_footstep-007		50832
+	369649111	metal_footstep-006	Z:\Uni\DES207\github\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\metal_footstep-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\metalFootstep\metal_footstep-006		49444
+	493595681	train_ambient	Z:\Uni\DES207\github\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\train_ambient_C5579977.wem		\Actor-Mixer Hierarchy\Default Work Unit\train_ambient		44584712
+	624897005	metal_footstep-002	Z:\Uni\DES207\github\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\metal_footstep-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\metalFootstep\metal_footstep-002		41328
+	717493686	metal_footstep-005	Z:\Uni\DES207\github\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\metal_footstep-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\metalFootstep\metal_footstep-005		47704
+	722137919	metal_footstep-004	Z:\Uni\DES207\github\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\metal_footstep-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\metalFootstep\metal_footstep-004		70988
+	801110238	metal_footstep-009	Z:\Uni\DES207\github\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\metal_footstep-009_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\metalFootstep\metal_footstep-009		47704
+	860514013	metal_footstep-008	Z:\Uni\DES207\github\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\metal_footstep-008_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\metalFootstep\metal_footstep-008		53612
+	915593887	metal_footstep-001	Z:\Uni\DES207\github\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\metal_footstep-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\metalFootstep\metal_footstep-001		43960
 

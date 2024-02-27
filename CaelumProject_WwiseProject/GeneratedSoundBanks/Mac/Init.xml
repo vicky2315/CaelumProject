@@ -14,7 +14,14 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{3CA8A0BB-8016-407F-A161-700DE304E981}">
+					<Switches>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{211D8B4C-CFB1-C34C-8A2D-26BE95E37150}</FileHash>
+	<FileHash>{5C8A1235-FD54-940F-CF2F-BEFAE44760D0}</FileHash>
 </SoundBanksInfo>

@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="train_ambient" ID="{32A9DDB0-7C76-4305-8223-D593185D9925}">
+					<ChildrenList>
+						<Action Name="" ID="{FBDF12E5-A4B6-4CE8-BCBD-6C32C75F2CAF}" ShortID="270967329">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="train_ambient" ID="{C74700D8-CFAC-4A7B-8870-B5BA0301AC34}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footstep" ID="{50BECF9F-11A9-4E76-ADB9-53DFDA57BE35}">
+					<ChildrenList>
+						<Action Name="" ID="{9D7B5643-A7B5-49C2-A93B-B2B29CF9C178}" ShortID="255544385">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="metalFootstep" ID="{24797A07-F290-4F9B-9544-B51464C0BE9D}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

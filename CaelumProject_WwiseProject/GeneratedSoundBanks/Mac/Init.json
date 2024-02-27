@@ -41,9 +41,25 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3865314626",
+      "Name": "Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Material",
+      "GUID": "{3CA8A0BB-8016-407F-A161-700DE304E981}",
+      "Switches": [
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Metal",
+        "GUID": "{06C05011-8DA7-4494-8944-277B58A6C2EC}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{2780395D-F40C-43A3-B5A7-EE935DC48803}"
+  "FileHash": "{9487A603-2C3A-AA9C-55B1-C59C7A2B9C5B}"
  }
 }

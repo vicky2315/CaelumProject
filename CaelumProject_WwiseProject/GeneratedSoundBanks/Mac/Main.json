@@ -10,38 +10,157 @@
     "Type": "User",
     "GUID": "{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}",
     "Language": "SFX",
-    "Hash": "{13BA53CC-6A26-51E8-86A6-3D0B16E7517A}",
+    "Hash": "{600A05F6-7980-B1AF-9C82-22B1B243BE1F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
      {
-      "Id": "495183384",
+      "Id": "53509335",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "shotgun_fire.wav",
-      "CachePath": "SFX/shotgun_fire_10C4C929.wem"
+      "ShortName": "metal_footstep-003.wav",
+      "CachePath": "SFX/metal_footstep-003_10C4C929.wem"
+     },
+     {
+      "Id": "286635439",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep.wav",
+      "CachePath": "SFX/metal_footstep_10C4C929.wem"
+     },
+     {
+      "Id": "367097514",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep-007.wav",
+      "CachePath": "SFX/metal_footstep-007_10C4C929.wem"
+     },
+     {
+      "Id": "369649111",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep-006.wav",
+      "CachePath": "SFX/metal_footstep-006_10C4C929.wem"
+     },
+     {
+      "Id": "493595681",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "train_ambient.wav",
+      "CachePath": "SFX/train_ambient_C5579977.wem"
+     },
+     {
+      "Id": "624897005",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep-002.wav",
+      "CachePath": "SFX/metal_footstep-002_10C4C929.wem"
+     },
+     {
+      "Id": "717493686",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep-005.wav",
+      "CachePath": "SFX/metal_footstep-005_10C4C929.wem"
+     },
+     {
+      "Id": "722137919",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep-004.wav",
+      "CachePath": "SFX/metal_footstep-004_10C4C929.wem"
+     },
+     {
+      "Id": "801110238",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep-009.wav",
+      "CachePath": "SFX/metal_footstep-009_10C4C929.wem"
+     },
+     {
+      "Id": "860514013",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep-008.wav",
+      "CachePath": "SFX/metal_footstep-008_10C4C929.wem"
+     },
+     {
+      "Id": "915593887",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep-001.wav",
+      "CachePath": "SFX/metal_footstep-001_10C4C929.wem"
      }
     ],
     "Events": [
      {
-      "Id": "4258653052",
-      "Name": "test_event",
-      "ObjectPath": "\\Events\\Default Work Unit\\test_event",
-      "GUID": "{22FC727B-7168-47B1-A161-F4D92796DFC6}",
+      "Id": "1866025847",
+      "Name": "Footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footstep",
+      "GUID": "{50BECF9F-11A9-4E76-ADB9-53DFDA57BE35}",
       "DurationType": "OneShot",
-      "DurationMin": "1.9849167",
-      "DurationMax": "1.9849167",
+      "DurationMin": "0.20510417",
+      "DurationMax": "0.36922917",
       "MediaRefs": [
        {
-        "Id": "495183384"
+        "Id": "53509335"
+       },
+       {
+        "Id": "286635439"
+       },
+       {
+        "Id": "367097514"
+       },
+       {
+        "Id": "369649111"
+       },
+       {
+        "Id": "624897005"
+       },
+       {
+        "Id": "717493686"
+       },
+       {
+        "Id": "722137919"
+       },
+       {
+        "Id": "801110238"
+       },
+       {
+        "Id": "860514013"
+       },
+       {
+        "Id": "915593887"
+       }
+      ]
+     },
+     {
+      "Id": "516873896",
+      "Name": "train_ambient",
+      "ObjectPath": "\\Events\\Default Work Unit\\train_ambient",
+      "GUID": "{32A9DDB0-7C76-4305-8223-D593185D9925}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "493595681"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{00C8DEB7-8D93-CF8B-8A90-91DDF58D2185}"
+  "FileHash": "{58398F59-44F3-C535-E57F-EA44AA51A338}"
  }
 }

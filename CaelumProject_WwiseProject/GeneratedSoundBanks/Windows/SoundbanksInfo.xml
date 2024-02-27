@@ -22,25 +22,86 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{3CA8A0BB-8016-407F-A161-700DE304E981}">
+					<Switches>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{13BA53CC-6A26-51E8-86A6-3D0B16E7517A}">
+		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{600A05F6-7980-B1AF-9C82-22B1B243BE1F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
-				<File Id="495183384" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>shotgun_fire.wav</ShortName>
-					<CachePath>SFX/shotgun_fire_10C4C929.wem</CachePath>
+				<File Id="53509335" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>metal_footstep-003.wav</ShortName>
+					<CachePath>SFX/metal_footstep-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="286635439" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>metal_footstep.wav</ShortName>
+					<CachePath>SFX/metal_footstep_10C4C929.wem</CachePath>
+				</File>
+				<File Id="367097514" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>metal_footstep-007.wav</ShortName>
+					<CachePath>SFX/metal_footstep-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="369649111" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>metal_footstep-006.wav</ShortName>
+					<CachePath>SFX/metal_footstep-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="493595681" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>train_ambient.wav</ShortName>
+					<CachePath>SFX/train_ambient_C5579977.wem</CachePath>
+				</File>
+				<File Id="624897005" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>metal_footstep-002.wav</ShortName>
+					<CachePath>SFX/metal_footstep-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="717493686" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>metal_footstep-005.wav</ShortName>
+					<CachePath>SFX/metal_footstep-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="722137919" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>metal_footstep-004.wav</ShortName>
+					<CachePath>SFX/metal_footstep-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="801110238" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>metal_footstep-009.wav</ShortName>
+					<CachePath>SFX/metal_footstep-009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="860514013" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>metal_footstep-008.wav</ShortName>
+					<CachePath>SFX/metal_footstep-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="915593887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>metal_footstep-001.wav</ShortName>
+					<CachePath>SFX/metal_footstep-001_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4258653052" Name="test_event" ObjectPath="\Events\Default Work Unit\test_event" GUID="{22FC727B-7168-47B1-A161-F4D92796DFC6}" DurationType="OneShot" DurationMin="1.9849167" DurationMax="1.9849167">
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" GUID="{50BECF9F-11A9-4E76-ADB9-53DFDA57BE35}" DurationType="OneShot" DurationMin="0.20510417" DurationMax="0.36922917">
 					<MediaRefs>
-						<MediaRef Id="495183384"/>
+						<MediaRef Id="53509335"/>
+						<MediaRef Id="286635439"/>
+						<MediaRef Id="367097514"/>
+						<MediaRef Id="369649111"/>
+						<MediaRef Id="624897005"/>
+						<MediaRef Id="717493686"/>
+						<MediaRef Id="722137919"/>
+						<MediaRef Id="801110238"/>
+						<MediaRef Id="860514013"/>
+						<MediaRef Id="915593887"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="516873896" Name="train_ambient" ObjectPath="\Events\Default Work Unit\train_ambient" GUID="{32A9DDB0-7C76-4305-8223-D593185D9925}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="493595681"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{443E9268-B1AE-D268-D3EE-4E181B3B4B7C}</FileHash>
+	<FileHash>{88EA8D4A-574F-6346-BDA7-3E479658A077}</FileHash>
 </SoundBanksInfo>
