@@ -25,12 +25,13 @@
 			<SwitchGroups>
 				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{3CA8A0BB-8016-407F-A161-700DE304E981}">
 					<Switches>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Material\Wood" GUID="{C63B7737-344D-44CC-B7FC-96E78F1D0F86}"/>
 						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{600A05F6-7980-B1AF-9C82-22B1B243BE1F}">
+		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{31A8F2FC-B126-4AEA-D1F1-54FB8088B3B1}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -39,17 +40,37 @@
 					<ShortName>metal_footstep-003.wav</ShortName>
 					<CachePath>SFX/metal_footstep-003_10C4C929.wem</CachePath>
 				</File>
+				<File Id="103465207" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>woodStep.wav</ShortName>
+					<CachePath>SFX/woodStep_10C4C929.wem</CachePath>
+				</File>
+				<File Id="200725731" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>woodStep02.wav</ShortName>
+					<CachePath>SFX/woodStep02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="286635439" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>metal_footstep.wav</ShortName>
 					<CachePath>SFX/metal_footstep_10C4C929.wem</CachePath>
+				</File>
+				<File Id="288093873" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>woodStep06.wav</ShortName>
+					<CachePath>SFX/woodStep06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="367097514" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>metal_footstep-007.wav</ShortName>
 					<CachePath>SFX/metal_footstep-007_10C4C929.wem</CachePath>
 				</File>
+				<File Id="368101416" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>woodStep05.wav</ShortName>
+					<CachePath>SFX/woodStep05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="369649111" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>metal_footstep-006.wav</ShortName>
 					<CachePath>SFX/metal_footstep-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="474990730" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>woodStep03.wav</ShortName>
+					<CachePath>SFX/woodStep03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="493595681" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>train_ambient.wav</ShortName>
@@ -58,6 +79,10 @@
 				<File Id="624897005" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>metal_footstep-002.wav</ShortName>
 					<CachePath>SFX/metal_footstep-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="704115102" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>woodStep01.wav</ShortName>
+					<CachePath>SFX/woodStep01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="717493686" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>metal_footstep-005.wav</ShortName>
@@ -79,21 +104,42 @@
 					<ShortName>metal_footstep-001.wav</ShortName>
 					<CachePath>SFX/metal_footstep-001_10C4C929.wem</CachePath>
 				</File>
+				<File Id="944532156" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>woodStep07.wav</ShortName>
+					<CachePath>SFX/woodStep07_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" GUID="{50BECF9F-11A9-4E76-ADB9-53DFDA57BE35}" DurationType="OneShot" DurationMin="0.20510417" DurationMax="0.36922917">
-					<MediaRefs>
-						<MediaRef Id="53509335"/>
-						<MediaRef Id="286635439"/>
-						<MediaRef Id="367097514"/>
-						<MediaRef Id="369649111"/>
-						<MediaRef Id="624897005"/>
-						<MediaRef Id="717493686"/>
-						<MediaRef Id="722137919"/>
-						<MediaRef Id="801110238"/>
-						<MediaRef Id="860514013"/>
-						<MediaRef Id="915593887"/>
-					</MediaRefs>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" GUID="{50BECF9F-11A9-4E76-ADB9-53DFDA57BE35}" DurationType="OneShot" DurationMin="0.12396147" DurationMax="0.61674064">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="53509335"/>
+								<MediaRef Id="286635439"/>
+								<MediaRef Id="367097514"/>
+								<MediaRef Id="369649111"/>
+								<MediaRef Id="624897005"/>
+								<MediaRef Id="717493686"/>
+								<MediaRef Id="722137919"/>
+								<MediaRef Id="801110238"/>
+								<MediaRef Id="860514013"/>
+								<MediaRef Id="915593887"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674" GUID="{C63B7737-344D-44CC-B7FC-96E78F1D0F86}"/>
+							<MediaRefs>
+								<MediaRef Id="103465207"/>
+								<MediaRef Id="200725731"/>
+								<MediaRef Id="288093873"/>
+								<MediaRef Id="368101416"/>
+								<MediaRef Id="474990730"/>
+								<MediaRef Id="704115102"/>
+								<MediaRef Id="944532156"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="516873896" Name="train_ambient" ObjectPath="\Events\Default Work Unit\train_ambient" GUID="{32A9DDB0-7C76-4305-8223-D593185D9925}" DurationType="Infinite">
 					<MediaRefs>
@@ -101,7 +147,15 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{3CA8A0BB-8016-407F-A161-700DE304E981}">
+					<Switches>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Material\Wood" GUID="{C63B7737-344D-44CC-B7FC-96E78F1D0F86}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{60789BCC-F325-D3E9-0A4F-29B072935748}</FileHash>
+	<FileHash>{A7AC7CC6-6AF3-1622-775F-444BB58D00CA}</FileHash>
 </SoundBanksInfo>

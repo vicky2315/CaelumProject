@@ -17,11 +17,12 @@
 			<SwitchGroups>
 				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{3CA8A0BB-8016-407F-A161-700DE304E981}">
 					<Switches>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Material\Wood" GUID="{C63B7737-344D-44CC-B7FC-96E78F1D0F86}"/>
 						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3654CFC5-AB0D-4200-4CFA-29A411D4B384}</FileHash>
+	<FileHash>{6D3734EB-BBAE-EE37-54BA-C79E728E847F}</FileHash>
 </SoundBanksInfo>

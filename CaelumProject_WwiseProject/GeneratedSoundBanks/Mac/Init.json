@@ -50,6 +50,12 @@
       "GUID": "{3CA8A0BB-8016-407F-A161-700DE304E981}",
       "Switches": [
        {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Wood",
+        "GUID": "{C63B7737-344D-44CC-B7FC-96E78F1D0F86}"
+       },
+       {
         "Id": "2473969246",
         "Name": "Metal",
         "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Metal",
@@ -60,6 +66,6 @@
     ]
    }
   ],
-  "FileHash": "{9487A603-2C3A-AA9C-55B1-C59C7A2B9C5B}"
+  "FileHash": "{119EEC0F-AB08-DCF1-5825-2BB29578D4C4}"
  }
 }
