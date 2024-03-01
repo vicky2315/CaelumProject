@@ -49,6 +49,28 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3865314626",
+      "Name": "Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Material",
+      "GUID": "{3CA8A0BB-8016-407F-A161-700DE304E981}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Wood",
+        "GUID": "{C63B7737-344D-44CC-B7FC-96E78F1D0F86}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Metal",
+        "GUID": "{06C05011-8DA7-4494-8944-277B58A6C2EC}"
+       }
+      ]
+     }
     ]
    },
    {
@@ -56,38 +78,277 @@
     "Type": "User",
     "GUID": "{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}",
     "Language": "SFX",
-    "Hash": "{13BA53CC-6A26-51E8-86A6-3D0B16E7517A}",
+    "Hash": "{31A8F2FC-B126-4AEA-D1F1-54FB8088B3B1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
      {
-      "Id": "495183384",
+      "Id": "53509335",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "shotgun_fire.wav",
-      "CachePath": "SFX/shotgun_fire_10C4C929.wem"
+      "ShortName": "metal_footstep-003.wav",
+      "CachePath": "SFX/metal_footstep-003_10C4C929.wem"
+     },
+     {
+      "Id": "103465207",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "woodStep.wav",
+      "CachePath": "SFX/woodStep_10C4C929.wem"
+     },
+     {
+      "Id": "200725731",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "woodStep02.wav",
+      "CachePath": "SFX/woodStep02_10C4C929.wem"
+     },
+     {
+      "Id": "286635439",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep.wav",
+      "CachePath": "SFX/metal_footstep_10C4C929.wem"
+     },
+     {
+      "Id": "288093873",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "woodStep06.wav",
+      "CachePath": "SFX/woodStep06_10C4C929.wem"
+     },
+     {
+      "Id": "367097514",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep-007.wav",
+      "CachePath": "SFX/metal_footstep-007_10C4C929.wem"
+     },
+     {
+      "Id": "368101416",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "woodStep05.wav",
+      "CachePath": "SFX/woodStep05_10C4C929.wem"
+     },
+     {
+      "Id": "369649111",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep-006.wav",
+      "CachePath": "SFX/metal_footstep-006_10C4C929.wem"
+     },
+     {
+      "Id": "474990730",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "woodStep03.wav",
+      "CachePath": "SFX/woodStep03_10C4C929.wem"
+     },
+     {
+      "Id": "493595681",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "train_ambient.wav",
+      "CachePath": "SFX/train_ambient_C5579977.wem"
+     },
+     {
+      "Id": "624897005",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep-002.wav",
+      "CachePath": "SFX/metal_footstep-002_10C4C929.wem"
+     },
+     {
+      "Id": "704115102",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "woodStep01.wav",
+      "CachePath": "SFX/woodStep01_10C4C929.wem"
+     },
+     {
+      "Id": "717493686",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep-005.wav",
+      "CachePath": "SFX/metal_footstep-005_10C4C929.wem"
+     },
+     {
+      "Id": "722137919",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep-004.wav",
+      "CachePath": "SFX/metal_footstep-004_10C4C929.wem"
+     },
+     {
+      "Id": "801110238",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep-009.wav",
+      "CachePath": "SFX/metal_footstep-009_10C4C929.wem"
+     },
+     {
+      "Id": "860514013",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep-008.wav",
+      "CachePath": "SFX/metal_footstep-008_10C4C929.wem"
+     },
+     {
+      "Id": "915593887",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "metal_footstep-001.wav",
+      "CachePath": "SFX/metal_footstep-001_10C4C929.wem"
+     },
+     {
+      "Id": "944532156",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "woodStep07.wav",
+      "CachePath": "SFX/woodStep07_10C4C929.wem"
      }
     ],
     "Events": [
      {
-      "Id": "4258653052",
-      "Name": "test_event",
-      "ObjectPath": "\\Events\\Default Work Unit\\test_event",
-      "GUID": "{22FC727B-7168-47B1-A161-F4D92796DFC6}",
+      "Id": "1866025847",
+      "Name": "Footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footstep",
+      "GUID": "{50BECF9F-11A9-4E76-ADB9-53DFDA57BE35}",
       "DurationType": "OneShot",
-      "DurationMin": "1.9849167",
-      "DurationMax": "1.9849167",
+      "DurationMin": "0.12396147",
+      "DurationMax": "0.61674064",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3865314626",
+         "Id": "2473969246",
+         "GUID": "{06C05011-8DA7-4494-8944-277B58A6C2EC}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "53509335"
+         },
+         {
+          "Id": "286635439"
+         },
+         {
+          "Id": "367097514"
+         },
+         {
+          "Id": "369649111"
+         },
+         {
+          "Id": "624897005"
+         },
+         {
+          "Id": "717493686"
+         },
+         {
+          "Id": "722137919"
+         },
+         {
+          "Id": "801110238"
+         },
+         {
+          "Id": "860514013"
+         },
+         {
+          "Id": "915593887"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3865314626",
+         "Id": "2058049674",
+         "GUID": "{C63B7737-344D-44CC-B7FC-96E78F1D0F86}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "103465207"
+         },
+         {
+          "Id": "200725731"
+         },
+         {
+          "Id": "288093873"
+         },
+         {
+          "Id": "368101416"
+         },
+         {
+          "Id": "474990730"
+         },
+         {
+          "Id": "704115102"
+         },
+         {
+          "Id": "944532156"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "516873896",
+      "Name": "train_ambient",
+      "ObjectPath": "\\Events\\Default Work Unit\\train_ambient",
+      "GUID": "{32A9DDB0-7C76-4305-8223-D593185D9925}",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "495183384"
+        "Id": "493595681"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3865314626",
+      "Name": "Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Material",
+      "GUID": "{3CA8A0BB-8016-407F-A161-700DE304E981}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Wood",
+        "GUID": "{C63B7737-344D-44CC-B7FC-96E78F1D0F86}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Metal",
+        "GUID": "{06C05011-8DA7-4494-8944-277B58A6C2EC}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{1D2B776F-6BC1-64A2-CC2A-B5585B551E2D}"
+  "FileHash": "{7C1F60B2-E1F9-9FAC-F079-BECB0E7BB019}"
  }
 }
