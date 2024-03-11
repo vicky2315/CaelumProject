@@ -15,14 +15,20 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 			<SwitchGroups>
+				<SwitchGroup Id="2018623641" Name="Weight" ObjectPath="\Switches\Default Work Unit\Weight" GUID="{8E81D023-FA55-4A65-B550-A9F1C54031F0}">
+					<Switches>
+						<Switch Id="1935470627" Name="Light" ObjectPath="\Switches\Default Work Unit\Weight\Light" GUID="{457FF9A0-4C7C-4D8A-ACBB-033B4791D22E}"/>
+						<Switch Id="2732489590" Name="Heavy" ObjectPath="\Switches\Default Work Unit\Weight\Heavy" GUID="{BCD30E0C-23F0-4D69-9BF1-444B11B4A1B5}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{3CA8A0BB-8016-407F-A161-700DE304E981}">
 					<Switches>
-						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Material\Wood" GUID="{C63B7737-344D-44CC-B7FC-96E78F1D0F86}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Material\Wood" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
 						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6D3734EB-BBAE-EE37-54BA-C79E728E847F}</FileHash>
+	<FileHash>{9564B97B-1E4F-6F69-0D85-B3963A66BCAD}</FileHash>
 </SoundBanksInfo>
