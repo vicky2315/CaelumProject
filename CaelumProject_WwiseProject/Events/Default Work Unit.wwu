@@ -3,28 +3,99 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="train_ambient" ID="{32A9DDB0-7C76-4305-8223-D593185D9925}">
+				<Folder Name="Pickups" ID="{B56F43CC-D04F-4589-B691-8FCAF0465AE0}" ShortID="1063022672">
 					<ChildrenList>
-						<Action Name="" ID="{FBDF12E5-A4B6-4CE8-BCBD-6C32C75F2CAF}" ShortID="270967329">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="train_ambient" ID="{C74700D8-CFAC-4A7B-8870-B5BA0301AC34}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="AmmoPickup" ID="{6A593C9F-650F-43B7-A5B4-F17F64B65D86}">
+							<ChildrenList>
+								<Action Name="" ID="{2A839224-0F48-4D3F-97F7-1D5800E648BC}" ShortID="738413657">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pickup_ammo" ID="{88A4DC86-C4A1-4894-9E05-B765A7D13054}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="HealthPickup" ID="{26C0FDEE-61A5-4DAB-AD87-E353CA183729}">
+							<ChildrenList>
+								<Action Name="" ID="{E5B974B5-4349-40D8-BAB7-D9249C024239}" ShortID="702207082">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pickup_health" ID="{B931FACF-7275-418C-B15A-6B6EAFD3196C}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Footstep" ID="{50BECF9F-11A9-4E76-ADB9-53DFDA57BE35}">
+				</Folder>
+				<Folder Name="Train" ID="{82DBB88D-8EED-489C-96C3-3ADE19DA6588}" ShortID="885630132">
 					<ChildrenList>
-						<Action Name="" ID="{9D7B5643-A7B5-49C2-A93B-B2B29CF9C178}" ShortID="255544385">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="metalFootstep" ID="{24797A07-F290-4F9B-9544-B51464C0BE9D}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="AmbientTrain" ID="{32A9DDB0-7C76-4305-8223-D593185D9925}">
+							<ChildrenList>
+								<Action Name="" ID="{FBDF12E5-A4B6-4CE8-BCBD-6C32C75F2CAF}" ShortID="270967329">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ambient_train" ID="{389BD44D-69DF-46D7-B480-DB2F426397BD}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="Player" ID="{9FDED102-ABE8-463A-B86E-B295F26901BD}" ShortID="392507012">
+					<ChildrenList>
+						<Event Name="Footstep" ID="{50BECF9F-11A9-4E76-ADB9-53DFDA57BE35}">
+							<ChildrenList>
+								<Action Name="" ID="{9D7B5643-A7B5-49C2-A93B-B2B29CF9C178}" ShortID="255544385">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{0DE4DF4E-5658-46B9-B0B9-7317B8C052AB}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Hurt" ID="{0B1128B2-1271-4EA5-A3AE-B959EC5E055C}">
+							<ChildrenList>
+								<Action Name="" ID="{E52A347C-6B51-4AF2-87DF-B567B3A27831}" ShortID="480763197">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="playerHurt" ID="{5DDB155A-0211-4ED1-9E95-A2F338DAA654}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Death" ID="{2AAA8F1F-51DD-4A37-8845-1BD53CC746E2}">
+							<ChildrenList>
+								<Action Name="" ID="{2FB4CD0B-DEE5-408C-8DFE-69CCC8512C3E}" ShortID="441382360">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_death" ID="{ADFB7A8D-5AB9-477F-8E8C-09AE8652FA9E}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Pistol" ID="{F2405E43-E6E5-4F41-9F88-8EB7E0994DE3}" ShortID="1035227415">
+					<ChildrenList>
+						<Event Name="pistolFire" ID="{08203B80-5359-4A19-AAEA-C289BABCA8FD}">
+							<ChildrenList>
+								<Action Name="" ID="{47DF176E-B2F3-48F0-A8B1-CF73782F40A0}" ShortID="236359883">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="pistol_fire" ID="{E3AB3B9F-221D-4393-A08D-47CAA6A5E8C2}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

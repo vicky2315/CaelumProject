@@ -23,139 +23,321 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 			<SwitchGroups>
+				<SwitchGroup Id="2018623641" Name="Weight" ObjectPath="\Switches\Default Work Unit\Weight" GUID="{8E81D023-FA55-4A65-B550-A9F1C54031F0}">
+					<Switches>
+						<Switch Id="1935470627" Name="Light" ObjectPath="\Switches\Default Work Unit\Weight\Light" GUID="{457FF9A0-4C7C-4D8A-ACBB-033B4791D22E}"/>
+						<Switch Id="2732489590" Name="Heavy" ObjectPath="\Switches\Default Work Unit\Weight\Heavy" GUID="{BCD30E0C-23F0-4D69-9BF1-444B11B4A1B5}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{3CA8A0BB-8016-407F-A161-700DE304E981}">
 					<Switches>
-						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Material\Wood" GUID="{C63B7737-344D-44CC-B7FC-96E78F1D0F86}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Material\Wood" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
 						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{31A8F2FC-B126-4AEA-D1F1-54FB8088B3B1}">
+		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{8FE29CF2-8E34-8A22-14D4-D41687DC5CF3}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
-				<File Id="53509335" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>metal_footstep-003.wav</ShortName>
-					<CachePath>SFX/metal_footstep-003_10C4C929.wem</CachePath>
+				<File Id="12978726" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_woodHeavy.wav</ShortName>
+					<CachePath>SFX/footstep_woodHeavy_10C4C929.wem</CachePath>
 				</File>
-				<File Id="103465207" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>woodStep.wav</ShortName>
-					<CachePath>SFX/woodStep_10C4C929.wem</CachePath>
+				<File Id="28976191" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_wood-008.wav</ShortName>
+					<CachePath>SFX/footstep_wood-008_10C4C929.wem</CachePath>
 				</File>
-				<File Id="200725731" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>woodStep02.wav</ShortName>
-					<CachePath>SFX/woodStep02_10C4C929.wem</CachePath>
+				<File Id="48252193" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_wood-005.wav</ShortName>
+					<CachePath>SFX/footstep_wood-005_10C4C929.wem</CachePath>
 				</File>
-				<File Id="286635439" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>metal_footstep.wav</ShortName>
-					<CachePath>SFX/metal_footstep_10C4C929.wem</CachePath>
+				<File Id="50386400" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pickup_health.wav</ShortName>
+					<CachePath>SFX/pickup_health_10C4C929.wem</CachePath>
 				</File>
-				<File Id="288093873" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>woodStep06.wav</ShortName>
-					<CachePath>SFX/woodStep06_10C4C929.wem</CachePath>
+				<File Id="52341761" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metal-006.wav</ShortName>
+					<CachePath>SFX/footstep_metal-006_10C4C929.wem</CachePath>
 				</File>
-				<File Id="367097514" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>metal_footstep-007.wav</ShortName>
-					<CachePath>SFX/metal_footstep-007_10C4C929.wem</CachePath>
+				<File Id="146505309" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metalHeavy-001.wav</ShortName>
+					<CachePath>SFX/footstep_metalHeavy-001_10C4C929.wem</CachePath>
 				</File>
-				<File Id="368101416" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>woodStep05.wav</ShortName>
-					<CachePath>SFX/woodStep05_10C4C929.wem</CachePath>
+				<File Id="152056686" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metalHeavy-007.wav</ShortName>
+					<CachePath>SFX/footstep_metalHeavy-007_10C4C929.wem</CachePath>
 				</File>
-				<File Id="369649111" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>metal_footstep-006.wav</ShortName>
-					<CachePath>SFX/metal_footstep-006_10C4C929.wem</CachePath>
+				<File Id="188077103" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pickup_ammo-001.wav</ShortName>
+					<CachePath>SFX/pickup_ammo-001_10C4C929.wem</CachePath>
 				</File>
-				<File Id="474990730" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>woodStep03.wav</ShortName>
-					<CachePath>SFX/woodStep03_10C4C929.wem</CachePath>
+				<File Id="195131141" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metalHeavy-004.wav</ShortName>
+					<CachePath>SFX/footstep_metalHeavy-004_10C4C929.wem</CachePath>
 				</File>
-				<File Id="493595681" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>train_ambient.wav</ShortName>
-					<CachePath>SFX/train_ambient_C5579977.wem</CachePath>
+				<File Id="197298871" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metalHeavy-003.wav</ShortName>
+					<CachePath>SFX/footstep_metalHeavy-003_10C4C929.wem</CachePath>
 				</File>
-				<File Id="624897005" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>metal_footstep-002.wav</ShortName>
-					<CachePath>SFX/metal_footstep-002_10C4C929.wem</CachePath>
+				<File Id="241466283" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_woodHeavy-005.wav</ShortName>
+					<CachePath>SFX/footstep_woodHeavy-005_10C4C929.wem</CachePath>
 				</File>
-				<File Id="704115102" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>woodStep01.wav</ShortName>
-					<CachePath>SFX/woodStep01_10C4C929.wem</CachePath>
+				<File Id="251823696" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_woodHeavy-002.wav</ShortName>
+					<CachePath>SFX/footstep_woodHeavy-002_10C4C929.wem</CachePath>
 				</File>
-				<File Id="717493686" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>metal_footstep-005.wav</ShortName>
-					<CachePath>SFX/metal_footstep-005_10C4C929.wem</CachePath>
+				<File Id="291941750" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_woodHeavy-004.wav</ShortName>
+					<CachePath>SFX/footstep_woodHeavy-004_10C4C929.wem</CachePath>
 				</File>
-				<File Id="722137919" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>metal_footstep-004.wav</ShortName>
-					<CachePath>SFX/metal_footstep-004_10C4C929.wem</CachePath>
+				<File Id="298935903" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_wood-002.wav</ShortName>
+					<CachePath>SFX/footstep_wood-002_10C4C929.wem</CachePath>
 				</File>
-				<File Id="801110238" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>metal_footstep-009.wav</ShortName>
-					<CachePath>SFX/metal_footstep-009_10C4C929.wem</CachePath>
+				<File Id="312883241" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_hurt.wav</ShortName>
+					<CachePath>SFX/player_hurt_10C4C929.wem</CachePath>
 				</File>
-				<File Id="860514013" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>metal_footstep-008.wav</ShortName>
-					<CachePath>SFX/metal_footstep-008_10C4C929.wem</CachePath>
+				<File Id="337524377" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metal-002.wav</ShortName>
+					<CachePath>SFX/footstep_metal-002_10C4C929.wem</CachePath>
 				</File>
-				<File Id="915593887" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>metal_footstep-001.wav</ShortName>
-					<CachePath>SFX/metal_footstep-001_10C4C929.wem</CachePath>
+				<File Id="344473764" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metal-007.wav</ShortName>
+					<CachePath>SFX/footstep_metal-007_10C4C929.wem</CachePath>
 				</File>
-				<File Id="944532156" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>woodStep07.wav</ShortName>
-					<CachePath>SFX/woodStep07_10C4C929.wem</CachePath>
+				<File Id="364630623" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_wood-007.wav</ShortName>
+					<CachePath>SFX/footstep_wood-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="379334315" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_wood-001.wav</ShortName>
+					<CachePath>SFX/footstep_wood-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="389159809" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metal-001.wav</ShortName>
+					<CachePath>SFX/footstep_metal-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="390973664" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_wood-006.wav</ShortName>
+					<CachePath>SFX/footstep_wood-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="428861417" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_woodHeavy-001.wav</ShortName>
+					<CachePath>SFX/footstep_woodHeavy-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="443822138" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metalHeavy-002.wav</ShortName>
+					<CachePath>SFX/footstep_metalHeavy-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="465382030" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metal-003.wav</ShortName>
+					<CachePath>SFX/footstep_metal-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="537400859" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_hurt-002.wav</ShortName>
+					<CachePath>SFX/player_hurt-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="548374835" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metal-010.wav</ShortName>
+					<CachePath>SFX/footstep_metal-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="566556049" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metalHeavy-006.wav</ShortName>
+					<CachePath>SFX/footstep_metalHeavy-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="659543719" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metal-008.wav</ShortName>
+					<CachePath>SFX/footstep_metal-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="660203454" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_woodHeavy-003.wav</ShortName>
+					<CachePath>SFX/footstep_woodHeavy-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="666600684" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metal-005.wav</ShortName>
+					<CachePath>SFX/footstep_metal-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="717433756" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_hurt-001.wav</ShortName>
+					<CachePath>SFX/player_hurt-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="745364205" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pistol_fire.wav</ShortName>
+					<CachePath>SFX/pistol_fire_10C4C929.wem</CachePath>
+				</File>
+				<File Id="789194097" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metal-009.wav</ShortName>
+					<CachePath>SFX/footstep_metal-009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="826665355" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metalHeavy-008.wav</ShortName>
+					<CachePath>SFX/footstep_metalHeavy-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="844272973" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_death.wav</ShortName>
+					<CachePath>SFX/player_death_10C4C929.wem</CachePath>
+				</File>
+				<File Id="848514723" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metal-004.wav</ShortName>
+					<CachePath>SFX/footstep_metal-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="849307281" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metalHeavy-010.wav</ShortName>
+					<CachePath>SFX/footstep_metalHeavy-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="867250235" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambient_train.wav</ShortName>
+					<CachePath>SFX/ambient_train_10C4C929.wem</CachePath>
+				</File>
+				<File Id="887847590" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_wood-009.wav</ShortName>
+					<CachePath>SFX/footstep_wood-009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="892961401" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_wood-003.wav</ShortName>
+					<CachePath>SFX/footstep_wood-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="905789438" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metalHeavy-009.wav</ShortName>
+					<CachePath>SFX/footstep_metalHeavy-009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1011356779" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_metalHeavy-005.wav</ShortName>
+					<CachePath>SFX/footstep_metalHeavy-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1014771528" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_wood-010.wav</ShortName>
+					<CachePath>SFX/footstep_wood-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1024896495" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footstep_wood-004.wav</ShortName>
+					<CachePath>SFX/footstep_wood-004_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" GUID="{50BECF9F-11A9-4E76-ADB9-53DFDA57BE35}" DurationType="OneShot" DurationMin="0.12396147" DurationMax="0.61674064">
+				<Event Id="3878475591" Name="AmbientTrain" ObjectPath="\Events\Default Work Unit\Train\AmbientTrain" GUID="{32A9DDB0-7C76-4305-8223-D593185D9925}" DurationType="OneShot" DurationMin="274.51257" DurationMax="274.51257">
+					<MediaRefs>
+						<MediaRef Id="867250235"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1165913927" Name="AmmoPickup" ObjectPath="\Events\Default Work Unit\Pickups\AmmoPickup" GUID="{6A593C9F-650F-43B7-A5B4-F17F64B65D86}" DurationType="OneShot" DurationMin="1.795625" DurationMax="1.795625">
+					<MediaRefs>
+						<MediaRef Id="188077103"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="779278001" Name="Death" ObjectPath="\Events\Default Work Unit\Player\Death" GUID="{2AAA8F1F-51DD-4A37-8845-1BD53CC746E2}" DurationType="OneShot" DurationMin="2.9584167" DurationMax="2.9584167">
+					<MediaRefs>
+						<MediaRef Id="844272973"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Player\Footstep" GUID="{50BECF9F-11A9-4E76-ADB9-53DFDA57BE35}" DurationType="OneShot" DurationMin="0.352537" DurationMax="1.623766">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" Default="true"/>
-							<MediaRefs>
-								<MediaRef Id="53509335"/>
-								<MediaRef Id="286635439"/>
-								<MediaRef Id="367097514"/>
-								<MediaRef Id="369649111"/>
-								<MediaRef Id="624897005"/>
-								<MediaRef Id="717493686"/>
-								<MediaRef Id="722137919"/>
-								<MediaRef Id="801110238"/>
-								<MediaRef Id="860514013"/>
-								<MediaRef Id="915593887"/>
-							</MediaRefs>
+							<SwitchValue GroupType="Switch" GroupId="2018623641" Id="2732489590" GUID="{BCD30E0C-23F0-4D69-9BF1-444B11B4A1B5}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="146505309"/>
+										<MediaRef Id="152056686"/>
+										<MediaRef Id="195131141"/>
+										<MediaRef Id="197298871"/>
+										<MediaRef Id="443822138"/>
+										<MediaRef Id="566556049"/>
+										<MediaRef Id="826665355"/>
+										<MediaRef Id="849307281"/>
+										<MediaRef Id="905789438"/>
+										<MediaRef Id="1011356779"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
+									<MediaRefs>
+										<MediaRef Id="12978726"/>
+										<MediaRef Id="241466283"/>
+										<MediaRef Id="251823696"/>
+										<MediaRef Id="291941750"/>
+										<MediaRef Id="428861417"/>
+										<MediaRef Id="660203454"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674" GUID="{C63B7737-344D-44CC-B7FC-96E78F1D0F86}"/>
-							<MediaRefs>
-								<MediaRef Id="103465207"/>
-								<MediaRef Id="200725731"/>
-								<MediaRef Id="288093873"/>
-								<MediaRef Id="368101416"/>
-								<MediaRef Id="474990730"/>
-								<MediaRef Id="704115102"/>
-								<MediaRef Id="944532156"/>
-							</MediaRefs>
+							<SwitchValue GroupType="Switch" GroupId="2018623641" Id="1935470627" GUID="{457FF9A0-4C7C-4D8A-ACBB-033B4791D22E}" Default="true"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="52341761"/>
+										<MediaRef Id="337524377"/>
+										<MediaRef Id="344473764"/>
+										<MediaRef Id="389159809"/>
+										<MediaRef Id="465382030"/>
+										<MediaRef Id="548374835"/>
+										<MediaRef Id="659543719"/>
+										<MediaRef Id="666600684"/>
+										<MediaRef Id="789194097"/>
+										<MediaRef Id="848514723"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
+									<MediaRefs>
+										<MediaRef Id="28976191"/>
+										<MediaRef Id="48252193"/>
+										<MediaRef Id="298935903"/>
+										<MediaRef Id="364630623"/>
+										<MediaRef Id="379334315"/>
+										<MediaRef Id="390973664"/>
+										<MediaRef Id="887847590"/>
+										<MediaRef Id="892961401"/>
+										<MediaRef Id="1014771528"/>
+										<MediaRef Id="1024896495"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="516873896" Name="train_ambient" ObjectPath="\Events\Default Work Unit\train_ambient" GUID="{32A9DDB0-7C76-4305-8223-D593185D9925}" DurationType="Infinite">
+				<Event Id="3065686491" Name="HealthPickup" ObjectPath="\Events\Default Work Unit\Pickups\HealthPickup" GUID="{26C0FDEE-61A5-4DAB-AD87-E353CA183729}" DurationType="OneShot" DurationMin="1.7169167" DurationMax="1.7169167">
 					<MediaRefs>
-						<MediaRef Id="493595681"/>
+						<MediaRef Id="50386400"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3193947170" Name="Hurt" ObjectPath="\Events\Default Work Unit\Player\Hurt" GUID="{0B1128B2-1271-4EA5-A3AE-B959EC5E055C}" DurationType="OneShot" DurationMin="0.5524376" DurationMax="1.0049938">
+					<MediaRefs>
+						<MediaRef Id="312883241"/>
+						<MediaRef Id="537400859"/>
+						<MediaRef Id="717433756"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1108627404" Name="pistolFire" ObjectPath="\Events\Default Work Unit\Pistol\pistolFire" GUID="{08203B80-5359-4A19-AAEA-C289BABCA8FD}" DurationType="OneShot" DurationMin="1.3590417" DurationMax="1.3590417">
+					<MediaRefs>
+						<MediaRef Id="745364205"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 			<SwitchGroups>
+				<SwitchGroup Id="2018623641" Name="Weight" ObjectPath="\Switches\Default Work Unit\Weight" GUID="{8E81D023-FA55-4A65-B550-A9F1C54031F0}">
+					<Switches>
+						<Switch Id="1935470627" Name="Light" ObjectPath="\Switches\Default Work Unit\Weight\Light" GUID="{457FF9A0-4C7C-4D8A-ACBB-033B4791D22E}"/>
+						<Switch Id="2732489590" Name="Heavy" ObjectPath="\Switches\Default Work Unit\Weight\Heavy" GUID="{BCD30E0C-23F0-4D69-9BF1-444B11B4A1B5}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{3CA8A0BB-8016-407F-A161-700DE304E981}">
 					<Switches>
-						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Material\Wood" GUID="{C63B7737-344D-44CC-B7FC-96E78F1D0F86}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Material\Wood" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
 						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{14D896D0-C5CE-BA50-7DB5-5F0F7F2D902B}</FileHash>
+	<FileHash>{D5F2CFC0-647A-EA28-04EE-E913D19C4912}</FileHash>
 </SoundBanksInfo>

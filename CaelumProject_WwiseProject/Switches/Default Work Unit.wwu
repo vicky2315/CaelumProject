@@ -6,6 +6,13 @@
 				<SwitchGroup Name="Material" ID="{3CA8A0BB-8016-407F-A161-700DE304E981}">
 					<ChildrenList>
 						<Switch Name="Metal" ID="{06C05011-8DA7-4494-8944-277B58A6C2EC}"/>
+						<Switch Name="Wood" ID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Weight" ID="{8E81D023-FA55-4A65-B550-A9F1C54031F0}">
+					<ChildrenList>
+						<Switch Name="Heavy" ID="{BCD30E0C-23F0-4D69-9BF1-444B11B4A1B5}"/>
+						<Switch Name="Light" ID="{457FF9A0-4C7C-4D8A-ACBB-033B4791D22E}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
