@@ -939,6 +939,7 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.11-12.46.32:523][  0]LogSlate: TableView.DarkRow
 [2024.03.11-12.46.32:523][  0]LogSlate: TableView.Row
 [2024.03.11-12.46.32:523][  0]LogSlate: TreeView
+<<<<<<< Updated upstream
 [2024.03.11-12.46.46:100][  0]LogWwise: WwiseModule: Loading AkAudio
 [2024.03.11-12.46.46:100][  0]LogLoad: Loading WwiseSoundEngine module: WwiseSoundEngine
 [2024.03.11-12.46.46:168][  0]LogWwiseSoundEngine: Display: Loading Wwise Sound Engine version 2022.1
@@ -1732,3 +1733,5 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.11-12.48.23:693][142]LogD3D12RHI: ~FD3D12DynamicRHI
 [2024.03.11-12.48.23:807][142]LogExit: Exiting.
 [2024.03.11-12.48.23:873][142]Log file closed, 03/11/24 12:48:23
+=======
+>>>>>>> Stashed changes
