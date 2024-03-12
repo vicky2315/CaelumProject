@@ -49,6 +49,16 @@
 						<Event Name="Footstep" ID="{50BECF9F-11A9-4E76-ADB9-53DFDA57BE35}">
 							<ChildrenList>
 								<Action Name="" ID="{9D7B5643-A7B5-49C2-A93B-B2B29CF9C178}" ShortID="255544385">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="16"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{0DE4DF4E-5658-46B9-B0B9-7317B8C052AB}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EB60E2D4-A5DC-415F-8373-9E4BEDB7D055}" ShortID="255581401">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Footsteps" ID="{0DE4DF4E-5658-46B9-B0B9-7317B8C052AB}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
@@ -79,6 +89,46 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="JumpUp" ID="{DB91E62E-04FC-4061-A788-D39368F3F8E9}">
+							<ChildrenList>
+								<Action Name="" ID="{ED9B76D8-54A4-42DA-93C7-9C1AE7B3D065}" ShortID="426978259">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="JumpUp" ID="{AA2CDFAA-50B4-416A-9642-A3C32585E75D}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="JumpLand" ID="{C1F0857E-B4EF-4C48-AC56-BB907CABC4DA}">
+							<ChildrenList>
+								<Action Name="" ID="{8B60303E-FE9F-4D82-BA3E-A262A048EEE8}" ShortID="841197763">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="JumpLand" ID="{AC83BE83-75FD-41D9-9467-A042C4CD746B}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4FB72F45-7C3D-413C-BFC7-513D0AA97761}" ShortID="814147505">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{0DE4DF4E-5658-46B9-B0B9-7317B8C052AB}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E3B26BC8-C588-444F-BD51-DAC3AE283D00}" ShortID="532212829">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{0DE4DF4E-5658-46B9-B0B9-7317B8C052AB}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Pistol" ID="{F2405E43-E6E5-4F41-9F88-8EB7E0994DE3}" ShortID="1035227415">
@@ -89,6 +139,43 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="pistol_fire" ID="{E3AB3B9F-221D-4393-A08D-47CAA6A5E8C2}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{EC7F7DBE-D1B6-4BE0-9AD0-2ECB0B2397D8}" ShortID="179370632">
+					<ChildrenList>
+						<Event Name="digitalSelect" ID="{FF3A7D7E-28A6-4B75-A1B5-AFCD20C4D527}">
+							<ChildrenList>
+								<Action Name="" ID="{7562F274-1ADA-49A8-A76F-A80555F4DB85}" ShortID="599733125">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="digitalSelect" ID="{5C20AECA-BD09-4934-9F42-4A327CD79F07}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="digitalHover" ID="{0E8DCAA6-E729-4197-B856-A8DFAB317952}">
+							<ChildrenList>
+								<Action Name="" ID="{245EF47E-96ED-4742-B912-5975115FD825}" ShortID="397423654">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="digitalTick" ID="{700BB60E-8AC3-45BD-B4F5-EDD44B5F2005}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="titleAmbience" ID="{E2171221-9D2A-44BC-B378-9B9CFBCB98FA}">
+							<ChildrenList>
+								<Action Name="" ID="{8B935B98-BA41-4729-85A4-2352C8FDA8AD}" ShortID="801374891">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ambient_titleUI" ID="{D6F13B7D-C6EE-4788-AEDF-98D89CB4693A}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

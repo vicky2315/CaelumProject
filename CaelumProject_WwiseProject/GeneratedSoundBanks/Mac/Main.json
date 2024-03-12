@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}",
     "Language": "SFX",
-    "Hash": "{8FE29CF2-8E34-8A22-14D4-D41687DC5CF3}",
+    "Hash": "{520F24F9-9BAE-6FBB-B69D-615116973165}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -70,6 +70,14 @@
       "Location": "Memory",
       "ShortName": "footstep_metalHeavy-007.wav",
       "CachePath": "SFX/footstep_metalHeavy-007_10C4C929.wem"
+     },
+     {
+      "Id": "157773929",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "jump_woodUp.wav",
+      "CachePath": "SFX/jump_woodUp_10C4C929.wem"
      },
      {
       "Id": "188077103",
@@ -152,6 +160,14 @@
       "CachePath": "SFX/footstep_metal-007_10C4C929.wem"
      },
      {
+      "Id": "353712628",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "digitalSelect.wav",
+      "CachePath": "SFX/digitalSelect_10C4C929.wem"
+     },
+     {
       "Id": "364630623",
       "Language": "SFX",
       "Streaming": "false",
@@ -208,6 +224,14 @@
       "CachePath": "SFX/footstep_metal-003_10C4C929.wem"
      },
      {
+      "Id": "479373908",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ambient_titleUI-001.wav",
+      "CachePath": "SFX/ambient_titleUI-001_48687207.wem"
+     },
+     {
       "Id": "537400859",
       "Language": "SFX",
       "Streaming": "false",
@@ -256,12 +280,28 @@
       "CachePath": "SFX/footstep_metal-005_10C4C929.wem"
      },
      {
+      "Id": "684232212",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "jump_woodLand.wav",
+      "CachePath": "SFX/jump_woodLand_10C4C929.wem"
+     },
+     {
       "Id": "717433756",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "player_hurt-001.wav",
       "CachePath": "SFX/player_hurt-001_10C4C929.wem"
+     },
+     {
+      "Id": "740795652",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "jump_metalLand.wav",
+      "CachePath": "SFX/jump_metalLand_10C4C929.wem"
      },
      {
       "Id": "745364205",
@@ -317,7 +357,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "ambient_train.wav",
-      "CachePath": "SFX/ambient_train_10C4C929.wem"
+      "CachePath": "SFX/ambient_train_F72FF4C1.wem"
      },
      {
       "Id": "887847590",
@@ -344,6 +384,14 @@
       "CachePath": "SFX/footstep_metalHeavy-009_10C4C929.wem"
      },
      {
+      "Id": "924793895",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "jump_metalUp.wav",
+      "CachePath": "SFX/jump_metalUp_10C4C929.wem"
+     },
+     {
       "Id": "1011356779",
       "Language": "SFX",
       "Streaming": "false",
@@ -366,6 +414,14 @@
       "Location": "Memory",
       "ShortName": "footstep_wood-004.wav",
       "CachePath": "SFX/footstep_wood-004_10C4C929.wem"
+     },
+     {
+      "Id": "1025708962",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "digitalTick.wav",
+      "CachePath": "SFX/digitalTick_10C4C929.wem"
      }
     ],
     "Events": [
@@ -374,9 +430,7 @@
       "Name": "AmbientTrain",
       "ObjectPath": "\\Events\\Default Work Unit\\Train\\AmbientTrain",
       "GUID": "{32A9DDB0-7C76-4305-8223-D593185D9925}",
-      "DurationType": "OneShot",
-      "DurationMin": "274.51257",
-      "DurationMax": "274.51257",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "867250235"
@@ -412,6 +466,34 @@
       ]
      },
      {
+      "Id": "469608511",
+      "Name": "digitalHover",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\digitalHover",
+      "GUID": "{0E8DCAA6-E729-4197-B856-A8DFAB317952}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.038770832",
+      "DurationMax": "0.038770832",
+      "MediaRefs": [
+       {
+        "Id": "1025708962"
+       }
+      ]
+     },
+     {
+      "Id": "3603235135",
+      "Name": "digitalSelect",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\digitalSelect",
+      "GUID": "{FF3A7D7E-28A6-4B75-A1B5-AFCD20C4D527}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.12191667",
+      "DurationMax": "0.12191667",
+      "MediaRefs": [
+       {
+        "Id": "353712628"
+       }
+      ]
+     },
+     {
       "Id": "1866025847",
       "Name": "Footstep",
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Footstep",
@@ -425,7 +507,8 @@
          "GroupType": "Switch",
          "GroupId": "2018623641",
          "Id": "2732489590",
-         "GUID": "{BCD30E0C-23F0-4D69-9BF1-444B11B4A1B5}"
+         "GUID": "{BCD30E0C-23F0-4D69-9BF1-444B11B4A1B5}",
+         "Default": "true"
         },
         "Children": [
          {
@@ -504,8 +587,7 @@
          "GroupType": "Switch",
          "GroupId": "2018623641",
          "Id": "1935470627",
-         "GUID": "{457FF9A0-4C7C-4D8A-ACBB-033B4791D22E}",
-         "Default": "true"
+         "GUID": "{457FF9A0-4C7C-4D8A-ACBB-033B4791D22E}"
         },
         "Children": [
          {
@@ -628,6 +710,253 @@
       ]
      },
      {
+      "Id": "1548130050",
+      "Name": "JumpLand",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\JumpLand",
+      "GUID": "{C1F0857E-B4EF-4C48-AC56-BB907CABC4DA}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3048126",
+      "DurationMax": "1.623766",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3865314626",
+         "Id": "2473969246",
+         "GUID": "{06C05011-8DA7-4494-8944-277B58A6C2EC}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "740795652"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3865314626",
+         "Id": "2058049674",
+         "GUID": "{B74302D5-DF94-434F-A83F-2616071BE754}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "684232212"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2018623641",
+         "Id": "2732489590",
+         "GUID": "{BCD30E0C-23F0-4D69-9BF1-444B11B4A1B5}",
+         "Default": "true"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3865314626",
+           "Id": "2473969246",
+           "GUID": "{06C05011-8DA7-4494-8944-277B58A6C2EC}",
+           "Default": "true"
+          },
+          "MediaRefs": [
+           {
+            "Id": "146505309"
+           },
+           {
+            "Id": "152056686"
+           },
+           {
+            "Id": "195131141"
+           },
+           {
+            "Id": "197298871"
+           },
+           {
+            "Id": "443822138"
+           },
+           {
+            "Id": "566556049"
+           },
+           {
+            "Id": "826665355"
+           },
+           {
+            "Id": "849307281"
+           },
+           {
+            "Id": "905789438"
+           },
+           {
+            "Id": "1011356779"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3865314626",
+           "Id": "2058049674",
+           "GUID": "{B74302D5-DF94-434F-A83F-2616071BE754}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "12978726"
+           },
+           {
+            "Id": "241466283"
+           },
+           {
+            "Id": "251823696"
+           },
+           {
+            "Id": "291941750"
+           },
+           {
+            "Id": "428861417"
+           },
+           {
+            "Id": "660203454"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2018623641",
+         "Id": "1935470627",
+         "GUID": "{457FF9A0-4C7C-4D8A-ACBB-033B4791D22E}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3865314626",
+           "Id": "2473969246",
+           "GUID": "{06C05011-8DA7-4494-8944-277B58A6C2EC}",
+           "Default": "true"
+          },
+          "MediaRefs": [
+           {
+            "Id": "52341761"
+           },
+           {
+            "Id": "337524377"
+           },
+           {
+            "Id": "344473764"
+           },
+           {
+            "Id": "389159809"
+           },
+           {
+            "Id": "465382030"
+           },
+           {
+            "Id": "548374835"
+           },
+           {
+            "Id": "659543719"
+           },
+           {
+            "Id": "666600684"
+           },
+           {
+            "Id": "789194097"
+           },
+           {
+            "Id": "848514723"
+           }
+          ]
+         },
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3865314626",
+           "Id": "2058049674",
+           "GUID": "{B74302D5-DF94-434F-A83F-2616071BE754}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "28976191"
+           },
+           {
+            "Id": "48252193"
+           },
+           {
+            "Id": "298935903"
+           },
+           {
+            "Id": "364630623"
+           },
+           {
+            "Id": "379334315"
+           },
+           {
+            "Id": "390973664"
+           },
+           {
+            "Id": "887847590"
+           },
+           {
+            "Id": "892961401"
+           },
+           {
+            "Id": "1014771528"
+           },
+           {
+            "Id": "1024896495"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1844425226",
+      "Name": "JumpUp",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\JumpUp",
+      "GUID": "{DB91E62E-04FC-4061-A788-D39368F3F8E9}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.48375",
+      "DurationMax": "1.7319375",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3865314626",
+         "Id": "2473969246",
+         "GUID": "{06C05011-8DA7-4494-8944-277B58A6C2EC}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "924793895"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3865314626",
+         "Id": "2058049674",
+         "GUID": "{B74302D5-DF94-434F-A83F-2616071BE754}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "157773929"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "1108627404",
       "Name": "pistolFire",
       "ObjectPath": "\\Events\\Default Work Unit\\Pistol\\pistolFire",
@@ -638,6 +967,18 @@
       "MediaRefs": [
        {
         "Id": "745364205"
+       }
+      ]
+     },
+     {
+      "Id": "3076102481",
+      "Name": "titleAmbience",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\titleAmbience",
+      "GUID": "{E2171221-9D2A-44BC-B378-9B9CFBCB98FA}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "479373908"
        }
       ]
      }
@@ -686,6 +1027,6 @@
     ]
    }
   ],
-  "FileHash": "{339D3251-A07A-F5C3-E5A9-FCB0A11F106C}"
+  "FileHash": "{F0D2A5FA-B027-FCEA-487D-9D44364E99EC}"
  }
 }

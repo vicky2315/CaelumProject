@@ -8,6 +8,7 @@
 						<ObjectRef Name="Pickups" ID="{B56F43CC-D04F-4589-B691-8FCAF0465AE0}" WorkUnitID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player" ID="{9FDED102-ABE8-463A-B86E-B295F26901BD}" WorkUnitID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Train" ID="{82DBB88D-8EED-489C-96C3-3ADE19DA6588}" WorkUnitID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI" ID="{EC7F7DBE-D1B6-4BE0-9AD0-2ECB0B2397D8}" WorkUnitID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pistol" ID="{F2405E43-E6E5-4F41-9F88-8EB7E0994DE3}" WorkUnitID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

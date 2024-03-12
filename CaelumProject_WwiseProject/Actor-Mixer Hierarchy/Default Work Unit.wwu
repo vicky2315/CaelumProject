@@ -161,7 +161,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
 								</Reference>
 								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="Light" ID="{457FF9A0-4C7C-4D8A-ACBB-033B4791D22E}" WorkUnitID="{9D611875-6E7C-491E-8601-37B57F2900E6}"/>
+									<ObjectRef Name="Heavy" ID="{BCD30E0C-23F0-4D69-9BF1-444B11B4A1B5}" WorkUnitID="{9D611875-6E7C-491E-8601-37B57F2900E6}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
@@ -189,6 +189,7 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="metalFoostepHeavy" ID="{4A358231-8807-4A67-A466-3BE174B1DDCB}" ShortID="802734981">
 											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -196,6 +197,7 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -430,6 +432,7 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="woodFootsepHeavy" ID="{24A983EE-BECC-487A-9527-DD1CAAEB66DA}" ShortID="928441495">
 											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -443,6 +446,7 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -645,6 +649,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="woodFootstep" ID="{71E89AF6-7878-450E-B948-2824A481D06A}" ShortID="660013300">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
@@ -877,6 +885,10 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="metalFootstep" ID="{0F568CA2-7BF5-415A-900F-C739EE370DC1}" ShortID="583702384">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
@@ -1275,11 +1287,190 @@
 								<ActiveSource Name="player_death" ID="{F3715474-4C18-481C-8D48-33B1A7285E06}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Folder Name="Jump" ID="{1FC59044-031D-4DBF-A6F0-6703074E8EC8}" ShortID="441996736">
+							<ChildrenList>
+								<SwitchContainer Name="JumpUp" ID="{AA2CDFAA-50B4-416A-9642-A3C32585E75D}" ShortID="1003597553">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Metal" ID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" WorkUnitID="{9D611875-6E7C-491E-8601-37B57F2900E6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Material" ID="{3CA8A0BB-8016-407F-A161-700DE304E981}" WorkUnitID="{9D611875-6E7C-491E-8601-37B57F2900E6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="jump_metalUp" ID="{6682621A-3B97-4130-98D5-D3765A6BC4EA}" ShortID="416225400">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="jump_metalUp" ID="{B799E1E8-EE71-41F8-855D-96728BCD2540}">
+													<Language>SFX</Language>
+													<AudioFile>jump_metalUp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="924793895"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="jump_metalUp" ID="{B799E1E8-EE71-41F8-855D-96728BCD2540}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="jump_woodUp" ID="{71BE7C49-5515-4DC3-ABD0-1D95F6025EE0}" ShortID="854971283">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="jump_woodUp" ID="{0DB8249A-CA03-4B8D-A308-19A8C27B6C89}">
+													<Language>SFX</Language>
+													<AudioFile>jump_woodUp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="157773929"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="jump_woodUp" ID="{0DB8249A-CA03-4B8D-A308-19A8C27B6C89}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="jump_metalUp" ID="{6682621A-3B97-4130-98D5-D3765A6BC4EA}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="jump_woodUp" ID="{71BE7C49-5515-4DC3-ABD0-1D95F6025EE0}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Metal" ID="{06C05011-8DA7-4494-8944-277B58A6C2EC}"/>
+												<ItemList>
+													<ItemRef Name="jump_metalUp" ID="{6682621A-3B97-4130-98D5-D3765A6BC4EA}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
+												<ItemList>
+													<ItemRef Name="jump_woodUp" ID="{71BE7C49-5515-4DC3-ABD0-1D95F6025EE0}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="JumpLand" ID="{AC83BE83-75FD-41D9-9467-A042C4CD746B}" ShortID="631987147">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Metal" ID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" WorkUnitID="{9D611875-6E7C-491E-8601-37B57F2900E6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Material" ID="{3CA8A0BB-8016-407F-A161-700DE304E981}" WorkUnitID="{9D611875-6E7C-491E-8601-37B57F2900E6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="jump_metalLand" ID="{C6F8BAD9-07A9-4BBC-A183-E49EECEFED89}" ShortID="159968451">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="jump_metalLand" ID="{FBCB8E0A-C18E-4F5F-8E90-2C375B9D5039}">
+													<Language>SFX</Language>
+													<AudioFile>jump_metalLand.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="740795652"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="jump_metalLand" ID="{FBCB8E0A-C18E-4F5F-8E90-2C375B9D5039}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="jump_woodLand" ID="{1C69DD4B-B606-4435-9DC8-24D350621F9A}" ShortID="259166943">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="jump_woodLand" ID="{B2A7C332-D813-4B96-81F5-5B43B72E9DC7}">
+													<Language>SFX</Language>
+													<AudioFile>jump_woodLand.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="684232212"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="jump_woodLand" ID="{B2A7C332-D813-4B96-81F5-5B43B72E9DC7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="jump_woodLand" ID="{1C69DD4B-B606-4435-9DC8-24D350621F9A}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="jump_metalLand" ID="{C6F8BAD9-07A9-4BBC-A183-E49EECEFED89}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Metal" ID="{06C05011-8DA7-4494-8944-277B58A6C2EC}"/>
+												<ItemList>
+													<ItemRef Name="jump_metalLand" ID="{C6F8BAD9-07A9-4BBC-A183-E49EECEFED89}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
+												<ItemList>
+													<ItemRef Name="jump_woodLand" ID="{1C69DD4B-B606-4435-9DC8-24D350621F9A}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Train" ID="{63C26F7D-694A-43EC-9052-8FAEEE849E3A}" ShortID="262858536">
 					<ChildrenList>
 						<Sound Name="ambient_train" ID="{389BD44D-69DF-46D7-B480-DB2F426397BD}" ShortID="295273962">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
@@ -1290,6 +1481,12 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="ambient_train" ID="{C51DAA97-A2BF-4877-BB92-7D02B6FFF5F1}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="9391.219"/>
+										<Property Name="LoopBegin" Type="Real64" Value="28.895"/>
+										<Property Name="LoopEnd" Type="Real64" Value="268.73356"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>ambient_train.wav</AudioFile>
 									<MediaIDList>
@@ -1347,6 +1544,85 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="pickup_health" ID="{591D8F64-70A4-4243-8EEA-AAEB1E679CCD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{A4D33AD6-919B-4E3F-A79D-118446C2C3AF}" ShortID="456718394">
+					<ChildrenList>
+						<Sound Name="digitalSelect" ID="{5C20AECA-BD09-4934-9F42-4A327CD79F07}" ShortID="372711782">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="digitalSelect" ID="{0EF66EAC-DECE-4120-97A5-9652954595CC}">
+									<Language>SFX</Language>
+									<AudioFile>digitalSelect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="353712628"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="digitalSelect" ID="{0EF66EAC-DECE-4120-97A5-9652954595CC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="digitalTick" ID="{700BB60E-8AC3-45BD-B4F5-EDD44B5F2005}" ShortID="94835912">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="digitalTick" ID="{1927A7F4-7FC4-46B6-A081-BE70F4B96437}">
+									<Language>SFX</Language>
+									<AudioFile>digitalTick.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1025708962"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="digitalTick" ID="{1927A7F4-7FC4-46B6-A081-BE70F4B96437}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ambient_titleUI" ID="{D6F13B7D-C6EE-4788-AEDF-98D89CB4693A}" ShortID="384968353">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ambient_titleUI-001" ID="{C8618BF8-BE43-4FF6-8B28-FB784DEC3430}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1608"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.004"/>
+										<Property Name="LoopEnd" Type="Real64" Value="37.36875"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ambient_titleUI-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="479373908"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ambient_titleUI-001" ID="{C8618BF8-BE43-4FF6-8B28-FB784DEC3430}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
