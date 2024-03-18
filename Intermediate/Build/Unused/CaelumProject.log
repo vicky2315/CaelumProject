@@ -2,11 +2,11 @@
   Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" CaelumProjectEditor Win64 Development -Project="G:\Unreal Projects\CaelumProject\CaelumProject.uproject" -WaitMutex -FromMsBuild
   Log file: C:\Users\vigne\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (G:\Unreal Projects\CaelumProject).
-  Invalidating makefile for CaelumProjectEditor (WwiseNiagara.uplugin has been added)
+  Invalidating makefile for CaelumProjectEditor (MainCharacter.cpp.obj.response modified)
   Parsing headers for CaelumProjectEditor
     Running Internal UnrealHeaderTool "G:\Unreal Projects\CaelumProject\CaelumProject.uproject" "G:\Unreal Projects\CaelumProject\Intermediate\Build\Win64\CaelumProjectEditor\Development\CaelumProjectEditor.uhtmanifest" -WarningsAsErrors -installed
   Total of 265 written
-  Reflection code generated for CaelumProjectEditor in 5.254818 seconds
+  Reflection code generated for CaelumProjectEditor in 4.6462468 seconds
   Building CaelumProjectEditor...
   Using Visual Studio 2022 14.38.33135 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Upgrade]
@@ -19,14 +19,14 @@
     Executing up to 8 processes, one per physical core
     Requested 1.5 GB free memory per action, 3.95 GB available: limiting max parallel actions to 2
   Building 84 actions with 2 processes...
-  [1/84] Compile [x64] SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.cpp
-  [2/84] Compile [x64] SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.cpp
+  [1/84] Compile [x64] SharedPCH.Core.ShadowErrors.InclOrderUnreal5_0.cpp
+  [2/84] Compile [x64] SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.cpp
   [3/84] Resource Default.rc2
   [4/84] Resource Default.rc2
   [5/84] Resource Default.rc2
   [6/84] Resource Default.rc2
-  [7/84] Resource Default.rc2
-  [8/84] Compile [x64] SharedPCH.Core.ShadowErrors.InclOrderUnreal5_0.cpp
+  [7/84] Compile [x64] SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.cpp
+  [8/84] Resource Default.rc2
   [9/84] Resource Default.rc2
   [10/84] Resource Default.rc2
   [11/84] Resource Default.rc2
@@ -38,104 +38,104 @@
   [17/84] Resource Default.rc2
   [18/84] Resource Default.rc2
   [19/84] Resource Default.rc2
-  [20/84] Compile [x64] SharedPCH.CoreUObject.ShadowErrors.InclOrderUnreal5_0.cpp
-  [21/84] Compile [x64] Module.AkAudio.5_of_9.cpp
-  [22/84] Compile [x64] Module.AkAudio.9_of_9.cpp
-  [23/84] Compile [x64] Module.AkAudio.4_of_9.cpp
-  [24/84] Compile [x64] Module.WwiseProjectDatabase.cpp
-  [25/84] Compile [x64] Module.AkAudio.2_of_9.cpp
+  [20/84] Compile [x64] Module.WwiseUtils.cpp
+  [21/84] Compile [x64] Module.WwiseSoundEngine.cpp
+  [22/84] Compile [x64] SharedPCH.CoreUObject.ShadowErrors.InclOrderUnreal5_0.cpp
+  [23/84] Compile [x64] Module.WwiseConcurrency.cpp
+  [24/84] Compile [x64] Module.AkAudio.2_of_9.cpp
+  [25/84] Compile [x64] Module.AkAudio.5_of_9.cpp
   [26/84] Compile [x64] Module.AkAudio.1_of_9.cpp
-  [27/84] Compile [x64] Module.AkAudio.8_of_9.cpp
-  [28/84] Compile [x64] Module.AkAudio.7_of_9.cpp
-  [29/84] Compile [x64] Module.AkAudio.3_of_9.cpp
+  [27/84] Compile [x64] Module.AkAudio.9_of_9.cpp
+  [28/84] Compile [x64] Module.AkAudio.3_of_9.cpp
+  [29/84] Compile [x64] Module.AkAudio.7_of_9.cpp
   [30/84] Compile [x64] Module.AkAudio.6_of_9.cpp
-  [31/84] Compile [x64] Module.WwiseResourceCooker.cpp
-  [32/84] Compile [x64] Module.WwiseSimpleExternalSource.cpp
-  [33/84] Compile [x64] Module.AudiokineticTools.cpp
-  [34/84] Compile [x64] Module.WwiseReconcile.cpp
-  [35/84] Compile [x64] Module.Wwise.cpp
-  [36/84] Compile [x64] Module.WwiseResourceLoader.1_of_2.cpp
-  [37/84] Compile [x64] Module.WwiseResourceLoader.2_of_2.cpp
-  [38/84] Compile [x64] Module.WwiseProcessing.cpp
-  [39/84] Compile [x64] Module.WwiseFileHandler.cpp
-  [40/84] Compile [x64] WwiseUnrealEngineHelper.cpp
-  [41/84] Compile [x64] MainCharacter.cpp
-  [42/84] Compile [x64] CaelumProject.init.gen.cpp
-  [43/84] Compile [x64] MainCharacter.gen.cpp
-  [44/84] Compile [x64] CaelumProject.cpp
-  [45/84] Compile [x64] Module.WwiseUtils.cpp
-  [46/84] Compile [x64] Module.WwiseSoundEngine.cpp
-  [47/84] Compile [x64] Module.WwiseConcurrency.cpp
-  [48/84] Compile [x64] Module.WwiseObjectUtils.cpp
-  [49/84] Link [x64] UnrealEditor-WwiseProjectDatabase.lib
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseProjectDatabase\UnrealEditor-WwiseProjectDatabase.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseProjectDatabase\UnrealEditor-WwiseProjectDatabase.exp
-  [50/84] Link [x64] UnrealEditor-AkAudio.lib
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\UnrealEditor-AkAudio.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\UnrealEditor-AkAudio.exp
-  [51/84] Link [x64] UnrealEditor-WwiseResourceCooker.lib
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceCooker\UnrealEditor-WwiseResourceCooker.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceCooker\UnrealEditor-WwiseResourceCooker.exp
-  [52/84] Link [x64] UnrealEditor-WwiseSimpleExternalSource.lib
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseSimpleExternalSource\UnrealEditor-WwiseSimpleExternalSource.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseSimpleExternalSource\UnrealEditor-WwiseSimpleExternalSource.exp
-  [53/84] Link [x64] UnrealEditor-AudiokineticTools.lib
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AudiokineticTools\UnrealEditor-AudiokineticTools.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AudiokineticTools\UnrealEditor-AudiokineticTools.exp
-  [54/84] Link [x64] UnrealEditor-WwiseReconcile.lib
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseReconcile\UnrealEditor-WwiseReconcile.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseReconcile\UnrealEditor-WwiseReconcile.exp
-  [55/84] Link [x64] UnrealEditor-Wwise.lib
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\UnrealEditor-Wwise.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\UnrealEditor-Wwise.exp
-  [56/84] Link [x64] UnrealEditor-WwiseResourceLoader.lib
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceLoader\UnrealEditor-WwiseResourceLoader.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceLoader\UnrealEditor-WwiseResourceLoader.exp
-  [57/84] Link [x64] UnrealEditor-WwiseProcessing.lib
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseProcessing\UnrealEditor-WwiseProcessing.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseProcessing\UnrealEditor-WwiseProcessing.exp
-  [58/84] Link [x64] UnrealEditor-WwiseFileHandler.lib
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseFileHandler\UnrealEditor-WwiseFileHandler.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseFileHandler\UnrealEditor-WwiseFileHandler.exp
-  [59/84] Compile [x64] Module.AkAudioMixer.cpp
-  [60/84] Link [x64] UnrealEditor-WwiseEngineUtils.lib
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseEngineUtils\UnrealEditor-WwiseEngineUtils.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseEngineUtils\UnrealEditor-WwiseEngineUtils.exp
-  [61/84] Link [x64] UnrealEditor-CaelumProject.lib
-     Creating library G:\Unreal Projects\CaelumProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\CaelumProject\UnrealEditor-CaelumProject.lib and object G:\Unreal Projects\CaelumProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\CaelumProject\UnrealEditor-CaelumProject.exp
-  [62/84] Link [x64] UnrealEditor-WwiseUtils.lib
+  [31/84] Compile [x64] Module.WwiseProjectDatabase.cpp
+  [32/84] Compile [x64] Module.AkAudio.8_of_9.cpp
+  [33/84] Compile [x64] Module.AkAudio.4_of_9.cpp
+  [34/84] Compile [x64] Module.WwiseResourceCooker.cpp
+  [35/84] Compile [x64] Module.WwiseSimpleExternalSource.cpp
+  [36/84] Compile [x64] Module.WwiseReconcile.cpp
+  [37/84] Compile [x64] Module.AudiokineticTools.cpp
+  [38/84] Compile [x64] Module.Wwise.cpp
+  [39/84] Compile [x64] Module.WwiseResourceLoader.1_of_2.cpp
+  [40/84] Compile [x64] Module.WwiseFileHandler.cpp
+  [41/84] Compile [x64] Module.WwiseResourceLoader.2_of_2.cpp
+  [42/84] Compile [x64] Module.WwiseProcessing.cpp
+  [43/84] Compile [x64] WwiseUnrealEngineHelper.cpp
+  [44/84] Compile [x64] CaelumProject.init.gen.cpp
+  [45/84] Compile [x64] MainCharacter.cpp
+  [46/84] Compile [x64] CaelumProject.cpp
+  [47/84] Compile [x64] MainCharacter.gen.cpp
+  [48/84] Link [x64] UnrealEditor-WwiseUtils.lib
      Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUtils\UnrealEditor-WwiseUtils.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUtils\UnrealEditor-WwiseUtils.exp
-  [63/84] Link [x64] UnrealEditor-WwiseUtils.dll
+  [49/84] Link [x64] UnrealEditor-WwiseUtils.dll
      Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUtils\UnrealEditor-WwiseUtils.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUtils\UnrealEditor-WwiseUtils.suppressed.exp
-  [64/84] Link [x64] UnrealEditor-WwiseSoundEngine.lib
+  [50/84] Link [x64] UnrealEditor-WwiseSoundEngine.lib
      Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseSoundEngine\UnrealEditor-WwiseSoundEngine.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseSoundEngine\UnrealEditor-WwiseSoundEngine.exp
-  [65/84] Link [x64] UnrealEditor-WwiseConcurrency.lib
+  [51/84] Compile [x64] Module.AkAudioMixer.cpp
+  [52/84] Link [x64] UnrealEditor-WwiseConcurrency.lib
      Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseConcurrency\UnrealEditor-WwiseConcurrency.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseConcurrency\UnrealEditor-WwiseConcurrency.exp
-  [66/84] Link [x64] UnrealEditor-WwiseObjectUtils.lib
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObjectUtils\UnrealEditor-WwiseObjectUtils.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObjectUtils\UnrealEditor-WwiseObjectUtils.exp
-  [67/84] Link [x64] UnrealEditor-CaelumProject.dll
-     Creating library G:\Unreal Projects\CaelumProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\CaelumProject\UnrealEditor-CaelumProject.suppressed.lib and object G:\Unreal Projects\CaelumProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\CaelumProject\UnrealEditor-CaelumProject.suppressed.exp
-  [68/84] Link [x64] UnrealEditor-AkAudioMixer.lib
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudioMixer\UnrealEditor-AkAudioMixer.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudioMixer\UnrealEditor-AkAudioMixer.exp
-  [69/84] Link [x64] UnrealEditor-WwiseResourceCooker.dll
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceCooker\UnrealEditor-WwiseResourceCooker.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceCooker\UnrealEditor-WwiseResourceCooker.suppressed.exp
-  [70/84] Link [x64] UnrealEditor-WwiseSoundEngine.dll
+  [53/84] Link [x64] UnrealEditor-WwiseProjectDatabase.lib
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseProjectDatabase\UnrealEditor-WwiseProjectDatabase.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseProjectDatabase\UnrealEditor-WwiseProjectDatabase.exp
+  [54/84] Compile [x64] Module.WwiseObjectUtils.cpp
+  [55/84] Link [x64] UnrealEditor-AkAudio.lib
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\UnrealEditor-AkAudio.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\UnrealEditor-AkAudio.exp
+  [56/84] Link [x64] UnrealEditor-WwiseResourceCooker.lib
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceCooker\UnrealEditor-WwiseResourceCooker.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceCooker\UnrealEditor-WwiseResourceCooker.exp
+  [57/84] Link [x64] UnrealEditor-WwiseSimpleExternalSource.lib
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseSimpleExternalSource\UnrealEditor-WwiseSimpleExternalSource.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseSimpleExternalSource\UnrealEditor-WwiseSimpleExternalSource.exp
+  [58/84] Link [x64] UnrealEditor-WwiseReconcile.lib
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseReconcile\UnrealEditor-WwiseReconcile.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseReconcile\UnrealEditor-WwiseReconcile.exp
+  [59/84] Link [x64] UnrealEditor-Wwise.lib
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\UnrealEditor-Wwise.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\UnrealEditor-Wwise.exp
+  [60/84] Link [x64] UnrealEditor-AudiokineticTools.lib
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AudiokineticTools\UnrealEditor-AudiokineticTools.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AudiokineticTools\UnrealEditor-AudiokineticTools.exp
+  [61/84] Link [x64] UnrealEditor-WwiseFileHandler.lib
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseFileHandler\UnrealEditor-WwiseFileHandler.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseFileHandler\UnrealEditor-WwiseFileHandler.exp
+  [62/84] Link [x64] UnrealEditor-WwiseResourceLoader.lib
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceLoader\UnrealEditor-WwiseResourceLoader.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceLoader\UnrealEditor-WwiseResourceLoader.exp
+  [63/84] Link [x64] UnrealEditor-WwiseProcessing.lib
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseProcessing\UnrealEditor-WwiseProcessing.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseProcessing\UnrealEditor-WwiseProcessing.exp
+  [64/84] Link [x64] UnrealEditor-WwiseEngineUtils.lib
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseEngineUtils\UnrealEditor-WwiseEngineUtils.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseEngineUtils\UnrealEditor-WwiseEngineUtils.exp
+  [65/84] Link [x64] UnrealEditor-CaelumProject.lib
+     Creating library G:\Unreal Projects\CaelumProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\CaelumProject\UnrealEditor-CaelumProject.lib and object G:\Unreal Projects\CaelumProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\CaelumProject\UnrealEditor-CaelumProject.exp
+  [66/84] Link [x64] UnrealEditor-WwiseSoundEngine.dll
      Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseSoundEngine\UnrealEditor-WwiseSoundEngine.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseSoundEngine\UnrealEditor-WwiseSoundEngine.suppressed.exp
-  [71/84] Link [x64] UnrealEditor-WwiseConcurrency.dll
+  [67/84] Link [x64] UnrealEditor-WwiseConcurrency.dll
      Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseConcurrency\UnrealEditor-WwiseConcurrency.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseConcurrency\UnrealEditor-WwiseConcurrency.suppressed.exp
-  [72/84] Link [x64] UnrealEditor-WwiseReconcile.dll
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseReconcile\UnrealEditor-WwiseReconcile.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseReconcile\UnrealEditor-WwiseReconcile.suppressed.exp
-  [73/84] Link [x64] UnrealEditor-AudiokineticTools.dll
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AudiokineticTools\UnrealEditor-AudiokineticTools.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AudiokineticTools\UnrealEditor-AudiokineticTools.suppressed.exp
-  [74/84] Link [x64] UnrealEditor-WwiseProjectDatabase.dll
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseProjectDatabase\UnrealEditor-WwiseProjectDatabase.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseProjectDatabase\UnrealEditor-WwiseProjectDatabase.suppressed.exp
-  [75/84] Link [x64] UnrealEditor-AkAudioMixer.dll
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudioMixer\UnrealEditor-AkAudioMixer.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudioMixer\UnrealEditor-AkAudioMixer.suppressed.exp
-  [76/84] Link [x64] UnrealEditor-WwiseObjectUtils.dll
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObjectUtils\UnrealEditor-WwiseObjectUtils.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObjectUtils\UnrealEditor-WwiseObjectUtils.suppressed.exp
-  [77/84] Link [x64] UnrealEditor-WwiseEngineUtils.dll
+  [68/84] Link [x64] UnrealEditor-CaelumProject.dll
+     Creating library G:\Unreal Projects\CaelumProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\CaelumProject\UnrealEditor-CaelumProject.suppressed.lib and object G:\Unreal Projects\CaelumProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\CaelumProject\UnrealEditor-CaelumProject.suppressed.exp
+  [69/84] Link [x64] UnrealEditor-AkAudioMixer.lib
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudioMixer\UnrealEditor-AkAudioMixer.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudioMixer\UnrealEditor-AkAudioMixer.exp
+  [70/84] Link [x64] UnrealEditor-WwiseEngineUtils.dll
      Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseEngineUtils\UnrealEditor-WwiseEngineUtils.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseEngineUtils\UnrealEditor-WwiseEngineUtils.suppressed.exp
-  [78/84] Link [x64] UnrealEditor-WwiseSimpleExternalSource.dll
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseSimpleExternalSource\UnrealEditor-WwiseSimpleExternalSource.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseSimpleExternalSource\UnrealEditor-WwiseSimpleExternalSource.suppressed.exp
-  [79/84] Link [x64] UnrealEditor-WwiseResourceLoader.dll
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceLoader\UnrealEditor-WwiseResourceLoader.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceLoader\UnrealEditor-WwiseResourceLoader.suppressed.exp
-  [80/84] Link [x64] UnrealEditor-WwiseProcessing.dll
+  [71/84] Link [x64] UnrealEditor-WwiseObjectUtils.lib
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObjectUtils\UnrealEditor-WwiseObjectUtils.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObjectUtils\UnrealEditor-WwiseObjectUtils.exp
+  [72/84] Link [x64] UnrealEditor-WwiseProcessing.dll
      Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseProcessing\UnrealEditor-WwiseProcessing.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseProcessing\UnrealEditor-WwiseProcessing.suppressed.exp
-  [81/84] Link [x64] UnrealEditor-WwiseFileHandler.dll
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseFileHandler\UnrealEditor-WwiseFileHandler.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseFileHandler\UnrealEditor-WwiseFileHandler.suppressed.exp
-  [82/84] Link [x64] UnrealEditor-AkAudio.dll
-     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\UnrealEditor-AkAudio.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\UnrealEditor-AkAudio.suppressed.exp
-  [83/84] Link [x64] UnrealEditor-Wwise.dll
+  [73/84] Link [x64] UnrealEditor-WwiseObjectUtils.dll
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObjectUtils\UnrealEditor-WwiseObjectUtils.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseObjectUtils\UnrealEditor-WwiseObjectUtils.suppressed.exp
+  [74/84] Link [x64] UnrealEditor-AkAudioMixer.dll
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudioMixer\UnrealEditor-AkAudioMixer.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudioMixer\UnrealEditor-AkAudioMixer.suppressed.exp
+  [75/84] Link [x64] UnrealEditor-AudiokineticTools.dll
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AudiokineticTools\UnrealEditor-AudiokineticTools.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AudiokineticTools\UnrealEditor-AudiokineticTools.suppressed.exp
+  [76/84] Link [x64] UnrealEditor-WwiseReconcile.dll
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseReconcile\UnrealEditor-WwiseReconcile.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseReconcile\UnrealEditor-WwiseReconcile.suppressed.exp
+  [77/84] Link [x64] UnrealEditor-WwiseSimpleExternalSource.dll
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseSimpleExternalSource\UnrealEditor-WwiseSimpleExternalSource.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseSimpleExternalSource\UnrealEditor-WwiseSimpleExternalSource.suppressed.exp
+  [78/84] Link [x64] UnrealEditor-WwiseProjectDatabase.dll
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseProjectDatabase\UnrealEditor-WwiseProjectDatabase.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseProjectDatabase\UnrealEditor-WwiseProjectDatabase.suppressed.exp
+  [79/84] Link [x64] UnrealEditor-WwiseResourceCooker.dll
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceCooker\UnrealEditor-WwiseResourceCooker.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceCooker\UnrealEditor-WwiseResourceCooker.suppressed.exp
+  [80/84] Link [x64] UnrealEditor-Wwise.dll
      Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\UnrealEditor-Wwise.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\Wwise\UnrealEditor-Wwise.suppressed.exp
+  [81/84] Link [x64] UnrealEditor-WwiseResourceLoader.dll
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceLoader\UnrealEditor-WwiseResourceLoader.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseResourceLoader\UnrealEditor-WwiseResourceLoader.suppressed.exp
+  [82/84] Link [x64] UnrealEditor-WwiseFileHandler.dll
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseFileHandler\UnrealEditor-WwiseFileHandler.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseFileHandler\UnrealEditor-WwiseFileHandler.suppressed.exp
+  [83/84] Link [x64] UnrealEditor-AkAudio.dll
+     Creating library G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\UnrealEditor-AkAudio.suppressed.lib and object G:\Unreal Projects\CaelumProject\Plugins\Wwise\Intermediate\Build\Win64\x64\UnrealEditor\Development\AkAudio\UnrealEditor-AkAudio.suppressed.exp
   [84/84] WriteMetadata CaelumProjectEditor.target
-  Total time in Parallel executor: 459.61 seconds
-  Total execution time: 484.62 seconds
+  Total time in Parallel executor: 222.36 seconds
+  Total execution time: 236.22 seconds
