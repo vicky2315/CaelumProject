@@ -1,0 +1,287 @@
+;
+; Input signature:
+;
+; Name                 Index   Mask Register SysValue  Format   Used
+; -------------------- ----- ------ -------- -------- ------- ------
+; no parameters
+;
+; Output signature:
+;
+; Name                 Index   Mask Register SysValue  Format   Used
+; -------------------- ----- ------ -------- -------- ------- ------
+; no parameters
+; shader hash: 06c2f9f393b89be1d12d0aa8461d6091
+;
+; Pipeline Runtime Information: 
+;
+; Compute Shader
+; NumThreads=(8,8,1)
+;
+;
+; Buffer Definitions:
+;
+; cbuffer _RootShaderParameters
+; {
+;
+;   struct _RootShaderParameters
+;   {
+;
+;       uint ScreenProbeTracingOctahedronResolution;  ; Offset:   16
+;       uint ScreenProbeLightSampleResolutionXY;      ; Offset:   20
+;       uint ScreenProbeGatherOctahedronResolution;   ; Offset:   24
+;       uint ScreenProbeGatherOctahedronResolutionWithBorder;; Offset:   28
+;       uint ScreenProbeDownsampleFactor;             ; Offset:   32
+;       uint2 ScreenProbeViewSize;                    ; Offset:   40
+;       uint2 ScreenProbeAtlasViewSize;               ; Offset:   48
+;       uint2 ScreenProbeAtlasBufferSize;             ; Offset:   56
+;       float ScreenProbeGatherMaxMip;                ; Offset:   64
+;       float RelativeSpeedDifferenceToConsiderLightingMoving;; Offset:   68
+;       float ScreenTraceNoFallbackThicknessScale;    ; Offset:   72
+;       float2 SampleRadianceProbeUVMul;              ; Offset:   80
+;       float2 SampleRadianceProbeUVAdd;              ; Offset:   88
+;       float2 SampleRadianceAtlasUVMul;              ; Offset:   96
+;       uint NumUniformScreenProbes;                  ; Offset:  108
+;       uint MaxNumAdaptiveProbes;                    ; Offset:  112
+;       int FixedJitterIndex;                         ; Offset:  116
+;       uint MaxImportanceSamplingOctahedronResolution;; Offset:  272
+;       uint ScreenProbeBRDFOctahedronResolution;     ; Offset:  276
+;   
+;   } _RootShaderParameters;                          ; Offset:    0 Size:   280
+;
+; }
+;
+; Resource bind info for NumAdaptiveScreenProbes
+; {
+;
+;   uint $Element;                                    ; Offset:    0 Size:     4
+;
+; }
+;
+;
+; Resource Bindings:
+;
+; Name                                 Type  Format         Dim      ID      HLSL Bind  Count
+; ------------------------------ ---------- ------- ----------- ------- -------------- ------
+; _RootShaderParameters             cbuffer      NA          NA     CB0            cb0     1
+; ScreenProbeSceneDepth             texture     u32          2d      T0             t0     1
+; NumAdaptiveScreenProbes           texture  struct         r/o      T1             t1     1
+; ScreenProbeRadiance               texture     f32          2d      T2             t2     1
+; RWScreenProbeRadiance                 UAV     f32          2d      U0             u0     1
+;
+target datalayout = "e-m:e-p:32:32-i1:32-i8:32-i16:32-i32:32-i64:64-f16:32-f32:32-f64:64-n8:16:32:64"
+target triple = "dxil-ms-dx"
+
+%dx.types.Handle = type { i8* }
+%dx.types.ResBind = type { i32, i32, i32, i8 }
+%dx.types.ResourceProperties = type { i32, i32 }
+%dx.types.CBufRet.i32 = type { i32, i32, i32, i32 }
+%dx.types.ResRet.i32 = type { i32, i32, i32, i32, i32 }
+%dx.types.CBufRet.f32 = type { float, float, float, float }
+%dx.types.ResRet.f32 = type { float, float, float, float, i32 }
+%"class.Texture2D<unsigned int>" = type { i32, %"class.Texture2D<unsigned int>::mips_type" }
+%"class.Texture2D<unsigned int>::mips_type" = type { i32 }
+%"class.StructuredBuffer<unsigned int>" = type { i32 }
+%"class.Texture2D<vector<float, 3> >" = type { <3 x float>, %"class.Texture2D<vector<float, 3> >::mips_type" }
+%"class.Texture2D<vector<float, 3> >::mips_type" = type { i32 }
+%"class.RWTexture2D<vector<float, 3> >" = type { <3 x float> }
+%_RootShaderParameters = type { i32, i32, i32, i32, i32, <2 x i32>, <2 x i32>, <2 x i32>, float, float, float, <2 x float>, <2 x float>, <2 x float>, i32, i32, i32, i32, i32 }
+
+define void @ScreenProbeFixupBordersCS() {
+  %1 = call %dx.types.Handle @dx.op.createHandleFromBinding(i32 217, %dx.types.ResBind { i32 0, i32 0, i32 0, i8 1 }, i32 0, i1 false)  ; CreateHandleFromBinding(bind,index,nonUniformIndex)
+  %2 = call %dx.types.Handle @dx.op.createHandleFromBinding(i32 217, %dx.types.ResBind { i32 2, i32 2, i32 0, i8 0 }, i32 2, i1 false)  ; CreateHandleFromBinding(bind,index,nonUniformIndex)
+  %3 = call %dx.types.Handle @dx.op.createHandleFromBinding(i32 217, %dx.types.ResBind { i32 1, i32 1, i32 0, i8 0 }, i32 1, i1 false)  ; CreateHandleFromBinding(bind,index,nonUniformIndex)
+  %4 = call %dx.types.Handle @dx.op.createHandleFromBinding(i32 217, %dx.types.ResBind zeroinitializer, i32 0, i1 false)  ; CreateHandleFromBinding(bind,index,nonUniformIndex)
+  %5 = call %dx.types.Handle @dx.op.createHandleFromBinding(i32 217, %dx.types.ResBind { i32 0, i32 0, i32 0, i8 2 }, i32 0, i1 false)  ; CreateHandleFromBinding(bind,index,nonUniformIndex)
+  %6 = call %dx.types.Handle @dx.op.annotateHandle(i32 216, %dx.types.Handle %5, %dx.types.ResourceProperties { i32 13, i32 280 })  ; AnnotateHandle(res,props)  resource: CBuffer
+  %7 = call i32 @dx.op.threadId.i32(i32 93, i32 0)  ; ThreadId(component)
+  %8 = call i32 @dx.op.threadId.i32(i32 93, i32 1)  ; ThreadId(component)
+  %9 = call %dx.types.CBufRet.i32 @dx.op.cbufferLoadLegacy.i32(i32 59, %dx.types.Handle %6, i32 1)  ; CBufferLoadLegacy(handle,regIndex)
+  %10 = extractvalue %dx.types.CBufRet.i32 %9, 3
+  %11 = udiv i32 %7, %10
+  %12 = udiv i32 %8, %10
+  %13 = mul i32 %10, %11
+  %14 = mul i32 %10, %12
+  %15 = sub i32 %7, %13
+  %16 = sub i32 %8, %14
+  %17 = call %dx.types.CBufRet.i32 @dx.op.cbufferLoadLegacy.i32(i32 59, %dx.types.Handle %6, i32 3)  ; CBufferLoadLegacy(handle,regIndex)
+  %18 = extractvalue %dx.types.CBufRet.i32 %17, 0
+  %19 = mul i32 %18, %12
+  %20 = add i32 %19, %11
+  %21 = call %dx.types.CBufRet.i32 @dx.op.cbufferLoadLegacy.i32(i32 59, %dx.types.Handle %6, i32 6)  ; CBufferLoadLegacy(handle,regIndex)
+  %22 = extractvalue %dx.types.CBufRet.i32 %21, 3
+  %23 = call %dx.types.CBufRet.i32 @dx.op.cbufferLoadLegacy.i32(i32 59, %dx.types.Handle %6, i32 7)  ; CBufferLoadLegacy(handle,regIndex)
+  %24 = extractvalue %dx.types.CBufRet.i32 %23, 0
+  %25 = call %dx.types.Handle @dx.op.annotateHandle(i32 216, %dx.types.Handle %3, %dx.types.ResourceProperties { i32 12, i32 4 })  ; AnnotateHandle(res,props)  resource: StructuredBuffer<stride=4>
+  %26 = call %dx.types.ResRet.i32 @dx.op.rawBufferLoad.i32(i32 139, %dx.types.Handle %25, i32 0, i32 0, i8 1, i32 4)  ; RawBufferLoad(srv,index,elementOffset,mask,alignment)
+  %27 = extractvalue %dx.types.ResRet.i32 %26, 0
+  %28 = call i32 @dx.op.binary.i32(i32 40, i32 %27, i32 %24)  ; UMin(a,b)
+  %29 = add i32 %28, %22
+  %30 = icmp ult i32 %20, %29
+  br i1 %30, label %31, label %107
+
+; <label>:31                                      ; preds = %0
+  %32 = icmp ult i32 %15, %10
+  %33 = icmp ult i32 %16, %10
+  %34 = and i1 %32, %33
+  %35 = icmp ult i32 %11, %18
+  %36 = and i1 %34, %35
+  br i1 %36, label %37, label %107
+
+; <label>:37                                      ; preds = %31
+  %38 = call %dx.types.Handle @dx.op.annotateHandle(i32 216, %dx.types.Handle %4, %dx.types.ResourceProperties { i32 2, i32 261 })  ; AnnotateHandle(res,props)  resource: Texture2D<U32>
+  %39 = call %dx.types.ResRet.i32 @dx.op.textureLoad.i32(i32 66, %dx.types.Handle %38, i32 0, i32 %11, i32 %12, i32 undef, i32 undef, i32 undef, i32 undef)  ; TextureLoad(srv,mipLevelOrSampleCount,coord0,coord1,coord2,offset0,offset1,offset2)
+  %40 = extractvalue %dx.types.ResRet.i32 %39, 0
+  %41 = bitcast i32 %40 to float
+  %42 = fcmp fast ogt float %41, 0.000000e+00
+  br i1 %42, label %43, label %102
+
+; <label>:43                                      ; preds = %37
+  %44 = call %dx.types.CBufRet.f32 @dx.op.cbufferLoadLegacy.f32(i32 59, %dx.types.Handle %6, i32 4)  ; CBufferLoadLegacy(handle,regIndex)
+  %45 = extractvalue %dx.types.CBufRet.f32 %44, 0
+  %46 = fptoui float %45 to i32
+  %47 = and i32 %46, 31
+  %48 = shl i32 1, %47
+  %49 = icmp ult i32 %15, %48
+  br i1 %49, label %50, label %56
+
+; <label>:50                                      ; preds = %43
+  %51 = shl i32 %48, 1
+  %52 = xor i32 %15, -1
+  %53 = add i32 %51, %52
+  %54 = xor i32 %16, -1
+  %55 = add i32 %10, %54
+  br label %56
+
+; <label>:56                                      ; preds = %50, %43
+  %57 = phi i32 [ %53, %50 ], [ %15, %43 ]
+  %58 = phi i32 [ %55, %50 ], [ %16, %43 ]
+  %59 = sub i32 %10, %48
+  %60 = icmp ult i32 %57, %59
+  br i1 %60, label %67, label %61
+
+; <label>:61                                      ; preds = %56
+  %62 = shl i32 %59, 1
+  %63 = xor i32 %57, -1
+  %64 = add i32 %62, %63
+  %65 = add i32 %10, -1
+  %66 = sub i32 %65, %58
+  br label %67
+
+; <label>:67                                      ; preds = %61, %56
+  %68 = phi i32 [ %64, %61 ], [ %57, %56 ]
+  %69 = phi i32 [ %66, %61 ], [ %58, %56 ]
+  %70 = icmp ult i32 %69, %48
+  br i1 %70, label %71, label %77
+
+; <label>:71                                      ; preds = %67
+  %72 = shl i32 %48, 1
+  %73 = xor i32 %69, -1
+  %74 = add i32 %72, %73
+  %75 = add i32 %10, -1
+  %76 = sub i32 %75, %68
+  br label %77
+
+; <label>:77                                      ; preds = %71, %67
+  %78 = phi i32 [ %76, %71 ], [ %68, %67 ]
+  %79 = phi i32 [ %74, %71 ], [ %69, %67 ]
+  %80 = icmp ult i32 %79, %59
+  br i1 %80, label %87, label %81
+
+; <label>:81                                      ; preds = %77
+  %82 = shl i32 %59, 1
+  %83 = xor i32 %79, -1
+  %84 = add i32 %82, %83
+  %85 = add i32 %10, -1
+  %86 = sub i32 %85, %78
+  br label %87
+
+; <label>:87                                      ; preds = %81, %77
+  %88 = phi i32 [ %86, %81 ], [ %78, %77 ]
+  %89 = phi i32 [ %84, %81 ], [ %79, %77 ]
+  %90 = sub i32 %88, %48
+  %91 = sub i32 %89, %48
+  %92 = extractvalue %dx.types.CBufRet.i32 %9, 2
+  %93 = mul i32 %92, %11
+  %94 = mul i32 %92, %12
+  %95 = add i32 %90, %93
+  %96 = add i32 %91, %94
+  %97 = call %dx.types.Handle @dx.op.annotateHandle(i32 216, %dx.types.Handle %2, %dx.types.ResourceProperties { i32 2, i32 777 })  ; AnnotateHandle(res,props)  resource: Texture2D<3xF32>
+  %98 = call %dx.types.ResRet.f32 @dx.op.textureLoad.f32(i32 66, %dx.types.Handle %97, i32 0, i32 %95, i32 %96, i32 undef, i32 undef, i32 undef, i32 undef)  ; TextureLoad(srv,mipLevelOrSampleCount,coord0,coord1,coord2,offset0,offset1,offset2)
+  %99 = extractvalue %dx.types.ResRet.f32 %98, 0
+  %100 = extractvalue %dx.types.ResRet.f32 %98, 1
+  %101 = extractvalue %dx.types.ResRet.f32 %98, 2
+  br label %102
+
+; <label>:102                                     ; preds = %87, %37
+  %103 = phi float [ %99, %87 ], [ 0.000000e+00, %37 ]
+  %104 = phi float [ %100, %87 ], [ 0.000000e+00, %37 ]
+  %105 = phi float [ %101, %87 ], [ 0.000000e+00, %37 ]
+  %106 = call %dx.types.Handle @dx.op.annotateHandle(i32 216, %dx.types.Handle %1, %dx.types.ResourceProperties { i32 4098, i32 777 })  ; AnnotateHandle(res,props)  resource: RWTexture2D<3xF32>
+  call void @dx.op.textureStore.f32(i32 67, %dx.types.Handle %106, i32 %7, i32 %8, i32 undef, float %103, float %104, float %105, float %103, i8 15)  ; TextureStore(srv,coord0,coord1,coord2,value0,value1,value2,value3,mask)
+  br label %107
+
+; <label>:107                                     ; preds = %102, %31, %0
+  ret void
+}
+
+; Function Attrs: nounwind readnone
+declare i32 @dx.op.threadId.i32(i32, i32) #0
+
+; Function Attrs: nounwind readonly
+declare %dx.types.ResRet.f32 @dx.op.textureLoad.f32(i32, %dx.types.Handle, i32, i32, i32, i32, i32, i32, i32) #1
+
+; Function Attrs: nounwind
+declare void @dx.op.textureStore.f32(i32, %dx.types.Handle, i32, i32, i32, float, float, float, float, i8) #2
+
+; Function Attrs: nounwind readnone
+declare i32 @dx.op.binary.i32(i32, i32, i32) #0
+
+; Function Attrs: nounwind readonly
+declare %dx.types.ResRet.i32 @dx.op.rawBufferLoad.i32(i32, %dx.types.Handle, i32, i32, i8, i32) #1
+
+; Function Attrs: nounwind readonly
+declare %dx.types.ResRet.i32 @dx.op.textureLoad.i32(i32, %dx.types.Handle, i32, i32, i32, i32, i32, i32, i32) #1
+
+; Function Attrs: nounwind readonly
+declare %dx.types.CBufRet.i32 @dx.op.cbufferLoadLegacy.i32(i32, %dx.types.Handle, i32) #1
+
+; Function Attrs: nounwind readonly
+declare %dx.types.CBufRet.f32 @dx.op.cbufferLoadLegacy.f32(i32, %dx.types.Handle, i32) #1
+
+; Function Attrs: nounwind readnone
+declare %dx.types.Handle @dx.op.annotateHandle(i32, %dx.types.Handle, %dx.types.ResourceProperties) #0
+
+; Function Attrs: nounwind readnone
+declare %dx.types.Handle @dx.op.createHandleFromBinding(i32, %dx.types.ResBind, i32, i1) #0
+
+attributes #0 = { nounwind readnone }
+attributes #1 = { nounwind readonly }
+attributes #2 = { nounwind }
+
+!llvm.ident = !{!0}
+!dx.version = !{!1}
+!dx.valver = !{!2}
+!dx.shaderModel = !{!3}
+!dx.resources = !{!4}
+!dx.entryPoints = !{!16}
+
+!0 = !{!"dxc(private) 1.7.0.0 (private, 00000000)"}
+!1 = !{i32 1, i32 6}
+!2 = !{i32 1, i32 7}
+!3 = !{!"cs", i32 6, i32 6}
+!4 = !{!5, !12, !14, null}
+!5 = !{!6, !8, !10}
+!6 = !{i32 0, %"class.Texture2D<unsigned int>"* undef, !"", i32 0, i32 0, i32 1, i32 2, i32 0, !7}
+!7 = !{i32 0, i32 5}
+!8 = !{i32 1, %"class.StructuredBuffer<unsigned int>"* undef, !"", i32 0, i32 1, i32 1, i32 12, i32 0, !9}
+!9 = !{i32 1, i32 4}
+!10 = !{i32 2, %"class.Texture2D<vector<float, 3> >"* undef, !"", i32 0, i32 2, i32 1, i32 2, i32 0, !11}
+!11 = !{i32 0, i32 9}
+!12 = !{!13}
+!13 = !{i32 0, %"class.RWTexture2D<vector<float, 3> >"* undef, !"", i32 0, i32 0, i32 1, i32 2, i1 false, i1 false, i1 false, !11}
+!14 = !{!15}
+!15 = !{i32 0, %_RootShaderParameters* undef, !"", i32 0, i32 0, i32 1, i32 280, null}
+!16 = !{void ()* @ScreenProbeFixupBordersCS, !"ScreenProbeFixupBordersCS", null, !4, !17}
+!17 = !{i32 0, i64 16, i32 4, !18, i32 5, !19}
+!18 = !{i32 8, i32 8, i32 1}
+!19 = !{i32 0}
