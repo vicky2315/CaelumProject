@@ -1351,3 +1351,701 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.21-15.37.15:659][384]AssetReimport: Importing new asset /Game/Maps/1_2_a2.
 [2024.03.21-15.37.31:212][431]LogMeshUtilities: Finished distance field build in 20.0s - 126x126x126 sparse distance field, 3.2Mb total, 0.1Mb always loaded, 96% occupied, 119 triangles, 1_6_a1
 [2024.03.21-15.37.32:553][435]LogMeshUtilities: Finished distance field build in 21.3s - 126x126x119 sparse distance field, 3.1Mb total, 0.1Mb always loaded, 100% occupied, 194 triangles, 1_5_a1
+[2024.03.21-15.37.43:460][468]LogMeshUtilities: Finished distance field build in 10.9s - 126x126x119 sparse distance field, 2.9Mb total, 0.1Mb always loaded, 93% occupied, 123 triangles, 1_3_a2
+[2024.03.21-15.37.51:777][493]LogMeshUtilities: Finished distance field build in 11.5s - 126x126x119 sparse distance field, 3.1Mb total, 0.1Mb always loaded, 98% occupied, 101 triangles, 1_2_a2
+[2024.03.21-15.37.55:682][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.37.55:682][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.37.55:683][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.37.55:683][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.37.55:684][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.37.55:684][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.37.55:685][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.37.55:685][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.37.55:687][607]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.37.56:859][659]Cmd: DELETE
+[2024.03.21-15.37.56:859][659]Cmd: ACTOR DELETE
+[2024.03.21-15.37.56:870][659]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.21-15.37.56:882][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.03.21-15.37.56:883][659]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2024.03.21-15.37.56:909][659]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.00:002][946]LogViewport: Scene viewport resized to 1025x338, mode Windowed.
+[2024.03.21-15.38.00:026][946]LogViewport: Scene viewport resized to 496x559, mode Windowed.
+[2024.03.21-15.38.00:095][946]LogViewport: Scene viewport resized to 496x338, mode Windowed.
+[2024.03.21-15.38.00:138][946]LogViewport: Scene viewport resized to 1155x648, mode Windowed.
+[2024.03.21-15.38.00:215][947]LogViewport: Scene viewport resized to 1025x559, mode Windowed.
+[2024.03.21-15.38.03:224][245]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.03:225][245]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.03:225][245]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.03:226][245]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.03:226][245]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.03:226][245]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.03:569][278]Cmd: DELETE
+[2024.03.21-15.38.03:569][278]Cmd: ACTOR DELETE
+[2024.03.21-15.38.03:581][278]LogEditorActor: Deleted Actor: PointLight
+[2024.03.21-15.38.03:582][278]LogEditorActor: Deleted Actor: PointLight
+[2024.03.21-15.38.03:583][278]LogEditorActor: Deleted Actor: PointLight
+[2024.03.21-15.38.03:585][278]LogEditorActor: Deleted Actor: PointLight
+[2024.03.21-15.38.03:586][278]LogEditorActor: Deleted Actor: PointLight
+[2024.03.21-15.38.03:587][278]LogEditorActor: Deleted Actor: PointLight
+[2024.03.21-15.38.03:588][278]LogEditorActor: Deleted Actor: PointLight
+[2024.03.21-15.38.03:590][278]LogEditorActor: Deleted Actor: PointLight
+[2024.03.21-15.38.03:591][278]LogEditorActor: Deleted Actor: PointLight
+[2024.03.21-15.38.03:592][278]LogEditorActor: Deleted Actor: PointLight
+[2024.03.21-15.38.03:603][278]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.03.21-15.38.03:604][278]LogEditorActor: Deleted 10 Actors (0.034 secs)
+[2024.03.21-15.38.03:621][278]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.03:621][278]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.03:622][278]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.03:623][278]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.03:623][278]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.03:624][278]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.04:353][359]LogViewport: Scene viewport resized to 811x664, mode Windowed.
+[2024.03.21-15.38.04:390][360]LogViewport: Scene viewport resized to 1258x813, mode Windowed.
+[2024.03.21-15.38.04:424][361]LogViewport: Scene viewport resized to 1455x878, mode Windowed.
+[2024.03.21-15.38.04:458][362]LogViewport: Scene viewport resized to 1520x900, mode Windowed.
+[2024.03.21-15.38.04:491][363]LogViewport: Scene viewport resized to 1526x902, mode Windowed.
+[2024.03.21-15.38.05:249][447]LogViewport: Scene viewport resized to 982x721, mode Windowed.
+[2024.03.21-15.38.05:282][448]LogViewport: Scene viewport resized to 723x634, mode Windowed.
+[2024.03.21-15.38.05:318][449]LogViewport: Scene viewport resized to 577x586, mode Windowed.
+[2024.03.21-15.38.05:351][450]LogViewport: Scene viewport resized to 514x565, mode Windowed.
+[2024.03.21-15.38.05:391][451]LogViewport: Scene viewport resized to 497x559, mode Windowed.
+[2024.03.21-15.38.05:426][452]LogViewport: Scene viewport resized to 496x559, mode Windowed.
+[2024.03.21-15.38.05:644][469]LogViewport: Scene viewport resized to 765x648, mode Windowed.
+[2024.03.21-15.38.05:681][470]LogViewport: Scene viewport resized to 1232x804, mode Windowed.
+[2024.03.21-15.38.05:715][471]LogViewport: Scene viewport resized to 1443x874, mode Windowed.
+[2024.03.21-15.38.05:750][472]LogViewport: Scene viewport resized to 1518x899, mode Windowed.
+[2024.03.21-15.38.05:785][473]LogViewport: Scene viewport resized to 1526x902, mode Windowed.
+[2024.03.21-15.38.06:994][609]Cmd: MODE GRID=1
+[2024.03.21-15.38.08:638][796]LogViewport: Scene viewport resized to 1010x730, mode Windowed.
+[2024.03.21-15.38.08:676][797]LogViewport: Scene viewport resized to 720x633, mode Windowed.
+[2024.03.21-15.38.08:711][798]LogViewport: Scene viewport resized to 575x585, mode Windowed.
+[2024.03.21-15.38.08:747][799]LogViewport: Scene viewport resized to 512x564, mode Windowed.
+[2024.03.21-15.38.08:792][800]LogViewport: Scene viewport resized to 496x559, mode Windowed.
+[2024.03.21-15.38.13:795][338]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_0_a2.1_0_a2
+[2024.03.21-15.38.13:795][338]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_0_a2.1_0_a2
+[2024.03.21-15.38.13:796][338]LogActorFactory: Actor Factory spawned StaticMesh /Game/Maps/1_0_a2.1_0_a2 as actor: StaticMeshActor /Game/Maps/MainMap.MainMap:PersistentLevel.StaticMeshActor_1
+[2024.03.21-15.38.13:859][338]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_0_a2.1_0_a2
+[2024.03.21-15.38.13:859][338]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_0_a2.1_0_a2
+[2024.03.21-15.38.13:860][338]LogActorFactory: Actor Factory spawned StaticMesh /Game/Maps/1_0_a2.1_0_a2 as actor: StaticMeshActor /Game/Maps/MainMap.MainMap:PersistentLevel.StaticMeshActor_9
+[2024.03.21-15.38.13:864][338]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.15:821][549]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_0_a2.1_0_a2
+[2024.03.21-15.38.15:821][549]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_0_a2.1_0_a2
+[2024.03.21-15.38.15:832][549]LogActorFactory: Actor Factory spawned StaticMesh /Game/Maps/1_0_a2.1_0_a2 as actor: StaticMeshActor /Game/Maps/MainMap.MainMap:PersistentLevel.StaticMeshActor_10
+[2024.03.21-15.38.15:884][549]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.15:884][549]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.15:885][549]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.15:885][549]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.15:886][549]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.15:887][549]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.15:888][549]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.23:877][295]LogEditorViewport: Clicking Background
+[2024.03.21-15.38.27:690][679]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_1_a2.1_1_a2
+[2024.03.21-15.38.27:690][679]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_1_a2.1_1_a2
+[2024.03.21-15.38.27:691][679]LogActorFactory: Actor Factory spawned StaticMesh /Game/Maps/1_1_a2.1_1_a2 as actor: StaticMeshActor /Game/Maps/MainMap.MainMap:PersistentLevel.StaticMeshActor_11
+[2024.03.21-15.38.27:692][679]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_2_a2.1_2_a2
+[2024.03.21-15.38.27:692][679]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_2_a2.1_2_a2
+[2024.03.21-15.38.27:692][679]LogActorFactory: Actor Factory spawned StaticMesh /Game/Maps/1_2_a2.1_2_a2 as actor: StaticMeshActor /Game/Maps/MainMap.MainMap:PersistentLevel.StaticMeshActor_14
+[2024.03.21-15.38.27:693][679]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_3_a2.1_3_a2
+[2024.03.21-15.38.27:693][679]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_3_a2.1_3_a2
+[2024.03.21-15.38.27:693][679]LogActorFactory: Actor Factory spawned StaticMesh /Game/Maps/1_3_a2.1_3_a2 as actor: StaticMeshActor /Game/Maps/MainMap.MainMap:PersistentLevel.StaticMeshActor_15
+[2024.03.21-15.38.27:694][679]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_4_a1.1_4_a1
+[2024.03.21-15.38.27:694][679]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_4_a1.1_4_a1
+[2024.03.21-15.38.27:694][679]LogActorFactory: Actor Factory spawned StaticMesh /Game/Maps/1_4_a1.1_4_a1 as actor: StaticMeshActor /Game/Maps/MainMap.MainMap:PersistentLevel.StaticMeshActor_16
+[2024.03.21-15.38.27:695][679]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_5_a1.1_5_a1
+[2024.03.21-15.38.27:695][679]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_5_a1.1_5_a1
+[2024.03.21-15.38.27:695][679]LogActorFactory: Actor Factory spawned StaticMesh /Game/Maps/1_5_a1.1_5_a1 as actor: StaticMeshActor /Game/Maps/MainMap.MainMap:PersistentLevel.StaticMeshActor_17
+[2024.03.21-15.38.27:696][679]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_6_a1.1_6_a1
+[2024.03.21-15.38.27:696][679]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_6_a1.1_6_a1
+[2024.03.21-15.38.27:696][679]LogActorFactory: Actor Factory spawned StaticMesh /Game/Maps/1_6_a1.1_6_a1 as actor: StaticMeshActor /Game/Maps/MainMap.MainMap:PersistentLevel.StaticMeshActor_18
+[2024.03.21-15.38.27:702][679]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.28:586][767]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_1_a2.1_1_a2
+[2024.03.21-15.38.28:586][767]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_1_a2.1_1_a2
+[2024.03.21-15.38.28:597][767]LogActorFactory: Actor Factory spawned StaticMesh /Game/Maps/1_1_a2.1_1_a2 as actor: StaticMeshActor /Game/Maps/MainMap.MainMap:PersistentLevel.StaticMeshActor_19
+[2024.03.21-15.38.28:616][767]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_2_a2.1_2_a2
+[2024.03.21-15.38.28:616][767]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_2_a2.1_2_a2
+[2024.03.21-15.38.28:617][767]LogActorFactory: Actor Factory spawned StaticMesh /Game/Maps/1_2_a2.1_2_a2 as actor: StaticMeshActor /Game/Maps/MainMap.MainMap:PersistentLevel.StaticMeshActor_20
+[2024.03.21-15.38.28:635][767]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_3_a2.1_3_a2
+[2024.03.21-15.38.28:635][767]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_3_a2.1_3_a2
+[2024.03.21-15.38.28:636][767]LogActorFactory: Actor Factory spawned StaticMesh /Game/Maps/1_3_a2.1_3_a2 as actor: StaticMeshActor /Game/Maps/MainMap.MainMap:PersistentLevel.StaticMeshActor_21
+[2024.03.21-15.38.28:655][767]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_4_a1.1_4_a1
+[2024.03.21-15.38.28:655][767]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_4_a1.1_4_a1
+[2024.03.21-15.38.28:656][767]LogActorFactory: Actor Factory spawned StaticMesh /Game/Maps/1_4_a1.1_4_a1 as actor: StaticMeshActor /Game/Maps/MainMap.MainMap:PersistentLevel.StaticMeshActor_22
+[2024.03.21-15.38.28:677][767]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_5_a1.1_5_a1
+[2024.03.21-15.38.28:677][767]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_5_a1.1_5_a1
+[2024.03.21-15.38.28:678][767]LogActorFactory: Actor Factory spawned StaticMesh /Game/Maps/1_5_a1.1_5_a1 as actor: StaticMeshActor /Game/Maps/MainMap.MainMap:PersistentLevel.StaticMeshActor_23
+[2024.03.21-15.38.28:698][767]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_6_a1.1_6_a1
+[2024.03.21-15.38.28:698][767]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Maps/1_6_a1.1_6_a1
+[2024.03.21-15.38.28:699][767]LogActorFactory: Actor Factory spawned StaticMesh /Game/Maps/1_6_a1.1_6_a1 as actor: StaticMeshActor /Game/Maps/MainMap.MainMap:PersistentLevel.StaticMeshActor_24
+[2024.03.21-15.38.28:849][767]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.28:850][767]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.28:850][767]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.28:851][767]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.28:852][767]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.28:852][767]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.28:883][768]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.38.43:834][917]Cmd: SELECT NONE
+[2024.03.21-15.38.44:366][941]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.21-15.38.44:421][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap" FILE="../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.21-15.38.44:432][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.03.21-15.38.44:653][941]LogSavePackage: Moving output files for package: /Game/Maps/MainMap
+[2024.03.21-15.38.44:655][941]LogSavePackage: Moving '../../../../../../temp/CaelumProject/CaelumProject/Saved/MainMapB04BE1094F5C6D08FA456B87C34F3746.tmp' to '../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/MainMap.umap'
+[2024.03.21-15.38.44:670][941]LogFileHelpers: Saving map 'MainMap' took 0.249
+[2024.03.21-15.38.44:678][941]LogFileHelpers: InternalPromptForCheckoutAndSave took 312 ms (total: 1.13 sec)
+[2024.03.21-15.38.44:682][941]AssetCheck: New page: Asset Save: MainMap
+[2024.03.21-15.38.44:682][941]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MainMap.MainMap
+[2024.03.21-15.38.46:685][119]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Maps/1_0_a2.1_0_a2
+[2024.03.21-15.38.46:768][119]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.21-15.38.46:769][119]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.21-15.38.47:147][119]LogViewport: Scene viewport resized to 910x538, mode Windowed.
+[2024.03.21-15.38.47:244][120]LogShaderCompilers: Display: ================================================
+[2024.03.21-15.38.47:245][120]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.21-15.38.47:245][120]LogShaderCompilers: Display: Total job queries 52, among them cache hits 5 (9.62%)
+[2024.03.21-15.38.47:245][120]LogShaderCompilers: Display: Tracking 47 distinct input hashes that result in 27 distinct outputs (57.45%)
+[2024.03.21-15.38.47:245][120]LogShaderCompilers: Display: RAM used: 879.08 KiB of 1.60 GiB budget. Usage: 0.05%
+[2024.03.21-15.38.47:245][120]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.21-15.38.47:245][120]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.03.21-15.38.47:245][120]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2024.03.21-15.38.47:245][120]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.03.21-15.38.47:245][120]LogShaderCompilers: Display: ================================================
+[2024.03.21-15.39.07:634][944]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.21-15.39.07:784][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/1_0_a2" FILE="../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/1_0_a2.uasset" SILENT=true
+[2024.03.21-15.39.07:804][944]LogSavePackage: Moving output files for package: /Game/Maps/1_0_a2
+[2024.03.21-15.39.07:808][944]LogSavePackage: Moving '../../../../../../temp/CaelumProject/CaelumProject/Saved/1_0_a2D6CCAD124D4F8AB73A0797A3B6CAB9F7.tmp' to '../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/1_0_a2.uasset'
+[2024.03.21-15.39.07:825][944]LogFileHelpers: InternalPromptForCheckoutAndSave took 191 ms (total: 1.32 sec)
+[2024.03.21-15.39.07:832][944]AssetCheck: New page: Asset Save: 1_0_a2
+[2024.03.21-15.39.07:832][944]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Maps/1_0_a2.1_0_a2
+[2024.03.21-15.39.08:649][ 21]LogSlate: Window '1_0_a2' being destroyed
+[2024.03.21-15.39.08:657][ 21]LogSlate: Window '1_0_a2' being destroyed
+[2024.03.21-15.39.08:707][ 21]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.03.21-15.39.08:707][ 21]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.21-15.39.12:529][231]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.21-15.39.12:539][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.21-15.39.12:540][231]PIE: New page: PIE session: MainMap (21 Mar 2024, 15:39:12)
+[2024.03.21-15.39.12:544][231]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.03.21-15.39.12:544][231]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2024.03.21-15.39.12:544][231]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2024.03.21-15.39.12:743][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.199242s)
+[2024.03.21-15.39.12:743][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.199301s)
+[2024.03.21-15.39.12:743][231]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.21-15.39.12:743][231]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.21-15.39.12:744][231]LogAIModule: Creating AISystem for world MainMap
+[2024.03.21-15.39.12:744][231]LogPlayLevel: PIE: World Init took: (0.001473s)
+[2024.03.21-15.39.12:756][231]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.03.21-15.39.12:758][231]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.03.21-15.39.12:758][231]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.21-15.39.12:758][231]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.21-15.39.12:758][231]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.21-15.39.12:758][231]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.21-15.39.12:758][231]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.21-15.39.12:759][231]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.21-15.39.12:759][231]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.21-15.39.12:759][231]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.21-15.39.12:759][231]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.21-15.39.12:759][231]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.21-15.39.12:760][231]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.21-15.39.12:762][231]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.21-15.39.12:800][231]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Synaptics HD Audio)
+[2024.03.21-15.39.12:800][231]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.21-15.39.12:800][231]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.21-15.39.12:800][231]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.21-15.39.12:801][231]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.03.21-15.39.12:801][231]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.03.21-15.39.12:804][231]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.03.21-15.39.12:804][231]LogInit: FAudioDevice initialized with ID 2.
+[2024.03.21-15.39.12:804][231]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.03.21-15.39.12:804][231]LogAudio: Display: Audio Device (ID: 2) registered with world 'MainMap'.
+[2024.03.21-15.39.12:804][231]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.03.21-15.39.12:807][231]LogLoad: Game class is 'MainGameMode_C'
+[2024.03.21-15.39.12:814][231]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2024.03.21-15.39.12
+[2024.03.21-15.39.12:814][231]LogWorld: Bringing up level for play took: 0.006981
+[2024.03.21-15.39.12:817][231]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2024.03.21-15.39.12:826][231]LogScript: Warning: Script Msg: The widget 'BleedScreen_C_0' was already added to the screen.
+[2024.03.21-15.39.12:826][231]LogScript: Warning: Script Msg called by: BP_MyMainCharacter_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.BP_MyMainCharacter_C_0
+[2024.03.21-15.39.12:826][231]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.03.21-15.39.12:826][231]PIE: Server logged in
+[2024.03.21-15.39.12:826][231]PIE: Play in editor total start time 0.288 seconds.
+[2024.03.21-15.39.12:845][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.12:845][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.12:846][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.12:846][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.12:847][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.12:847][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.12:848][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.12:850][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.17:412][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.21-15.39.17:412][606]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMap
+[2024.03.21-15.39.17:413][606]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.21-15.39.17:414][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.21-15.39.17:418][606]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.21-15.39.17:420][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.21-15.39.17:431][606]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.21-15.39.17:431][606]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.03.21-15.39.17:431][606]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.03.21-15.39.17:433][606]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.03.21-15.39.17:438][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.21-15.39.17:442][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.03.21-15.39.17:466][606]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.17:467][606]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.17:467][606]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.17:467][606]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.17:468][606]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.17:468][606]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.17:469][606]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.17:469][606]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.17:497][608]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2024.03.21-15.39.21:435][809]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.21:435][809]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.21:435][809]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.21:436][809]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.21:436][809]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.21:437][809]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.21:816][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.21:817][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.21:817][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.21:818][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.21:818][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.21:818][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.25:115][151]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.03.21-15.39.26:235][271]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.21-15.39.26:248][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.21-15.39.26:249][271]PIE: New page: PIE session: MainMap (21 Mar 2024, 15:39:26)
+[2024.03.21-15.39.26:249][271]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2024.03.21-15.39.26:448][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.199528s)
+[2024.03.21-15.39.26:448][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.199575s)
+[2024.03.21-15.39.26:448][271]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.21-15.39.26:448][271]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.21-15.39.26:449][271]LogAIModule: Creating AISystem for world MainMap
+[2024.03.21-15.39.26:450][271]LogPlayLevel: PIE: World Init took: (0.001532s)
+[2024.03.21-15.39.26:460][271]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.03.21-15.39.26:462][271]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.03.21-15.39.26:462][271]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.21-15.39.26:462][271]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.21-15.39.26:462][271]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.21-15.39.26:462][271]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.21-15.39.26:462][271]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.21-15.39.26:462][271]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.03.21-15.39.26:462][271]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.21-15.39.26:462][271]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.21-15.39.26:463][271]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.21-15.39.26:463][271]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.21-15.39.26:463][271]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.21-15.39.26:466][271]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.21-15.39.26:502][271]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Synaptics HD Audio)
+[2024.03.21-15.39.26:503][271]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.21-15.39.26:503][271]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.21-15.39.26:503][271]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.21-15.39.26:504][271]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.03.21-15.39.26:504][271]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.03.21-15.39.26:505][271]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.03.21-15.39.26:506][271]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.03.21-15.39.26:506][271]LogInit: FAudioDevice initialized with ID 3.
+[2024.03.21-15.39.26:506][271]LogAudio: Display: Audio Device (ID: 3) registered with world 'MainMap'.
+[2024.03.21-15.39.26:506][271]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.03.21-15.39.26:509][271]LogLoad: Game class is 'MainGameMode_C'
+[2024.03.21-15.39.26:517][271]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2024.03.21-15.39.26
+[2024.03.21-15.39.26:518][271]LogWorld: Bringing up level for play took: 0.008279
+[2024.03.21-15.39.26:520][271]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2024.03.21-15.39.26:524][271]LogScript: Warning: Script Msg: The widget 'BleedScreen_C_0' was already added to the screen.
+[2024.03.21-15.39.26:524][271]LogScript: Warning: Script Msg called by: BP_MyMainCharacter_C /Game/Maps/UEDPIE_0_MainMap.MainMap:PersistentLevel.BP_MyMainCharacter_C_0
+[2024.03.21-15.39.26:525][271]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.03.21-15.39.26:525][271]PIE: Server logged in
+[2024.03.21-15.39.26:525][271]PIE: Play in editor total start time 0.28 seconds.
+[2024.03.21-15.39.26:538][271]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.26:539][271]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.26:539][271]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.26:540][271]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.26:540][271]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.26:541][271]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.26:542][271]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.29:005][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.21-15.39.29:005][506]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMap
+[2024.03.21-15.39.29:005][506]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.21-15.39.29:010][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.21-15.39.29:021][506]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.21-15.39.29:029][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.21-15.39.29:060][506]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.21-15.39.29:060][506]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.03.21-15.39.29:060][506]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.03.21-15.39.29:063][506]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.03.21-15.39.29:071][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.21-15.39.29:075][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.03.21-15.39.29:105][506]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.29:106][506]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.29:106][506]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.29:107][506]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.29:108][506]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.29:108][506]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.29:109][506]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.39.29:124][507]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2024.03.21-15.39.32:637][699]Cmd: SELECT NONE
+[2024.03.21-15.39.33:162][722]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.21-15.39.33:206][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap" FILE="../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.21-15.39.33:216][722]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.03.21-15.39.33:437][722]LogSavePackage: Moving output files for package: /Game/Maps/MainMap
+[2024.03.21-15.39.33:439][722]LogSavePackage: Moving '../../../../../../temp/CaelumProject/CaelumProject/Saved/MainMap8DEFA2204321AEB4E506A59BD7EA2380.tmp' to '../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/MainMap.umap'
+[2024.03.21-15.39.33:454][722]LogFileHelpers: Saving map 'MainMap' took 0.249
+[2024.03.21-15.39.33:472][722]LogFileHelpers: InternalPromptForCheckoutAndSave took 310 ms (total: 1.63 sec)
+[2024.03.21-15.39.33:478][722]AssetCheck: New page: Asset Save: MainMap
+[2024.03.21-15.39.33:478][722]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MainMap.MainMap
+[2024.03.21-15.39.34:793][812]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Maps/1_1_a2.1_1_a2
+[2024.03.21-15.39.34:896][812]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.21-15.39.34:896][812]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.21-15.39.35:226][812]LogViewport: Scene viewport resized to 910x538, mode Windowed.
+[2024.03.21-15.39.46:751][737]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.21-15.39.46:836][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/1_1_a2" FILE="../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/1_1_a2.uasset" SILENT=true
+[2024.03.21-15.39.46:843][737]LogSavePackage: Moving output files for package: /Game/Maps/1_1_a2
+[2024.03.21-15.39.46:844][737]LogSavePackage: Moving '../../../../../../temp/CaelumProject/CaelumProject/Saved/1_1_a22FEB738B4226C471725145BEB06DE819.tmp' to '../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/1_1_a2.uasset'
+[2024.03.21-15.39.46:854][737]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 1.74 sec)
+[2024.03.21-15.39.46:862][737]AssetCheck: New page: Asset Save: 1_1_a2
+[2024.03.21-15.39.46:862][737]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Maps/1_1_a2.1_1_a2
+[2024.03.21-15.39.47:945][832]LogSlate: Window '1_1_a2' being destroyed
+[2024.03.21-15.39.47:961][832]LogSlate: Window '1_1_a2' being destroyed
+[2024.03.21-15.39.48:018][832]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.03.21-15.39.48:018][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.21-15.39.48:337][868]Cmd: SELECT NONE
+[2024.03.21-15.40.11:156][416]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Maps/1_2_a2.1_2_a2
+[2024.03.21-15.40.11:253][416]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.21-15.40.11:253][416]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.21-15.40.11:575][416]LogViewport: Scene viewport resized to 910x538, mode Windowed.
+[2024.03.21-15.40.25:671][553]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.21-15.40.25:772][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/1_2_a2" FILE="../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/1_2_a2.uasset" SILENT=true
+[2024.03.21-15.40.25:778][553]LogSavePackage: Moving output files for package: /Game/Maps/1_2_a2
+[2024.03.21-15.40.25:779][553]LogSavePackage: Moving '../../../../../../temp/CaelumProject/CaelumProject/Saved/1_2_a23467CFE54BE5332CCAD096A2E4B4CA64.tmp' to '../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/1_2_a2.uasset'
+[2024.03.21-15.40.25:788][553]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 1.85 sec)
+[2024.03.21-15.40.25:795][553]AssetCheck: New page: Asset Save: 1_2_a2
+[2024.03.21-15.40.25:795][553]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Maps/1_2_a2.1_2_a2
+[2024.03.21-15.40.26:687][632]LogSlate: Window '1_2_a2' being destroyed
+[2024.03.21-15.40.26:702][632]LogSlate: Window '1_2_a2' being destroyed
+[2024.03.21-15.40.26:750][632]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.03.21-15.40.26:750][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.21-15.40.27:579][692]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.21-15.40.27:639][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap" FILE="../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.21-15.40.27:650][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.03.21-15.40.27:870][692]LogSavePackage: Moving output files for package: /Game/Maps/MainMap
+[2024.03.21-15.40.27:872][692]LogSavePackage: Moving '../../../../../../temp/CaelumProject/CaelumProject/Saved/MainMapD64C892D4CED045669FC15908C31EA79.tmp' to '../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/MainMap.umap'
+[2024.03.21-15.40.27:886][692]LogFileHelpers: Saving map 'MainMap' took 0.247
+[2024.03.21-15.40.27:899][692]LogFileHelpers: InternalPromptForCheckoutAndSave took 319 ms (total: 2.17 sec)
+[2024.03.21-15.40.27:902][692]AssetCheck: New page: Asset Save: MainMap
+[2024.03.21-15.40.27:902][692]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MainMap.MainMap
+[2024.03.21-15.40.29:724][798]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Maps/1_3_a2.1_3_a2
+[2024.03.21-15.40.29:818][798]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.21-15.40.29:818][798]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.21-15.40.30:141][798]LogViewport: Scene viewport resized to 910x538, mode Windowed.
+[2024.03.21-15.40.41:677][723]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.21-15.40.41:787][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/1_3_a2" FILE="../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/1_3_a2.uasset" SILENT=true
+[2024.03.21-15.40.41:795][723]LogSavePackage: Moving output files for package: /Game/Maps/1_3_a2
+[2024.03.21-15.40.41:796][723]LogSavePackage: Moving '../../../../../../temp/CaelumProject/CaelumProject/Saved/1_3_a2B48C1A454BD682F63F43968DFD2B48A3.tmp' to '../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/1_3_a2.uasset'
+[2024.03.21-15.40.41:807][723]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 2.30 sec)
+[2024.03.21-15.40.41:814][723]AssetCheck: New page: Asset Save: 1_3_a2
+[2024.03.21-15.40.41:814][723]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Maps/1_3_a2.1_3_a2
+[2024.03.21-15.40.42:679][803]LogSlate: Window '1_3_a2' being destroyed
+[2024.03.21-15.40.42:691][803]LogSlate: Window '1_3_a2' being destroyed
+[2024.03.21-15.40.42:738][803]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.03.21-15.40.42:738][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.21-15.40.45:724][997]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Maps/1_4_a1.1_4_a1
+[2024.03.21-15.40.45:826][997]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.21-15.40.45:826][997]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.21-15.40.46:146][997]LogViewport: Scene viewport resized to 910x538, mode Windowed.
+[2024.03.21-15.40.56:723][858]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.21-15.40.56:803][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/1_4_a1" FILE="../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/1_4_a1.uasset" SILENT=true
+[2024.03.21-15.40.56:810][858]LogSavePackage: Moving output files for package: /Game/Maps/1_4_a1
+[2024.03.21-15.40.56:811][858]LogSavePackage: Moving '../../../../../../temp/CaelumProject/CaelumProject/Saved/1_4_a1F5C72EF448FAB5E5E1F80393CD966B88.tmp' to '../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/1_4_a1.uasset'
+[2024.03.21-15.40.56:820][858]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 2.40 sec)
+[2024.03.21-15.40.56:828][858]AssetCheck: New page: Asset Save: 1_4_a1
+[2024.03.21-15.40.56:828][858]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Maps/1_4_a1.1_4_a1
+[2024.03.21-15.40.57:947][957]LogSlate: Window '1_4_a1' being destroyed
+[2024.03.21-15.40.57:962][957]LogSlate: Window '1_4_a1' being destroyed
+[2024.03.21-15.40.58:015][957]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.03.21-15.40.58:015][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.21-15.41.00:146][191]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Maps/1_5_a1.1_5_a1
+[2024.03.21-15.41.00:242][191]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.21-15.41.00:242][191]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.21-15.41.00:560][191]LogViewport: Scene viewport resized to 910x538, mode Windowed.
+[2024.03.21-15.41.11:613][112]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.21-15.41.11:724][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/1_5_a1" FILE="../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/1_5_a1.uasset" SILENT=true
+[2024.03.21-15.41.11:732][112]LogSavePackage: Moving output files for package: /Game/Maps/1_5_a1
+[2024.03.21-15.41.11:733][112]LogSavePackage: Moving '../../../../../../temp/CaelumProject/CaelumProject/Saved/1_5_a19943019146FB5B1ACD7DD28D98FBA9CB.tmp' to '../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/1_5_a1.uasset'
+[2024.03.21-15.41.11:743][112]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 2.53 sec)
+[2024.03.21-15.41.11:750][112]AssetCheck: New page: Asset Save: 1_5_a1
+[2024.03.21-15.41.11:750][112]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Maps/1_5_a1.1_5_a1
+[2024.03.21-15.41.12:463][174]LogSlate: Window '1_5_a1' being destroyed
+[2024.03.21-15.41.12:475][174]LogSlate: Window '1_5_a1' being destroyed
+[2024.03.21-15.41.12:522][174]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.03.21-15.41.12:522][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.21-15.41.14:211][356]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Maps/1_6_a1.1_6_a1
+[2024.03.21-15.41.14:312][356]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.21-15.41.14:312][356]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.21-15.41.14:633][356]LogViewport: Scene viewport resized to 910x538, mode Windowed.
+[2024.03.21-15.41.24:474][163]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.21-15.41.24:609][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/1_6_a1" FILE="../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/1_6_a1.uasset" SILENT=true
+[2024.03.21-15.41.24:617][163]LogSavePackage: Moving output files for package: /Game/Maps/1_6_a1
+[2024.03.21-15.41.24:618][163]LogSavePackage: Moving '../../../../../../temp/CaelumProject/CaelumProject/Saved/1_6_a1739252224E9D35A98A619A8932ACD0F3.tmp' to '../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/1_6_a1.uasset'
+[2024.03.21-15.41.24:627][163]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 2.68 sec)
+[2024.03.21-15.41.24:634][163]AssetCheck: New page: Asset Save: 1_6_a1
+[2024.03.21-15.41.24:634][163]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Maps/1_6_a1.1_6_a1
+[2024.03.21-15.41.25:338][227]LogSlate: Window '1_6_a1' being destroyed
+[2024.03.21-15.41.25:349][227]LogSlate: Window '1_6_a1' being destroyed
+[2024.03.21-15.41.25:393][227]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.03.21-15.41.25:394][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.21-15.41.32:349][571]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.32:349][571]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.32:350][571]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.32:350][571]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.32:351][571]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.32:351][571]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.33:007][635]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.33:008][635]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.33:008][635]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.33:009][635]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.33:009][635]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.33:009][635]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.38:922][945]Cmd: EDIT COPY
+[2024.03.21-15.41.39:267][973]Cmd: EDIT PASTE
+[2024.03.21-15.41.39:340][973]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.39:341][973]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.39:341][973]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.39:342][973]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.39:342][973]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.39:343][973]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.41.39:344][973]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.13:324][500]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.13:324][500]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.13:325][500]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.13:326][500]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.13:326][500]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.13:327][500]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.15:485][739]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.03.21-15.42.16:567][854]Cmd: SELECT NONE
+[2024.03.21-15.42.16:957][890]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.16:957][890]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.16:958][890]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.16:958][890]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.16:959][890]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.16:959][890]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.19:066][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.19:066][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.19:067][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.19:067][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.19:068][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.19:068][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.20:159][207]LogShaderCompilers: Display: ================================================
+[2024.03.21-15.42.20:159][207]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.21-15.42.20:159][207]LogShaderCompilers: Display: Total job queries 78, among them cache hits 11 (14.10%)
+[2024.03.21-15.42.20:159][207]LogShaderCompilers: Display: Tracking 67 distinct input hashes that result in 40 distinct outputs (59.70%)
+[2024.03.21-15.42.20:159][207]LogShaderCompilers: Display: RAM used: 1.24 MiB of 1.60 GiB budget. Usage: 0.08%
+[2024.03.21-15.42.20:159][207]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.21-15.42.20:159][207]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.03.21-15.42.20:159][207]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2024.03.21-15.42.20:159][207]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.03.21-15.42.20:159][207]LogShaderCompilers: Display: ================================================
+[2024.03.21-15.42.27:638][854]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.03.21-15.42.28:005][892]Cmd: SELECT NONE
+[2024.03.21-15.42.28:195][908]Cmd: SELECT NONE
+[2024.03.21-15.42.29:276][ 19]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.29:277][ 19]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.29:277][ 19]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.29:278][ 19]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.29:278][ 19]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.29:279][ 19]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.31:543][132]Cmd: EDIT COPY
+[2024.03.21-15.42.31:816][160]Cmd: EDIT PASTE
+[2024.03.21-15.42.31:886][160]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.31:887][160]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.31:887][160]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.31:888][160]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.31:888][160]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.31:889][160]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.31:890][160]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.52:388][423]Cmd: EDIT COPY
+[2024.03.21-15.42.52:693][456]Cmd: EDIT PASTE
+[2024.03.21-15.42.52:772][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.52:772][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.52:773][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.52:774][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.52:774][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.52:774][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.42.52:775][456]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.00:918][954]Cmd: EDIT COPY
+[2024.03.21-15.43.01:189][981]Cmd: EDIT PASTE
+[2024.03.21-15.43.01:280][981]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.01:281][981]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.01:281][981]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.01:282][981]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.01:282][981]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.01:283][981]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.01:284][981]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.09:766][756]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.21-15.43.09:833][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap" FILE="../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.21-15.43.09:847][756]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.03.21-15.43.10:071][756]LogSavePackage: Moving output files for package: /Game/Maps/MainMap
+[2024.03.21-15.43.10:072][756]LogSavePackage: Moving '../../../../../../temp/CaelumProject/CaelumProject/Saved/MainMapA11060E2471F79238B81B7AF21FFDD57.tmp' to '../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/MainMap.umap'
+[2024.03.21-15.43.10:088][756]LogFileHelpers: Saving map 'MainMap' took 0.255
+[2024.03.21-15.43.10:101][756]LogFileHelpers: InternalPromptForCheckoutAndSave took 334 ms (total: 3.02 sec)
+[2024.03.21-15.43.10:109][756]AssetCheck: New page: Asset Save: MainMap
+[2024.03.21-15.43.10:109][756]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MainMap.MainMap
+[2024.03.21-15.43.11:123][803]Cmd: EDIT COPY
+[2024.03.21-15.43.11:381][830]Cmd: EDIT PASTE
+[2024.03.21-15.43.11:452][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.11:453][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.11:454][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.11:454][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.11:455][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.11:455][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.11:456][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.19:174][361]Cmd: EDIT COPY
+[2024.03.21-15.43.19:437][389]Cmd: EDIT PASTE
+[2024.03.21-15.43.19:509][389]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.19:510][389]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.19:511][389]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.19:511][389]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.19:512][389]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.19:513][389]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.19:514][389]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.21:230][542]Cmd: EDIT COPY
+[2024.03.21-15.43.21:468][570]Cmd: EDIT PASTE
+[2024.03.21-15.43.21:518][570]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.21:519][570]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.21:519][570]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.21:520][570]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.21:520][570]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.21:521][570]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.21:522][570]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.33:003][243]Cmd: EDIT COPY
+[2024.03.21-15.43.33:273][268]Cmd: EDIT PASTE
+[2024.03.21-15.43.33:345][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.33:346][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.33:346][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.33:347][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.33:347][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.33:348][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.33:349][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.34:356][359]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.34:357][359]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.34:357][359]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.34:358][359]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.34:358][359]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.34:359][359]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.34:815][395]Cmd: TRANSACTION UNDO
+[2024.03.21-15.43.34:816][395]LogEditorTransaction: Undo Marquee Select
+[2024.03.21-15.43.34:916][395]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.34:916][395]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.34:917][395]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.34:918][395]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.34:918][395]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.34:919][395]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.34:920][395]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.38:407][681]Cmd: EDIT COPY
+[2024.03.21-15.43.38:666][709]Cmd: EDIT PASTE
+[2024.03.21-15.43.38:725][709]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.38:726][709]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.38:727][709]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.38:727][709]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.38:728][709]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.38:729][709]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.38:730][709]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.39:978][820]Cmd: EDIT COPY
+[2024.03.21-15.43.40:210][847]Cmd: EDIT PASTE
+[2024.03.21-15.43.40:260][847]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.40:261][847]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.40:261][847]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.40:262][847]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.40:262][847]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.40:263][847]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.40:264][847]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.49:870][458]Cmd: EDIT COPY
+[2024.03.21-15.43.50:102][480]Cmd: EDIT PASTE
+[2024.03.21-15.43.50:197][480]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.50:198][480]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.50:199][480]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.50:200][480]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.50:200][480]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.50:201][480]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.43.50:203][480]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.00:317][ 83]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.00:318][ 83]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.00:318][ 83]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.00:319][ 83]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.00:320][ 83]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.00:320][ 83]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.02:160][230]Cmd: EDIT COPY
+[2024.03.21-15.44.02:393][254]Cmd: EDIT PASTE
+[2024.03.21-15.44.02:483][254]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.02:483][254]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.02:484][254]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.02:485][254]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.02:485][254]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.02:486][254]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.02:487][254]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.14:155][942]Cmd: EDIT COPY
+[2024.03.21-15.44.14:378][964]Cmd: EDIT PASTE
+[2024.03.21-15.44.14:465][964]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.14:466][964]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.14:466][964]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.14:467][964]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.14:467][964]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.14:468][964]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.14:469][964]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.19:853][321]Cmd: EDIT COPY
+[2024.03.21-15.44.20:143][352]Cmd: EDIT PASTE
+[2024.03.21-15.44.20:215][352]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.20:216][352]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.20:216][352]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.20:217][352]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.20:217][352]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.20:218][352]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.20:218][352]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.28:396][815]Cmd: EDIT COPY
+[2024.03.21-15.44.28:787][858]Cmd: EDIT PASTE
+[2024.03.21-15.44.28:864][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.28:865][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.28:866][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.28:867][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.28:867][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.28:868][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.28:869][858]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.42:148][700]Cmd: EDIT COPY
+[2024.03.21-15.44.42:148][700]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'EDIT'. 
+[2024.03.21-15.44.42:362][722]Cmd: EDIT PASTE
+[2024.03.21-15.44.42:436][722]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.42:437][722]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.42:438][722]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.42:438][722]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.42:439][722]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.42:439][722]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.42:441][722]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.46:907][146]Cmd: EDIT COPY
+[2024.03.21-15.44.47:145][172]Cmd: EDIT PASTE
+[2024.03.21-15.44.47:208][172]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.47:208][172]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.47:209][172]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.47:209][172]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.47:210][172]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.47:210][172]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.47:211][172]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.50:361][465]Cmd: EDIT COPY
+[2024.03.21-15.44.50:550][486]Cmd: EDIT PASTE
+[2024.03.21-15.44.50:600][486]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.50:600][486]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.50:601][486]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.50:601][486]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.50:602][486]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.50:602][486]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.50:603][486]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.57:957][931]Cmd: EDIT COPY
+[2024.03.21-15.44.58:155][951]Cmd: EDIT PASTE
+[2024.03.21-15.44.58:231][951]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.58:232][951]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.58:232][951]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.58:233][951]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.58:234][951]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.58:234][951]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.44.58:235][951]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.03.21-15.46.37:270][323]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.21-15.46.37:360][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap" FILE="../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.21-15.46.37:372][323]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.03.21-15.46.37:609][323]LogSavePackage: Moving output files for package: /Game/Maps/MainMap
+[2024.03.21-15.46.37:610][323]LogSavePackage: Moving '../../../../../../temp/CaelumProject/CaelumProject/Saved/MainMapE38230D041D3BF18EF601B9243BC5666.tmp' to '../../../../../../temp/CaelumProject/CaelumProject/Content/Maps/MainMap.umap'
+[2024.03.21-15.46.37:626][323]LogFileHelpers: Saving map 'MainMap' took 0.267
+[2024.03.21-15.46.37:636][323]LogFileHelpers: InternalPromptForCheckoutAndSave took 366 ms (total: 3.38 sec)
+[2024.03.21-15.46.37:645][323]AssetCheck: New page: Asset Save: MainMap
+[2024.03.21-15.46.37:645][323]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MainMap.MainMap
