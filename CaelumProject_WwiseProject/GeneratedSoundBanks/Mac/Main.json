@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}",
     "Language": "SFX",
-    "Hash": "{520F24F9-9BAE-6FBB-B69D-615116973165}",
+    "Hash": "{98278F37-402F-2A0D-4D8D-841FFE42DD21}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -54,6 +54,14 @@
       "Location": "Memory",
       "ShortName": "footstep_metal-006.wav",
       "CachePath": "SFX/footstep_metal-006_10C4C929.wem"
+     },
+     {
+      "Id": "104920231",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "parasite_alert.wav",
+      "CachePath": "SFX/parasite_alert_10C4C929.wem"
      },
      {
       "Id": "146505309",
@@ -134,14 +142,6 @@
       "Location": "Memory",
       "ShortName": "footstep_wood-002.wav",
       "CachePath": "SFX/footstep_wood-002_10C4C929.wem"
-     },
-     {
-      "Id": "312883241",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "player_hurt.wav",
-      "CachePath": "SFX/player_hurt_10C4C929.wem"
      },
      {
       "Id": "337524377",
@@ -229,7 +229,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "ambient_titleUI-001.wav",
-      "CachePath": "SFX/ambient_titleUI-001_48687207.wem"
+      "CachePath": "SFX/ambient_titleUI-001_9049439D.wem"
      },
      {
       "Id": "537400859",
@@ -254,6 +254,22 @@
       "Location": "Memory",
       "ShortName": "footstep_metalHeavy-006.wav",
       "CachePath": "SFX/footstep_metalHeavy-006_10C4C929.wem"
+     },
+     {
+      "Id": "598698959",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "parasite_idle-002.wav",
+      "CachePath": "SFX/parasite_idle-002_10C4C929.wem"
+     },
+     {
+      "Id": "650368239",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "parasite_idle-003.wav",
+      "CachePath": "SFX/parasite_idle-003_10C4C929.wem"
      },
      {
       "Id": "659543719",
@@ -328,6 +344,14 @@
       "CachePath": "SFX/footstep_metalHeavy-008_10C4C929.wem"
      },
      {
+      "Id": "834242732",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "parasite_idle-005.wav",
+      "CachePath": "SFX/parasite_idle-005_10C4C929.wem"
+     },
+     {
       "Id": "844272973",
       "Language": "SFX",
       "Streaming": "false",
@@ -392,6 +416,30 @@
       "CachePath": "SFX/jump_metalUp_10C4C929.wem"
      },
      {
+      "Id": "926892948",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "parasite_idle-001.wav",
+      "CachePath": "SFX/parasite_idle-001_10C4C929.wem"
+     },
+     {
+      "Id": "957580969",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "parasite_idle-004.wav",
+      "CachePath": "SFX/parasite_idle-004_10C4C929.wem"
+     },
+     {
+      "Id": "1010906593",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_alarm-withVoice.wav",
+      "CachePath": "SFX/env_alarm-withVoice_A92C46E6.wem"
+     },
+     {
       "Id": "1011356779",
       "Language": "SFX",
       "Streaming": "false",
@@ -426,6 +474,33 @@
     ],
     "Events": [
      {
+      "Id": "855317084",
+      "Name": "Alarm",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Alarm",
+      "GUID": "{F97E8888-EBD0-45A4-9B8C-92EC919E77BC}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1010906593"
+       }
+      ]
+     },
+     {
+      "Id": "721787521",
+      "Name": "Alert",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Walker\\Alert",
+      "GUID": "{BB936426-A5CE-471D-A13E-0B236F54109E}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0798959",
+      "DurationMax": "1.0798959",
+      "MediaRefs": [
+       {
+        "Id": "104920231"
+       }
+      ]
+     },
+     {
       "Id": "3878475591",
       "Name": "AmbientTrain",
       "ObjectPath": "\\Events\\Default Work Unit\\Train\\AmbientTrain",
@@ -457,8 +532,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Death",
       "GUID": "{2AAA8F1F-51DD-4A37-8845-1BD53CC746E2}",
       "DurationType": "OneShot",
-      "DurationMin": "2.9584167",
-      "DurationMax": "2.9584167",
+      "DurationMin": "1.7835625",
+      "DurationMax": "1.7835625",
       "MediaRefs": [
        {
         "Id": "844272973"
@@ -695,17 +770,39 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Hurt",
       "GUID": "{0B1128B2-1271-4EA5-A3AE-B959EC5E055C}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5524376",
-      "DurationMax": "1.0049938",
+      "DurationMin": "0.4863178",
+      "DurationMax": "0.64937466",
       "MediaRefs": [
-       {
-        "Id": "312883241"
-       },
        {
         "Id": "537400859"
        },
        {
         "Id": "717433756"
+       }
+      ]
+     },
+     {
+      "Id": "1874288895",
+      "Name": "Idle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Walker\\Idle",
+      "GUID": "{15B9FC94-F11D-4E47-B3B7-8A796E0A51D7}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "598698959"
+       },
+       {
+        "Id": "650368239"
+       },
+       {
+        "Id": "834242732"
+       },
+       {
+        "Id": "926892948"
+       },
+       {
+        "Id": "957580969"
        }
       ]
      },
@@ -981,9 +1078,45 @@
         "Id": "479373908"
        }
       ]
+     },
+     {
+      "Id": "979865097",
+      "Name": "titleAmbienceStop",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\titleAmbienceStop",
+      "GUID": "{923478F5-2C40-4EEB-B598-9B93C948C5B4}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "SwitchGroups": [
+     {
+      "Id": "1865569098",
+      "Name": "EnemyState",
+      "ObjectPath": "\\Switches\\Default Work Unit\\EnemyState",
+      "GUID": "{5B635E0C-278F-4ABC-B313-D6A4F68EF7C2}",
+      "Switches": [
+       {
+        "Id": "721787521",
+        "Name": "Alert",
+        "ObjectPath": "\\Switches\\Default Work Unit\\EnemyState\\Alert",
+        "GUID": "{38B33161-F391-43AC-87C4-2DB73526EAD2}"
+       },
+       {
+        "Id": "1874288895",
+        "Name": "Idle",
+        "ObjectPath": "\\Switches\\Default Work Unit\\EnemyState\\Idle",
+        "GUID": "{AA196B92-68E2-4F3A-B570-ABA835D40646}"
+       },
+       {
+        "Id": "3193947170",
+        "Name": "Hurt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\EnemyState\\Hurt",
+        "GUID": "{9F75790B-7D75-433D-8B91-8E03235BBD01}"
+       }
+      ]
+     },
      {
       "Id": "2018623641",
       "Name": "Weight",
@@ -1027,6 +1160,6 @@
     ]
    }
   ],
-  "FileHash": "{F0D2A5FA-B027-FCEA-487D-9D44364E99EC}"
+  "FileHash": "{848F07FA-3AE7-84A1-6257-CD6B55DBF8D5}"
  }
 }

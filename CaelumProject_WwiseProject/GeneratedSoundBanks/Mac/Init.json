@@ -44,6 +44,32 @@
     ],
     "SwitchGroups": [
      {
+      "Id": "1865569098",
+      "Name": "EnemyState",
+      "ObjectPath": "\\Switches\\Default Work Unit\\EnemyState",
+      "GUID": "{5B635E0C-278F-4ABC-B313-D6A4F68EF7C2}",
+      "Switches": [
+       {
+        "Id": "721787521",
+        "Name": "Alert",
+        "ObjectPath": "\\Switches\\Default Work Unit\\EnemyState\\Alert",
+        "GUID": "{38B33161-F391-43AC-87C4-2DB73526EAD2}"
+       },
+       {
+        "Id": "1874288895",
+        "Name": "Idle",
+        "ObjectPath": "\\Switches\\Default Work Unit\\EnemyState\\Idle",
+        "GUID": "{AA196B92-68E2-4F3A-B570-ABA835D40646}"
+       },
+       {
+        "Id": "3193947170",
+        "Name": "Hurt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\EnemyState\\Hurt",
+        "GUID": "{9F75790B-7D75-433D-8B91-8E03235BBD01}"
+       }
+      ]
+     },
+     {
       "Id": "2018623641",
       "Name": "Weight",
       "ObjectPath": "\\Switches\\Default Work Unit\\Weight",
@@ -86,6 +112,6 @@
     ]
    }
   ],
-  "FileHash": "{40328FA7-BFC3-D215-C688-222D1D991C27}"
+  "FileHash": "{E1BB4D25-E388-9885-E0CF-7D0E7F1DCDD0}"
  }
 }

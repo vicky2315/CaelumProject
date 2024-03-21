@@ -15,6 +15,13 @@
 						<Switch Name="Light" ID="{457FF9A0-4C7C-4D8A-ACBB-033B4791D22E}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="EnemyState" ID="{5B635E0C-278F-4ABC-B313-D6A4F68EF7C2}">
+					<ChildrenList>
+						<Switch Name="Idle" ID="{AA196B92-68E2-4F3A-B570-ABA835D40646}"/>
+						<Switch Name="Alert" ID="{38B33161-F391-43AC-87C4-2DB73526EAD2}"/>
+						<Switch Name="Hurt" ID="{9F75790B-7D75-433D-8B91-8E03235BBD01}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

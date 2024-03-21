@@ -181,6 +181,65 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="titleAmbienceStop" ID="{923478F5-2C40-4EEB-B598-9B93C948C5B4}">
+							<ChildrenList>
+								<Action Name="" ID="{7D989709-4C9B-457B-9F5A-0EC1EE148469}" ShortID="507661224">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ambient_titleUI" ID="{D6F13B7D-C6EE-4788-AEDF-98D89CB4693A}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Environment" ID="{7A7B0056-B01C-4460-821B-620A1BEEC23B}" ShortID="947343233">
+					<ChildrenList>
+						<Event Name="Alarm" ID="{F97E8888-EBD0-45A4-9B8C-92EC919E77BC}">
+							<ChildrenList>
+								<Action Name="" ID="{73FB7A7F-07B9-4D0A-A8DC-04F7059AC1C0}" ShortID="412176908">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="env_alarm-withVoice" ID="{526BA45F-1034-4CF8-B2C5-C0B0450DD56D}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Enemy" ID="{B6485643-5B75-499A-9F40-C1F48CD7ED2C}" ShortID="111744962">
+					<ChildrenList>
+						<Folder Name="Walker" ID="{2D2E47F0-7A89-43A0-AA2D-76A7D6571FEC}" ShortID="191195312">
+							<ChildrenList>
+								<Event Name="Alert" ID="{BB936426-A5CE-471D-A13E-0B236F54109E}">
+									<ChildrenList>
+										<Action Name="" ID="{3D4C1794-3F29-4DB8-B5F1-5C36B3CD76DF}" ShortID="670305305">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="walker_alert" ID="{32277619-46AF-4467-9D79-E04FBBBC53E3}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Idle" ID="{15B9FC94-F11D-4E47-B3B7-8A796E0A51D7}">
+									<ChildrenList>
+										<Action Name="" ID="{FE33A67D-83BC-4804-82E9-B4183B258F81}" ShortID="203513861">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="walker_idle" ID="{1E940ECD-4AD5-4A8C-83D0-58E2BBBCDECD}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

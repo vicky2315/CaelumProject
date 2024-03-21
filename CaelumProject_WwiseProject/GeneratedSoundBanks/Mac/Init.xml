@@ -15,6 +15,13 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 			<SwitchGroups>
+				<SwitchGroup Id="1865569098" Name="EnemyState" ObjectPath="\Switches\Default Work Unit\EnemyState" GUID="{5B635E0C-278F-4ABC-B313-D6A4F68EF7C2}">
+					<Switches>
+						<Switch Id="721787521" Name="Alert" ObjectPath="\Switches\Default Work Unit\EnemyState\Alert" GUID="{38B33161-F391-43AC-87C4-2DB73526EAD2}"/>
+						<Switch Id="1874288895" Name="Idle" ObjectPath="\Switches\Default Work Unit\EnemyState\Idle" GUID="{AA196B92-68E2-4F3A-B570-ABA835D40646}"/>
+						<Switch Id="3193947170" Name="Hurt" ObjectPath="\Switches\Default Work Unit\EnemyState\Hurt" GUID="{9F75790B-7D75-433D-8B91-8E03235BBD01}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="2018623641" Name="Weight" ObjectPath="\Switches\Default Work Unit\Weight" GUID="{8E81D023-FA55-4A65-B550-A9F1C54031F0}">
 					<Switches>
 						<Switch Id="1935470627" Name="Light" ObjectPath="\Switches\Default Work Unit\Weight\Light" GUID="{457FF9A0-4C7C-4D8A-ACBB-033B4791D22E}"/>
@@ -30,5 +37,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EA0B470C-EA2E-0215-2AAD-83C1152DE486}</FileHash>
+	<FileHash>{CA235598-1AD8-18AC-EBCB-E135B6C05719}</FileHash>
 </SoundBanksInfo>
