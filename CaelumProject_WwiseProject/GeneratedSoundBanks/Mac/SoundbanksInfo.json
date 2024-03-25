@@ -98,22 +98,42 @@
       ]
      },
      {
-      "Id": "3865314626",
-      "Name": "Material",
-      "ObjectPath": "\\Switches\\Default Work Unit\\Material",
+      "Id": "3287431056",
+      "Name": "FootstepMaterial",
+      "ObjectPath": "\\Switches\\Default Work Unit\\FootstepMaterial",
       "GUID": "{3CA8A0BB-8016-407F-A161-700DE304E981}",
       "Switches": [
        {
         "Id": "2058049674",
         "Name": "Wood",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepMaterial\\Wood",
         "GUID": "{B74302D5-DF94-434F-A83F-2616071BE754}"
        },
        {
         "Id": "2473969246",
         "Name": "Metal",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepMaterial\\Metal",
         "GUID": "{06C05011-8DA7-4494-8944-277B58A6C2EC}"
+       }
+      ]
+     },
+     {
+      "Id": "3580780794",
+      "Name": "BulletMaterial",
+      "ObjectPath": "\\Switches\\Default Work Unit\\BulletMaterial",
+      "GUID": "{E0C67A68-5CBF-4ECB-AD88-7CCF048E33A6}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BulletMaterial\\Wood",
+        "GUID": "{08481912-F01C-4B75-88C5-9CAFFA9578CC}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BulletMaterial\\Metal",
+        "GUID": "{56B5FC07-35C1-44AA-8A2E-DE2E355C5968}"
        }
       ]
      }
@@ -124,7 +144,7 @@
     "Type": "User",
     "GUID": "{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}",
     "Language": "SFX",
-    "Hash": "{FB7A3303-C5E8-4E50-2871-4379E0599AEB}",
+    "Hash": "{F6FD5D5C-AA5F-6558-F940-4ACCB8A7790C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -178,6 +198,14 @@
       "CachePath": "SFX/parasite_alert_10C4C929.wem"
      },
      {
+      "Id": "113330765",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_bulletImpact_wood-002.wav",
+      "CachePath": "SFX/env_bulletImpact_wood-002_10C4C929.wem"
+     },
+     {
       "Id": "146505309",
       "Language": "SFX",
       "Streaming": "false",
@@ -200,6 +228,14 @@
       "Location": "Memory",
       "ShortName": "jump_woodUp.wav",
       "CachePath": "SFX/jump_woodUp_10C4C929.wem"
+     },
+     {
+      "Id": "182765028",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_bulletImpact_metal-004.wav",
+      "CachePath": "SFX/env_bulletImpact_metal-004_10C4C929.wem"
      },
      {
       "Id": "188077103",
@@ -226,6 +262,14 @@
       "CachePath": "SFX/footstep_metalHeavy-003_10C4C929.wem"
      },
      {
+      "Id": "214768809",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_bulletImpact_metal-005.wav",
+      "CachePath": "SFX/env_bulletImpact_metal-005_10C4C929.wem"
+     },
+     {
       "Id": "241466283",
       "Language": "SFX",
       "Streaming": "false",
@@ -242,6 +286,14 @@
       "CachePath": "SFX/footstep_woodHeavy-002_10C4C929.wem"
      },
      {
+      "Id": "253501304",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_bulletImpact_metal-001.wav",
+      "CachePath": "SFX/env_bulletImpact_metal-001_10C4C929.wem"
+     },
+     {
       "Id": "291941750",
       "Language": "SFX",
       "Streaming": "false",
@@ -256,6 +308,14 @@
       "Location": "Memory",
       "ShortName": "footstep_wood-002.wav",
       "CachePath": "SFX/footstep_wood-002_10C4C929.wem"
+     },
+     {
+      "Id": "319249551",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_bulletImpact_wood-001.wav",
+      "CachePath": "SFX/env_bulletImpact_wood-001_10C4C929.wem"
      },
      {
       "Id": "337524377",
@@ -298,6 +358,14 @@
       "CachePath": "SFX/footstep_wood-001_10C4C929.wem"
      },
      {
+      "Id": "388006377",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_bulletImpact_wood-003.wav",
+      "CachePath": "SFX/env_bulletImpact_wood-003_10C4C929.wem"
+     },
+     {
       "Id": "389159809",
       "Language": "SFX",
       "Streaming": "false",
@@ -312,6 +380,14 @@
       "Location": "Memory",
       "ShortName": "footstep_wood-006.wav",
       "CachePath": "SFX/footstep_wood-006_10C4C929.wem"
+     },
+     {
+      "Id": "424933288",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_bulletImpact_metal-002.wav",
+      "CachePath": "SFX/env_bulletImpact_metal-002_10C4C929.wem"
      },
      {
       "Id": "428861417",
@@ -344,6 +420,14 @@
       "Location": "Memory",
       "ShortName": "ambient_titleUI-001.wav",
       "CachePath": "SFX/ambient_titleUI-001_9049439D.wem"
+     },
+     {
+      "Id": "530991755",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_bulletImpact_metal-003.wav",
+      "CachePath": "SFX/env_bulletImpact_metal-003_10C4C929.wem"
      },
      {
       "Id": "537400859",
@@ -440,6 +524,14 @@
       "Location": "Memory",
       "ShortName": "pistol_fire.wav",
       "CachePath": "SFX/pistol_fire_10C4C929.wem"
+     },
+     {
+      "Id": "773511136",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_bulletImpact_wood-005.wav",
+      "CachePath": "SFX/env_bulletImpact_wood-005_10C4C929.wem"
      },
      {
       "Id": "789194097",
@@ -584,6 +676,14 @@
       "Location": "Memory",
       "ShortName": "digitalTick.wav",
       "CachePath": "SFX/digitalTick_10C4C929.wem"
+     },
+     {
+      "Id": "1073721153",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_bulletImpact_wood-004.wav",
+      "CachePath": "SFX/env_bulletImpact_wood-004_10C4C929.wem"
      }
     ],
     "Events": [
@@ -716,7 +816,7 @@
          {
           "SwitchValue": {
            "GroupType": "Switch",
-           "GroupId": "3865314626",
+           "GroupId": "3287431056",
            "Id": "2473969246",
            "GUID": "{06C05011-8DA7-4494-8944-277B58A6C2EC}",
            "Default": "true"
@@ -757,7 +857,7 @@
          {
           "SwitchValue": {
            "GroupType": "Switch",
-           "GroupId": "3865314626",
+           "GroupId": "3287431056",
            "Id": "2058049674",
            "GUID": "{B74302D5-DF94-434F-A83F-2616071BE754}"
           },
@@ -795,7 +895,7 @@
          {
           "SwitchValue": {
            "GroupType": "Switch",
-           "GroupId": "3865314626",
+           "GroupId": "3287431056",
            "Id": "2473969246",
            "GUID": "{06C05011-8DA7-4494-8944-277B58A6C2EC}",
            "Default": "true"
@@ -836,7 +936,7 @@
          {
           "SwitchValue": {
            "GroupType": "Switch",
-           "GroupId": "3865314626",
+           "GroupId": "3287431056",
            "Id": "2058049674",
            "GUID": "{B74302D5-DF94-434F-A83F-2616071BE754}"
           },
@@ -934,6 +1034,69 @@
       ]
      },
      {
+      "Id": "3257506471",
+      "Name": "Impact",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Bullet\\Impact",
+      "GUID": "{0428866E-DFA9-4D35-806C-0329CE5603BC}",
+      "MaxAttenuation": "2000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25477085",
+      "DurationMax": "1.8126458",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3580780794",
+         "Id": "2473969246",
+         "GUID": "{56B5FC07-35C1-44AA-8A2E-DE2E355C5968}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "182765028"
+         },
+         {
+          "Id": "214768809"
+         },
+         {
+          "Id": "253501304"
+         },
+         {
+          "Id": "424933288"
+         },
+         {
+          "Id": "530991755"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3580780794",
+         "Id": "2058049674",
+         "GUID": "{08481912-F01C-4B75-88C5-9CAFFA9578CC}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "113330765"
+         },
+         {
+          "Id": "319249551"
+         },
+         {
+          "Id": "388006377"
+         },
+         {
+          "Id": "773511136"
+         },
+         {
+          "Id": "1073721153"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "1548130050",
       "Name": "JumpLand",
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\JumpLand",
@@ -945,7 +1108,7 @@
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "3865314626",
+         "GroupId": "3287431056",
          "Id": "2473969246",
          "GUID": "{06C05011-8DA7-4494-8944-277B58A6C2EC}",
          "Default": "true"
@@ -959,7 +1122,7 @@
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "3865314626",
+         "GroupId": "3287431056",
          "Id": "2058049674",
          "GUID": "{B74302D5-DF94-434F-A83F-2616071BE754}"
         },
@@ -981,7 +1144,7 @@
          {
           "SwitchValue": {
            "GroupType": "Switch",
-           "GroupId": "3865314626",
+           "GroupId": "3287431056",
            "Id": "2473969246",
            "GUID": "{06C05011-8DA7-4494-8944-277B58A6C2EC}",
            "Default": "true"
@@ -1022,7 +1185,7 @@
          {
           "SwitchValue": {
            "GroupType": "Switch",
-           "GroupId": "3865314626",
+           "GroupId": "3287431056",
            "Id": "2058049674",
            "GUID": "{B74302D5-DF94-434F-A83F-2616071BE754}"
           },
@@ -1060,7 +1223,7 @@
          {
           "SwitchValue": {
            "GroupType": "Switch",
-           "GroupId": "3865314626",
+           "GroupId": "3287431056",
            "Id": "2473969246",
            "GUID": "{06C05011-8DA7-4494-8944-277B58A6C2EC}",
            "Default": "true"
@@ -1101,7 +1264,7 @@
          {
           "SwitchValue": {
            "GroupType": "Switch",
-           "GroupId": "3865314626",
+           "GroupId": "3287431056",
            "Id": "2058049674",
            "GUID": "{B74302D5-DF94-434F-A83F-2616071BE754}"
           },
@@ -1154,7 +1317,7 @@
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "3865314626",
+         "GroupId": "3287431056",
          "Id": "2473969246",
          "GUID": "{06C05011-8DA7-4494-8944-277B58A6C2EC}",
          "Default": "true"
@@ -1168,7 +1331,7 @@
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "3865314626",
+         "GroupId": "3287431056",
          "Id": "2058049674",
          "GUID": "{B74302D5-DF94-434F-A83F-2616071BE754}"
         },
@@ -1183,7 +1346,7 @@
      {
       "Id": "1108627404",
       "Name": "pistolFire",
-      "ObjectPath": "\\Events\\Default Work Unit\\Pistol\\pistolFire",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Pistol\\pistolFire",
       "GUID": "{08203B80-5359-4A19-AAEA-C289BABCA8FD}",
       "DurationType": "OneShot",
       "DurationMin": "1.3590417",
@@ -1265,28 +1428,48 @@
       ]
      },
      {
-      "Id": "3865314626",
-      "Name": "Material",
-      "ObjectPath": "\\Switches\\Default Work Unit\\Material",
+      "Id": "3287431056",
+      "Name": "FootstepMaterial",
+      "ObjectPath": "\\Switches\\Default Work Unit\\FootstepMaterial",
       "GUID": "{3CA8A0BB-8016-407F-A161-700DE304E981}",
       "Switches": [
        {
         "Id": "2058049674",
         "Name": "Wood",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepMaterial\\Wood",
         "GUID": "{B74302D5-DF94-434F-A83F-2616071BE754}"
        },
        {
         "Id": "2473969246",
         "Name": "Metal",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepMaterial\\Metal",
         "GUID": "{06C05011-8DA7-4494-8944-277B58A6C2EC}"
+       }
+      ]
+     },
+     {
+      "Id": "3580780794",
+      "Name": "BulletMaterial",
+      "ObjectPath": "\\Switches\\Default Work Unit\\BulletMaterial",
+      "GUID": "{E0C67A68-5CBF-4ECB-AD88-7CCF048E33A6}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BulletMaterial\\Wood",
+        "GUID": "{08481912-F01C-4B75-88C5-9CAFFA9578CC}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BulletMaterial\\Metal",
+        "GUID": "{56B5FC07-35C1-44AA-8A2E-DE2E355C5968}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{EE64C262-3786-68EE-048E-A5E419EAFE9A}"
+  "FileHash": "{467385ED-1939-293B-7056-CB6B49E497CD}"
  }
 }

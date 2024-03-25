@@ -3,7 +3,7 @@
 	<Switches>
 		<WorkUnit Name="Default Work Unit" ID="{9D611875-6E7C-491E-8601-37B57F2900E6}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchGroup Name="Material" ID="{3CA8A0BB-8016-407F-A161-700DE304E981}">
+				<SwitchGroup Name="FootstepMaterial" ID="{3CA8A0BB-8016-407F-A161-700DE304E981}">
 					<ChildrenList>
 						<Switch Name="Metal" ID="{06C05011-8DA7-4494-8944-277B58A6C2EC}"/>
 						<Switch Name="Wood" ID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
@@ -20,6 +20,12 @@
 						<Switch Name="Idle" ID="{AA196B92-68E2-4F3A-B570-ABA835D40646}"/>
 						<Switch Name="Alert" ID="{38B33161-F391-43AC-87C4-2DB73526EAD2}"/>
 						<Switch Name="Hurt" ID="{9F75790B-7D75-433D-8B91-8E03235BBD01}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="BulletMaterial" ID="{E0C67A68-5CBF-4ECB-AD88-7CCF048E33A6}">
+					<ChildrenList>
+						<Switch Name="Metal" ID="{56B5FC07-35C1-44AA-8A2E-DE2E355C5968}"/>
+						<Switch Name="Wood" ID="{08481912-F01C-4B75-88C5-9CAFFA9578CC}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

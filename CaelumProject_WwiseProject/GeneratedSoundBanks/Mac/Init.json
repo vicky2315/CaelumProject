@@ -90,28 +90,48 @@
       ]
      },
      {
-      "Id": "3865314626",
-      "Name": "Material",
-      "ObjectPath": "\\Switches\\Default Work Unit\\Material",
+      "Id": "3287431056",
+      "Name": "FootstepMaterial",
+      "ObjectPath": "\\Switches\\Default Work Unit\\FootstepMaterial",
       "GUID": "{3CA8A0BB-8016-407F-A161-700DE304E981}",
       "Switches": [
        {
         "Id": "2058049674",
         "Name": "Wood",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepMaterial\\Wood",
         "GUID": "{B74302D5-DF94-434F-A83F-2616071BE754}"
        },
        {
         "Id": "2473969246",
         "Name": "Metal",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepMaterial\\Metal",
         "GUID": "{06C05011-8DA7-4494-8944-277B58A6C2EC}"
+       }
+      ]
+     },
+     {
+      "Id": "3580780794",
+      "Name": "BulletMaterial",
+      "ObjectPath": "\\Switches\\Default Work Unit\\BulletMaterial",
+      "GUID": "{E0C67A68-5CBF-4ECB-AD88-7CCF048E33A6}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BulletMaterial\\Wood",
+        "GUID": "{08481912-F01C-4B75-88C5-9CAFFA9578CC}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BulletMaterial\\Metal",
+        "GUID": "{56B5FC07-35C1-44AA-8A2E-DE2E355C5968}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{139E26D0-132B-3A1D-E0A2-472705CE0FAC}"
+  "FileHash": "{F8E15816-632C-C9E3-DF4A-4A3C03DDE8B6}"
  }
 }

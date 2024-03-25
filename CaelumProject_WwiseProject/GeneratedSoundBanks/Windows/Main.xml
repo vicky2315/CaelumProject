@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{FB7A3303-C5E8-4E50-2871-4379E0599AEB}">
+		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{F6FD5D5C-AA5F-6558-F940-4ACCB8A7790C}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -30,6 +30,10 @@
 					<ShortName>parasite_alert.wav</ShortName>
 					<CachePath>SFX/parasite_alert_10C4C929.wem</CachePath>
 				</File>
+				<File Id="113330765" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_bulletImpact_wood-002.wav</ShortName>
+					<CachePath>SFX/env_bulletImpact_wood-002_10C4C929.wem</CachePath>
+				</File>
 				<File Id="146505309" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_metalHeavy-001.wav</ShortName>
 					<CachePath>SFX/footstep_metalHeavy-001_10C4C929.wem</CachePath>
@@ -41,6 +45,10 @@
 				<File Id="157773929" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>jump_woodUp.wav</ShortName>
 					<CachePath>SFX/jump_woodUp_10C4C929.wem</CachePath>
+				</File>
+				<File Id="182765028" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_bulletImpact_metal-004.wav</ShortName>
+					<CachePath>SFX/env_bulletImpact_metal-004_10C4C929.wem</CachePath>
 				</File>
 				<File Id="188077103" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pickup_ammo-001.wav</ShortName>
@@ -54,6 +62,10 @@
 					<ShortName>footstep_metalHeavy-003.wav</ShortName>
 					<CachePath>SFX/footstep_metalHeavy-003_10C4C929.wem</CachePath>
 				</File>
+				<File Id="214768809" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_bulletImpact_metal-005.wav</ShortName>
+					<CachePath>SFX/env_bulletImpact_metal-005_10C4C929.wem</CachePath>
+				</File>
 				<File Id="241466283" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_woodHeavy-005.wav</ShortName>
 					<CachePath>SFX/footstep_woodHeavy-005_10C4C929.wem</CachePath>
@@ -62,6 +74,10 @@
 					<ShortName>footstep_woodHeavy-002.wav</ShortName>
 					<CachePath>SFX/footstep_woodHeavy-002_10C4C929.wem</CachePath>
 				</File>
+				<File Id="253501304" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_bulletImpact_metal-001.wav</ShortName>
+					<CachePath>SFX/env_bulletImpact_metal-001_10C4C929.wem</CachePath>
+				</File>
 				<File Id="291941750" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_woodHeavy-004.wav</ShortName>
 					<CachePath>SFX/footstep_woodHeavy-004_10C4C929.wem</CachePath>
@@ -69,6 +85,10 @@
 				<File Id="298935903" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_wood-002.wav</ShortName>
 					<CachePath>SFX/footstep_wood-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="319249551" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_bulletImpact_wood-001.wav</ShortName>
+					<CachePath>SFX/env_bulletImpact_wood-001_10C4C929.wem</CachePath>
 				</File>
 				<File Id="337524377" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_metal-002.wav</ShortName>
@@ -90,6 +110,10 @@
 					<ShortName>footstep_wood-001.wav</ShortName>
 					<CachePath>SFX/footstep_wood-001_10C4C929.wem</CachePath>
 				</File>
+				<File Id="388006377" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_bulletImpact_wood-003.wav</ShortName>
+					<CachePath>SFX/env_bulletImpact_wood-003_10C4C929.wem</CachePath>
+				</File>
 				<File Id="389159809" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_metal-001.wav</ShortName>
 					<CachePath>SFX/footstep_metal-001_10C4C929.wem</CachePath>
@@ -97,6 +121,10 @@
 				<File Id="390973664" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_wood-006.wav</ShortName>
 					<CachePath>SFX/footstep_wood-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="424933288" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_bulletImpact_metal-002.wav</ShortName>
+					<CachePath>SFX/env_bulletImpact_metal-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="428861417" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_woodHeavy-001.wav</ShortName>
@@ -113,6 +141,10 @@
 				<File Id="479373908" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ambient_titleUI-001.wav</ShortName>
 					<CachePath>SFX/ambient_titleUI-001_9049439D.wem</CachePath>
+				</File>
+				<File Id="530991755" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_bulletImpact_metal-003.wav</ShortName>
+					<CachePath>SFX/env_bulletImpact_metal-003_10C4C929.wem</CachePath>
 				</File>
 				<File Id="537400859" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>player_hurt-002.wav</ShortName>
@@ -161,6 +193,10 @@
 				<File Id="745364205" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pistol_fire.wav</ShortName>
 					<CachePath>SFX/pistol_fire_10C4C929.wem</CachePath>
+				</File>
+				<File Id="773511136" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_bulletImpact_wood-005.wav</ShortName>
+					<CachePath>SFX/env_bulletImpact_wood-005_10C4C929.wem</CachePath>
 				</File>
 				<File Id="789194097" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_metal-009.wav</ShortName>
@@ -234,6 +270,10 @@
 					<ShortName>digitalTick.wav</ShortName>
 					<CachePath>SFX/digitalTick_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1073721153" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_bulletImpact_wood-004.wav</ShortName>
+					<CachePath>SFX/env_bulletImpact_wood-004_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="855317084" Name="Alarm" ObjectPath="\Events\Default Work Unit\Environment\Alarm" GUID="{F97E8888-EBD0-45A4-9B8C-92EC919E77BC}" MaxAttenuation="1000" DurationType="Infinite">
@@ -282,7 +322,7 @@
 							<SwitchValue GroupType="Switch" GroupId="2018623641" Id="2732489590" GUID="{BCD30E0C-23F0-4D69-9BF1-444B11B4A1B5}" Default="true"/>
 							<Children>
 								<SwitchContainer>
-									<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" Default="true"/>
+									<SwitchValue GroupType="Switch" GroupId="3287431056" Id="2473969246" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" Default="true"/>
 									<MediaRefs>
 										<MediaRef Id="146505309"/>
 										<MediaRef Id="152056686"/>
@@ -297,7 +337,7 @@
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
-									<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
+									<SwitchValue GroupType="Switch" GroupId="3287431056" Id="2058049674" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
 									<MediaRefs>
 										<MediaRef Id="12978726"/>
 										<MediaRef Id="241466283"/>
@@ -313,7 +353,7 @@
 							<SwitchValue GroupType="Switch" GroupId="2018623641" Id="1935470627" GUID="{457FF9A0-4C7C-4D8A-ACBB-033B4791D22E}"/>
 							<Children>
 								<SwitchContainer>
-									<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" Default="true"/>
+									<SwitchValue GroupType="Switch" GroupId="3287431056" Id="2473969246" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" Default="true"/>
 									<MediaRefs>
 										<MediaRef Id="52341761"/>
 										<MediaRef Id="337524377"/>
@@ -328,7 +368,7 @@
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
-									<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
+									<SwitchValue GroupType="Switch" GroupId="3287431056" Id="2058049674" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
 									<MediaRefs>
 										<MediaRef Id="28976191"/>
 										<MediaRef Id="48252193"/>
@@ -366,16 +406,40 @@
 						<MediaRef Id="957580969"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3257506471" Name="Impact" ObjectPath="\Events\Default Work Unit\Weapons\Bullet\Impact" GUID="{0428866E-DFA9-4D35-806C-0329CE5603BC}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="0.25477085" DurationMax="1.8126458">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3580780794" Id="2473969246" GUID="{56B5FC07-35C1-44AA-8A2E-DE2E355C5968}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="182765028"/>
+								<MediaRef Id="214768809"/>
+								<MediaRef Id="253501304"/>
+								<MediaRef Id="424933288"/>
+								<MediaRef Id="530991755"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3580780794" Id="2058049674" GUID="{08481912-F01C-4B75-88C5-9CAFFA9578CC}"/>
+							<MediaRefs>
+								<MediaRef Id="113330765"/>
+								<MediaRef Id="319249551"/>
+								<MediaRef Id="388006377"/>
+								<MediaRef Id="773511136"/>
+								<MediaRef Id="1073721153"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="1548130050" Name="JumpLand" ObjectPath="\Events\Default Work Unit\Player\JumpLand" GUID="{C1F0857E-B4EF-4C48-AC56-BB907CABC4DA}" DurationType="OneShot" DurationMin="1.3048126" DurationMax="1.623766">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" Default="true"/>
+							<SwitchValue GroupType="Switch" GroupId="3287431056" Id="2473969246" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="740795652"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
+							<SwitchValue GroupType="Switch" GroupId="3287431056" Id="2058049674" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
 							<MediaRefs>
 								<MediaRef Id="684232212"/>
 							</MediaRefs>
@@ -384,7 +448,7 @@
 							<SwitchValue GroupType="Switch" GroupId="2018623641" Id="2732489590" GUID="{BCD30E0C-23F0-4D69-9BF1-444B11B4A1B5}" Default="true"/>
 							<Children>
 								<SwitchContainer>
-									<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" Default="true"/>
+									<SwitchValue GroupType="Switch" GroupId="3287431056" Id="2473969246" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" Default="true"/>
 									<MediaRefs>
 										<MediaRef Id="146505309"/>
 										<MediaRef Id="152056686"/>
@@ -399,7 +463,7 @@
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
-									<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
+									<SwitchValue GroupType="Switch" GroupId="3287431056" Id="2058049674" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
 									<MediaRefs>
 										<MediaRef Id="12978726"/>
 										<MediaRef Id="241466283"/>
@@ -415,7 +479,7 @@
 							<SwitchValue GroupType="Switch" GroupId="2018623641" Id="1935470627" GUID="{457FF9A0-4C7C-4D8A-ACBB-033B4791D22E}"/>
 							<Children>
 								<SwitchContainer>
-									<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" Default="true"/>
+									<SwitchValue GroupType="Switch" GroupId="3287431056" Id="2473969246" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" Default="true"/>
 									<MediaRefs>
 										<MediaRef Id="52341761"/>
 										<MediaRef Id="337524377"/>
@@ -430,7 +494,7 @@
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
-									<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
+									<SwitchValue GroupType="Switch" GroupId="3287431056" Id="2058049674" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
 									<MediaRefs>
 										<MediaRef Id="28976191"/>
 										<MediaRef Id="48252193"/>
@@ -451,20 +515,20 @@
 				<Event Id="1844425226" Name="JumpUp" ObjectPath="\Events\Default Work Unit\Player\JumpUp" GUID="{DB91E62E-04FC-4061-A788-D39368F3F8E9}" DurationType="OneShot" DurationMin="1.48375" DurationMax="1.7319375">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" Default="true"/>
+							<SwitchValue GroupType="Switch" GroupId="3287431056" Id="2473969246" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="924793895"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
+							<SwitchValue GroupType="Switch" GroupId="3287431056" Id="2058049674" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
 							<MediaRefs>
 								<MediaRef Id="157773929"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1108627404" Name="pistolFire" ObjectPath="\Events\Default Work Unit\Pistol\pistolFire" GUID="{08203B80-5359-4A19-AAEA-C289BABCA8FD}" DurationType="OneShot" DurationMin="1.3590417" DurationMax="1.3590417">
+				<Event Id="1108627404" Name="pistolFire" ObjectPath="\Events\Default Work Unit\Weapons\Pistol\pistolFire" GUID="{08203B80-5359-4A19-AAEA-C289BABCA8FD}" DurationType="OneShot" DurationMin="1.3590417" DurationMax="1.3590417">
 					<MediaRefs>
 						<MediaRef Id="745364205"/>
 					</MediaRefs>
@@ -490,14 +554,20 @@
 						<Switch Id="2732489590" Name="Heavy" ObjectPath="\Switches\Default Work Unit\Weight\Heavy" GUID="{BCD30E0C-23F0-4D69-9BF1-444B11B4A1B5}"/>
 					</Switches>
 				</SwitchGroup>
-				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{3CA8A0BB-8016-407F-A161-700DE304E981}">
+				<SwitchGroup Id="3287431056" Name="FootstepMaterial" ObjectPath="\Switches\Default Work Unit\FootstepMaterial" GUID="{3CA8A0BB-8016-407F-A161-700DE304E981}">
 					<Switches>
-						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Material\Wood" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
-						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\FootstepMaterial\Wood" GUID="{B74302D5-DF94-434F-A83F-2616071BE754}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\FootstepMaterial\Metal" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3580780794" Name="BulletMaterial" ObjectPath="\Switches\Default Work Unit\BulletMaterial" GUID="{E0C67A68-5CBF-4ECB-AD88-7CCF048E33A6}">
+					<Switches>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\BulletMaterial\Wood" GUID="{08481912-F01C-4B75-88C5-9CAFFA9578CC}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\BulletMaterial\Metal" GUID="{56B5FC07-35C1-44AA-8A2E-DE2E355C5968}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A0881864-D0A8-43AD-A3B9-1F6F67B3C5D9}</FileHash>
+	<FileHash>{ED72435D-D6E2-5A73-DC40-81F18597DCA0}</FileHash>
 </SoundBanksInfo>
