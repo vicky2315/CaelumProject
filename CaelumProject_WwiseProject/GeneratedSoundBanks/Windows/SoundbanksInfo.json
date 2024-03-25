@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{986487A9-2683-E47A-8688-3D0FE6FDB954}",
+    "Hash": "{49949D94-B5E0-C3DE-D9D0-8B3EC86BCBDD}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -124,7 +124,7 @@
     "Type": "User",
     "GUID": "{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}",
     "Language": "SFX",
-    "Hash": "{98278F37-402F-2A0D-4D8D-841FFE42DD21}",
+    "Hash": "{FB7A3303-C5E8-4E50-2871-4379E0599AEB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -551,7 +551,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "env_alarm-withVoice.wav",
-      "CachePath": "SFX/env_alarm-withVoice_A92C46E6.wem"
+      "CachePath": "SFX/env_alarm-withVoice_463C47E5.wem"
      },
      {
       "Id": "1011356779",
@@ -605,12 +605,25 @@
       "Name": "Alert",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Walker\\Alert",
       "GUID": "{BB936426-A5CE-471D-A13E-0B236F54109E}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.0798959",
-      "DurationMax": "1.0798959",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "104920231"
+       },
+       {
+        "Id": "598698959"
+       },
+       {
+        "Id": "650368239"
+       },
+       {
+        "Id": "834242732"
+       },
+       {
+        "Id": "926892948"
+       },
+       {
+        "Id": "957580969"
        }
       ]
      },
@@ -1274,6 +1287,6 @@
     ]
    }
   ],
-  "FileHash": "{D017F67A-4143-3455-DCCF-118CBD2FB732}"
+  "FileHash": "{A1AEAEC4-AB5B-D529-3181-371510F266C9}"
  }
 }

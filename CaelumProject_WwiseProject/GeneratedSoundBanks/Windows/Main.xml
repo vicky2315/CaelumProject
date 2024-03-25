@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{98278F37-402F-2A0D-4D8D-841FFE42DD21}">
+		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{FB7A3303-C5E8-4E50-2871-4379E0599AEB}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -216,7 +216,7 @@
 				</File>
 				<File Id="1010906593" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_alarm-withVoice.wav</ShortName>
-					<CachePath>SFX/env_alarm-withVoice_A92C46E6.wem</CachePath>
+					<CachePath>SFX/env_alarm-withVoice_463C47E5.wem</CachePath>
 				</File>
 				<File Id="1011356779" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_metalHeavy-005.wav</ShortName>
@@ -241,9 +241,14 @@
 						<MediaRef Id="1010906593"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="721787521" Name="Alert" ObjectPath="\Events\Default Work Unit\Enemy\Walker\Alert" GUID="{BB936426-A5CE-471D-A13E-0B236F54109E}" DurationType="OneShot" DurationMin="1.0798959" DurationMax="1.0798959">
+				<Event Id="721787521" Name="Alert" ObjectPath="\Events\Default Work Unit\Enemy\Walker\Alert" GUID="{BB936426-A5CE-471D-A13E-0B236F54109E}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="104920231"/>
+						<MediaRef Id="598698959"/>
+						<MediaRef Id="650368239"/>
+						<MediaRef Id="834242732"/>
+						<MediaRef Id="926892948"/>
+						<MediaRef Id="957580969"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3878475591" Name="AmbientTrain" ObjectPath="\Events\Default Work Unit\Train\AmbientTrain" GUID="{32A9DDB0-7C76-4305-8223-D593185D9925}" DurationType="Infinite">
@@ -494,5 +499,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BE64E409-DDAF-9ABE-38FD-24C08E55B6A9}</FileHash>
+	<FileHash>{A0881864-D0A8-43AD-A3B9-1F6F67B3C5D9}</FileHash>
 </SoundBanksInfo>

@@ -218,10 +218,27 @@
 							<ChildrenList>
 								<Event Name="Alert" ID="{BB936426-A5CE-471D-A13E-0B236F54109E}">
 									<ChildrenList>
+										<Action Name="" ID="{AE842C6A-D462-4557-B23C-3FAF46BBD30D}" ShortID="242460394">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="walker_idle" ID="{1E940ECD-4AD5-4A8C-83D0-58E2BBBCDECD}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 										<Action Name="" ID="{3D4C1794-3F29-4DB8-B5F1-5C36B3CD76DF}" ShortID="670305305">
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="walker_alert" ID="{32277619-46AF-4467-9D79-E04FBBBC53E3}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{AAAA3E26-4DAE-4974-B0C7-6F65D7FB6247}" ShortID="278425953">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="walker_idle" ID="{1E940ECD-4AD5-4A8C-83D0-58E2BBBCDECD}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
