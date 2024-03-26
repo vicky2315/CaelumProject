@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	409762855	TurretCharge			\Default Work Unit\Enemy\Turret\TurretCharge	
 	469608511	digitalHover			\Default Work Unit\UI\digitalHover	
 	721787521	Alert			\Default Work Unit\Enemy\Walker\Alert	
 	779278001	Death			\Default Work Unit\Player\Death	
@@ -7,15 +8,19 @@ Event	ID	Name			Wwise Object Path	Notes
 	1108627404	pistolFire			\Default Work Unit\Weapons\Pistol\pistolFire	
 	1165913927	AmmoPickup			\Default Work Unit\Pickups\AmmoPickup	
 	1548130050	JumpLand			\Default Work Unit\Player\JumpLand	
+	1605625300	TurretHurt			\Default Work Unit\Enemy\Turret\TurretHurt	
+	1817945039	TurretFire			\Default Work Unit\Enemy\Turret\TurretFire	
 	1844425226	JumpUp			\Default Work Unit\Player\JumpUp	
 	1866025847	Footstep			\Default Work Unit\Player\Footstep	
 	1874288895	Idle			\Default Work Unit\Enemy\Walker\Idle	
+	1972462343	pistolReload			\Default Work Unit\Weapons\Pistol\pistolReload	
 	3065686491	HealthPickup			\Default Work Unit\Pickups\HealthPickup	
 	3076102481	titleAmbience			\Default Work Unit\UI\titleAmbience	
 	3193947170	Hurt			\Default Work Unit\Player\Hurt	
 	3257506471	Impact			\Default Work Unit\Weapons\Bullet\Impact	
 	3603235135	digitalSelect			\Default Work Unit\UI\digitalSelect	
 	3878475591	AmbientTrain			\Default Work Unit\Train\AmbientTrain	
+	4050053851	TurretDeath			\Default Work Unit\Enemy\Turret\TurretDeath	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1865569098	EnemyState			\Default Work Unit\EnemyState	
@@ -38,6 +43,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	12978726	footstep_woodHeavy	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_woodHeavy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Heavy\woodFootsepHeavy\footstep_woodHeavy		86348
 	28976191	footstep_wood-008	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_wood-008_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Light\woodFootstep\footstep_wood-008		249240
 	48252193	footstep_wood-005	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_wood-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Light\woodFootstep\footstep_wood-005		256128
+	50125115	turret_death	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\turret_death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Turret\turret_death		434880
 	50386400	pickup_health	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\pickup_health_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pickups\pickup_health		329744
 	52341761	footstep_metal-006	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_metal-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Light\metalFootstep\footstep_metal-006		281216
 	104920231	walker_alert	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\parasite_alert_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Walker\State\walker_alert		207436
@@ -47,13 +53,16 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	157773929	jump_woodUp	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\jump_woodUp_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\JumpUp\jump_woodUp		284976
 	182765028	env_bulletImpact_metal-004	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\env_bulletImpact_metal-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Bullet\Impact\Metal\env_bulletImpact_metal-004		294820
 	188077103	pickup_ammo	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\pickup_ammo-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pickups\pickup_ammo		344856
+	190321628	turret_fire	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\turret_fire_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Turret\turret_fire		112112
 	195131141	footstep_metalHeavy-004	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_metalHeavy-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Heavy\metalFoostepHeavy\footstep_metalHeavy-004		119208
 	197298871	footstep_metalHeavy-003	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_metalHeavy-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Heavy\metalFoostepHeavy\footstep_metalHeavy-003		113700
 	214768809	env_bulletImpact_metal-005	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\env_bulletImpact_metal-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Bullet\Impact\Metal\env_bulletImpact_metal-005		302576
 	241466283	footstep_woodHeavy-005	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_woodHeavy-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Heavy\woodFootsepHeavy\footstep_woodHeavy-005		80532
 	251823696	footstep_woodHeavy-002	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_woodHeavy-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Heavy\woodFootsepHeavy\footstep_woodHeavy-002		76656
 	253501304	env_bulletImpact_metal-001	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\env_bulletImpact_metal-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Bullet\Impact\Metal\env_bulletImpact_metal-001		294820
+	263064207	pistol_reload_fullv2	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\pistol_reload_fullv2_5EB1C73E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Pistol\pistol_reload_fullv2		554536
 	291941750	footstep_woodHeavy-004	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_woodHeavy-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Heavy\woodFootsepHeavy\footstep_woodHeavy-004		71808
+	293563334	turret_hurt-002	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\turret_hurt-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Turret\TurretHurt\turret_hurt-002		219256
 	298935903	footstep_wood-002	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_wood-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Light\woodFootstep\footstep_wood-002		238176
 	319249551	env_bulletImpact_wood-001	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\env_bulletImpact_wood-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Bullet\Impact\Wood\env_bulletImpact_wood-001		59284
 	337524377	footstep_metal-002	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_metal-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Light\metalFootstep\footstep_metal-002		274832
@@ -67,10 +76,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	424933288	env_bulletImpact_metal-002	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\env_bulletImpact_metal-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Bullet\Impact\Metal\env_bulletImpact_metal-002		321956
 	428861417	footstep_woodHeavy-001	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_woodHeavy-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Heavy\woodFootsepHeavy\footstep_woodHeavy-001		81500
 	443822138	footstep_metalHeavy-002	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_metalHeavy-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Heavy\metalFoostepHeavy\footstep_metalHeavy-002		128156
+	445656094	turret_charge	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\turret_charge_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Turret\turret_charge		362556
 	465382030	footstep_metal-003	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_metal-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Light\metalFootstep\footstep_metal-003		261008
 	479373908	ambient_titleUI	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\ambient_titleUI-001_9049439D.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ambient_titleUI		7329312
 	530991755	env_bulletImpact_metal-003	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\env_bulletImpact_metal-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Bullet\Impact\Metal\env_bulletImpact_metal-003		348124
 	537400859	player_hurt-002	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\player_hurt-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\playerHurt\player_hurt-002		114428
+	541407467	turret_hurt-001	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\turret_hurt-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Turret\TurretHurt\turret_hurt-001		233884
 	548374835	footstep_metal-010	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_metal-010_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Light\metalFootstep\footstep_metal-010		266884
 	566556049	footstep_metalHeavy-006	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_metalHeavy-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Heavy\metalFoostepHeavy\footstep_metalHeavy-006		120136
 	598698959	parasite_idle-002	F:\Uni\des207\girthhub\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\parasite_idle-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Walker\State\walker_idle\parasite_idle-002		1344096

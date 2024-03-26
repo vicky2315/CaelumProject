@@ -144,7 +144,7 @@
     "Type": "User",
     "GUID": "{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}",
     "Language": "SFX",
-    "Hash": "{F6FD5D5C-AA5F-6558-F940-4ACCB8A7790C}",
+    "Hash": "{E9F3ABD8-D368-5CA0-8242-9A18F46252F7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -172,6 +172,14 @@
       "Location": "Memory",
       "ShortName": "footstep_wood-005.wav",
       "CachePath": "SFX/footstep_wood-005_10C4C929.wem"
+     },
+     {
+      "Id": "50125115",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "turret_death.wav",
+      "CachePath": "SFX/turret_death_10C4C929.wem"
      },
      {
       "Id": "50386400",
@@ -246,6 +254,14 @@
       "CachePath": "SFX/pickup_ammo-001_10C4C929.wem"
      },
      {
+      "Id": "190321628",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "turret_fire.wav",
+      "CachePath": "SFX/turret_fire_10C4C929.wem"
+     },
+     {
       "Id": "195131141",
       "Language": "SFX",
       "Streaming": "false",
@@ -294,12 +310,28 @@
       "CachePath": "SFX/env_bulletImpact_metal-001_10C4C929.wem"
      },
      {
+      "Id": "263064207",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "pistol_reload_fullv2.wav",
+      "CachePath": "SFX/pistol_reload_fullv2_5EB1C73E.wem"
+     },
+     {
       "Id": "291941750",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "footstep_woodHeavy-004.wav",
       "CachePath": "SFX/footstep_woodHeavy-004_10C4C929.wem"
+     },
+     {
+      "Id": "293563334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "turret_hurt-002.wav",
+      "CachePath": "SFX/turret_hurt-002_10C4C929.wem"
      },
      {
       "Id": "298935903",
@@ -406,6 +438,14 @@
       "CachePath": "SFX/footstep_metalHeavy-002_10C4C929.wem"
      },
      {
+      "Id": "445656094",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "turret_charge.wav",
+      "CachePath": "SFX/turret_charge_10C4C929.wem"
+     },
+     {
       "Id": "465382030",
       "Language": "SFX",
       "Streaming": "false",
@@ -436,6 +476,14 @@
       "Location": "Memory",
       "ShortName": "player_hurt-002.wav",
       "CachePath": "SFX/player_hurt-002_10C4C929.wem"
+     },
+     {
+      "Id": "541407467",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "turret_hurt-001.wav",
+      "CachePath": "SFX/turret_hurt-001_10C4C929.wem"
      },
      {
       "Id": "548374835",
@@ -705,6 +753,7 @@
       "Name": "Alert",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Walker\\Alert",
       "GUID": "{BB936426-A5CE-471D-A13E-0B236F54109E}",
+      "MaxAttenuation": "1000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1358,6 +1407,20 @@
       ]
      },
      {
+      "Id": "1972462343",
+      "Name": "pistolReload",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Pistol\\pistolReload",
+      "GUID": "{88344112-A935-4E4F-B917-CFB4FCC59B17}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.8877072",
+      "DurationMax": "2.8877072",
+      "MediaRefs": [
+       {
+        "Id": "263064207"
+       }
+      ]
+     },
+     {
       "Id": "3076102481",
       "Name": "titleAmbience",
       "ObjectPath": "\\Events\\Default Work Unit\\UI\\titleAmbience",
@@ -1378,6 +1441,69 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "409762855",
+      "Name": "TurretCharge",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Turret\\TurretCharge",
+      "GUID": "{D10C97C7-9DD7-49E4-825A-2811E1DFDF47}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8878125",
+      "DurationMax": "1.8878125",
+      "MediaRefs": [
+       {
+        "Id": "445656094"
+       }
+      ]
+     },
+     {
+      "Id": "4050053851",
+      "Name": "TurretDeath",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Turret\\TurretDeath",
+      "GUID": "{C5E9BD79-04E1-4D1A-90FB-4B5F8A020259}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.2645",
+      "DurationMax": "2.2645",
+      "MediaRefs": [
+       {
+        "Id": "50125115"
+       }
+      ]
+     },
+     {
+      "Id": "1817945039",
+      "Name": "TurretFire",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Turret\\TurretFire",
+      "GUID": "{5E9497AC-759E-45E5-A823-654B1BF432E3}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.58341664",
+      "DurationMax": "0.58341664",
+      "MediaRefs": [
+       {
+        "Id": "190321628"
+       }
+      ]
+     },
+     {
+      "Id": "1605625300",
+      "Name": "TurretHurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Turret\\TurretHurt",
+      "GUID": "{0D042D75-A8A3-43D3-9068-24F4E73BD3F9}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1414584",
+      "DurationMax": "1.2176459",
+      "MediaRefs": [
+       {
+        "Id": "293563334"
+       },
+       {
+        "Id": "541407467"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -1470,6 +1596,6 @@
     ]
    }
   ],
-  "FileHash": "{CE7BE444-DF78-1540-4B5E-6AB58298C414}"
+  "FileHash": "{83A4F785-9AF6-DC98-DAFB-62C3CD7C29BC}"
  }
 }

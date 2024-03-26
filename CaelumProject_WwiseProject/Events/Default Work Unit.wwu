@@ -242,6 +242,54 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Turret" ID="{2FDA5213-F736-46D7-958E-63F6286D0710}" ShortID="411859063">
+							<ChildrenList>
+								<Event Name="TurretFire" ID="{5E9497AC-759E-45E5-A823-654B1BF432E3}">
+									<ChildrenList>
+										<Action Name="" ID="{DEA66FA9-F47C-4BA3-AA6C-F7713C4FEA8E}" ShortID="979516230">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="turret_fire" ID="{385C2A9D-C942-4416-82DE-24671AB67C80}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TurretDeath" ID="{C5E9BD79-04E1-4D1A-90FB-4B5F8A020259}">
+									<ChildrenList>
+										<Action Name="" ID="{6026927A-9DFE-43C7-957F-4B105A67B578}" ShortID="764054217">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="turret_death" ID="{B8E99387-81D5-4280-9D44-4B15D0F6A7A6}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TurretHurt" ID="{0D042D75-A8A3-43D3-9068-24F4E73BD3F9}">
+									<ChildrenList>
+										<Action Name="" ID="{015A4DE3-B681-495E-A6DC-13DF19608DC4}" ShortID="422760218">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="TurretHurt" ID="{99803F01-6E85-49FC-9344-8FB89C1B5A16}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="TurretCharge" ID="{D10C97C7-9DD7-49E4-825A-2811E1DFDF47}">
+									<ChildrenList>
+										<Action Name="" ID="{3E37070C-B043-4170-A671-08BD8E239DA3}" ShortID="1060958271">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="turret_charge" ID="{9E31749B-9A32-4741-BA9C-33326006DFBE}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Weapons" ID="{DF8F9DFC-8B25-425B-9874-5756E967C367}" ShortID="559978958">
@@ -269,6 +317,17 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="pistol_fire" ID="{E3AB3B9F-221D-4393-A08D-47CAA6A5E8C2}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="pistolReload" ID="{88344112-A935-4E4F-B917-CFB4FCC59B17}">
+									<ChildrenList>
+										<Action Name="" ID="{88092B98-A61B-41BD-93F1-ACC344CD57ED}" ShortID="351992351">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="pistol_reload_fullv2" ID="{8D890DA1-C968-439A-A8A9-02CC2F380FDD}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

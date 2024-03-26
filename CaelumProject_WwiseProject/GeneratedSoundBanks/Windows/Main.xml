@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{F6FD5D5C-AA5F-6558-F940-4ACCB8A7790C}">
+		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{E9F3ABD8-D368-5CA0-8242-9A18F46252F7}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -17,6 +17,10 @@
 				<File Id="48252193" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_wood-005.wav</ShortName>
 					<CachePath>SFX/footstep_wood-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="50125115" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>turret_death.wav</ShortName>
+					<CachePath>SFX/turret_death_10C4C929.wem</CachePath>
 				</File>
 				<File Id="50386400" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pickup_health.wav</ShortName>
@@ -54,6 +58,10 @@
 					<ShortName>pickup_ammo-001.wav</ShortName>
 					<CachePath>SFX/pickup_ammo-001_10C4C929.wem</CachePath>
 				</File>
+				<File Id="190321628" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>turret_fire.wav</ShortName>
+					<CachePath>SFX/turret_fire_10C4C929.wem</CachePath>
+				</File>
 				<File Id="195131141" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_metalHeavy-004.wav</ShortName>
 					<CachePath>SFX/footstep_metalHeavy-004_10C4C929.wem</CachePath>
@@ -78,9 +86,17 @@
 					<ShortName>env_bulletImpact_metal-001.wav</ShortName>
 					<CachePath>SFX/env_bulletImpact_metal-001_10C4C929.wem</CachePath>
 				</File>
+				<File Id="263064207" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pistol_reload_fullv2.wav</ShortName>
+					<CachePath>SFX/pistol_reload_fullv2_5EB1C73E.wem</CachePath>
+				</File>
 				<File Id="291941750" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_woodHeavy-004.wav</ShortName>
 					<CachePath>SFX/footstep_woodHeavy-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="293563334" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>turret_hurt-002.wav</ShortName>
+					<CachePath>SFX/turret_hurt-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="298935903" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_wood-002.wav</ShortName>
@@ -134,6 +150,10 @@
 					<ShortName>footstep_metalHeavy-002.wav</ShortName>
 					<CachePath>SFX/footstep_metalHeavy-002_10C4C929.wem</CachePath>
 				</File>
+				<File Id="445656094" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>turret_charge.wav</ShortName>
+					<CachePath>SFX/turret_charge_10C4C929.wem</CachePath>
+				</File>
 				<File Id="465382030" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_metal-003.wav</ShortName>
 					<CachePath>SFX/footstep_metal-003_10C4C929.wem</CachePath>
@@ -149,6 +169,10 @@
 				<File Id="537400859" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>player_hurt-002.wav</ShortName>
 					<CachePath>SFX/player_hurt-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="541407467" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>turret_hurt-001.wav</ShortName>
+					<CachePath>SFX/turret_hurt-001_10C4C929.wem</CachePath>
 				</File>
 				<File Id="548374835" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_metal-010.wav</ShortName>
@@ -281,7 +305,7 @@
 						<MediaRef Id="1010906593"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="721787521" Name="Alert" ObjectPath="\Events\Default Work Unit\Enemy\Walker\Alert" GUID="{BB936426-A5CE-471D-A13E-0B236F54109E}" DurationType="Infinite">
+				<Event Id="721787521" Name="Alert" ObjectPath="\Events\Default Work Unit\Enemy\Walker\Alert" GUID="{BB936426-A5CE-471D-A13E-0B236F54109E}" MaxAttenuation="1000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="104920231"/>
 						<MediaRef Id="598698959"/>
@@ -533,12 +557,38 @@
 						<MediaRef Id="745364205"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1972462343" Name="pistolReload" ObjectPath="\Events\Default Work Unit\Weapons\Pistol\pistolReload" GUID="{88344112-A935-4E4F-B917-CFB4FCC59B17}" DurationType="OneShot" DurationMin="2.8877072" DurationMax="2.8877072">
+					<MediaRefs>
+						<MediaRef Id="263064207"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3076102481" Name="titleAmbience" ObjectPath="\Events\Default Work Unit\UI\titleAmbience" GUID="{E2171221-9D2A-44BC-B378-9B9CFBCB98FA}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="479373908"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="979865097" Name="titleAmbienceStop" ObjectPath="\Events\Default Work Unit\UI\titleAmbienceStop" GUID="{923478F5-2C40-4EEB-B598-9B93C948C5B4}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="409762855" Name="TurretCharge" ObjectPath="\Events\Default Work Unit\Enemy\Turret\TurretCharge" GUID="{D10C97C7-9DD7-49E4-825A-2811E1DFDF47}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="1.8878125" DurationMax="1.8878125">
+					<MediaRefs>
+						<MediaRef Id="445656094"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4050053851" Name="TurretDeath" ObjectPath="\Events\Default Work Unit\Enemy\Turret\TurretDeath" GUID="{C5E9BD79-04E1-4D1A-90FB-4B5F8A020259}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="2.2645" DurationMax="2.2645">
+					<MediaRefs>
+						<MediaRef Id="50125115"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1817945039" Name="TurretFire" ObjectPath="\Events\Default Work Unit\Enemy\Turret\TurretFire" GUID="{5E9497AC-759E-45E5-A823-654B1BF432E3}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="0.58341664" DurationMax="0.58341664">
+					<MediaRefs>
+						<MediaRef Id="190321628"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1605625300" Name="TurretHurt" ObjectPath="\Events\Default Work Unit\Enemy\Turret\TurretHurt" GUID="{0D042D75-A8A3-43D3-9068-24F4E73BD3F9}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="1.1414584" DurationMax="1.2176459">
+					<MediaRefs>
+						<MediaRef Id="293563334"/>
+						<MediaRef Id="541407467"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="1865569098" Name="EnemyState" ObjectPath="\Switches\Default Work Unit\EnemyState" GUID="{5B635E0C-278F-4ABC-B313-D6A4F68EF7C2}">
@@ -569,5 +619,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{ED72435D-D6E2-5A73-DC40-81F18597DCA0}</FileHash>
+	<FileHash>{392B0DA1-ABB9-C820-113F-89F3DA171725}</FileHash>
 </SoundBanksInfo>
