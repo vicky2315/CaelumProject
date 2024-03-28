@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}",
     "Language": "SFX",
-    "Hash": "{E9F3ABD8-D368-5CA0-8242-9A18F46252F7}",
+    "Hash": "{E8368BB6-FB7A-2268-BA24-154CAEBEE9F6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -62,6 +62,14 @@
       "Location": "Memory",
       "ShortName": "footstep_metal-006.wav",
       "CachePath": "SFX/footstep_metal-006_10C4C929.wem"
+     },
+     {
+      "Id": "77791233",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "footstep_parasite.wav",
+      "CachePath": "SFX/footstep_parasite_10C4C929.wem"
      },
      {
       "Id": "104920231",
@@ -181,7 +189,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "pistol_reload_fullv2.wav",
-      "CachePath": "SFX/pistol_reload_fullv2_5EB1C73E.wem"
+      "CachePath": "SFX/pistol_reload_fullv2_FE8BCCA8.wem"
      },
      {
       "Id": "291941750",
@@ -280,6 +288,14 @@
       "CachePath": "SFX/footstep_wood-006_10C4C929.wem"
      },
      {
+      "Id": "412561789",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "footstep_parasite-001.wav",
+      "CachePath": "SFX/footstep_parasite-001_10C4C929.wem"
+     },
+     {
       "Id": "424933288",
       "Language": "SFX",
       "Streaming": "false",
@@ -368,6 +384,14 @@
       "CachePath": "SFX/footstep_metalHeavy-006_10C4C929.wem"
      },
      {
+      "Id": "575108706",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "footstep_parasite-003.wav",
+      "CachePath": "SFX/footstep_parasite-003_10C4C929.wem"
+     },
+     {
       "Id": "598698959",
       "Language": "SFX",
       "Streaming": "false",
@@ -422,6 +446,14 @@
       "Location": "Memory",
       "ShortName": "player_hurt-001.wav",
       "CachePath": "SFX/player_hurt-001_10C4C929.wem"
+     },
+     {
+      "Id": "737956456",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "footstep_parasite-004.wav",
+      "CachePath": "SFX/footstep_parasite-004_10C4C929.wem"
      },
      {
       "Id": "740795652",
@@ -542,6 +574,14 @@
       "Location": "Memory",
       "ShortName": "parasite_idle-001.wav",
       "CachePath": "SFX/parasite_idle-001_10C4C929.wem"
+     },
+     {
+      "Id": "940955890",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "footstep_parasite-002.wav",
+      "CachePath": "SFX/footstep_parasite-002_10C4C929.wem"
      },
      {
       "Id": "957580969",
@@ -1370,6 +1410,33 @@
         "Id": "541407467"
        }
       ]
+     },
+     {
+      "Id": "1526193385",
+      "Name": "WalkerFootstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Walker\\WalkerFootstep",
+      "GUID": "{5D90BBE1-FB94-4499-A01D-B292FE366E36}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "0.30285418",
+      "DurationMax": "0.46435416",
+      "MediaRefs": [
+       {
+        "Id": "77791233"
+       },
+       {
+        "Id": "412561789"
+       },
+       {
+        "Id": "575108706"
+       },
+       {
+        "Id": "737956456"
+       },
+       {
+        "Id": "940955890"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -1462,6 +1529,6 @@
     ]
    }
   ],
-  "FileHash": "{E1D6E30D-5F96-9D84-B7E6-416EDDE60002}"
+  "FileHash": "{A00A7198-9101-D4FC-7028-F40BCC4B0847}"
  }
 }

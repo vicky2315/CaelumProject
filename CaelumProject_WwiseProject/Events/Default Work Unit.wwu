@@ -240,6 +240,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="WalkerFootstep" ID="{5D90BBE1-FB94-4499-A01D-B292FE366E36}">
+									<ChildrenList>
+										<Action Name="" ID="{0C774F5F-8632-4423-87F7-E0AF17BDEF00}" ShortID="1026829316">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Walking" ID="{23E7EFC7-548E-4311-8E15-6833EE1FE8F6}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Turret" ID="{2FDA5213-F736-46D7-958E-63F6286D0710}" ShortID="411859063">
