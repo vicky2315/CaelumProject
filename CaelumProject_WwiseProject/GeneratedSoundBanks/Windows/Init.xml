@@ -34,14 +34,15 @@
 						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\FootstepMaterial\Metal" GUID="{06C05011-8DA7-4494-8944-277B58A6C2EC}"/>
 					</Switches>
 				</SwitchGroup>
-				<SwitchGroup Id="3580780794" Name="BulletMaterial" ObjectPath="\Switches\Default Work Unit\BulletMaterial" GUID="{E0C67A68-5CBF-4ECB-AD88-7CCF048E33A6}">
+				<SwitchGroup Id="3580780794" Name="BulletMaterial" ObjectPath="\Switches\Default Work Unit\BulletMaterial" GUID="{2D453154-AC50-4CA2-98F5-E2FC2FC38481}">
 					<Switches>
-						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\BulletMaterial\Wood" GUID="{08481912-F01C-4B75-88C5-9CAFFA9578CC}"/>
-						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\BulletMaterial\Metal" GUID="{56B5FC07-35C1-44AA-8A2E-DE2E355C5968}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\BulletMaterial\Wood" GUID="{1E1A577E-F3D7-4D10-B70C-B659C6330982}"/>
+						<Switch Id="2449969375" Name="Glass" ObjectPath="\Switches\Default Work Unit\BulletMaterial\Glass" GUID="{63E2EDEC-6616-402D-B9C8-D0FD15C4BD57}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\BulletMaterial\Metal" GUID="{8A1329C6-0665-40AE-A108-D9FBB58F0FBB}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D744CB7C-8080-0137-65BB-D7DB99CFAF59}</FileHash>
+	<FileHash>{FFB340F2-9F87-D437-ADD6-52A22E74E2FE}</FileHash>
 </SoundBanksInfo>

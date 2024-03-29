@@ -307,12 +307,12 @@
 					<ChildrenList>
 						<Folder Name="Bullet" ID="{CE67D39A-1C91-47D6-BEDE-5EEF9BDD82B8}" ShortID="40768903">
 							<ChildrenList>
-								<Event Name="Impact" ID="{0428866E-DFA9-4D35-806C-0329CE5603BC}">
+								<Event Name="BulletImpact" ID="{C32070BE-75C8-4FEF-B53C-0157D00F9882}">
 									<ChildrenList>
-										<Action Name="" ID="{E5413CAF-619D-4EBA-B8CB-A234EA8EA908}" ShortID="1048390428">
+										<Action Name="" ID="{06610963-BE6A-4FDB-80E4-81AE5C15765B}" ShortID="884621007">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Impact" ID="{61966053-8454-47F5-B989-F5100F83EA9A}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+													<ObjectRef Name="BulletSurface" ID="{BFAC46D1-07C6-4E3E-9D85-C90026B39FB8}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

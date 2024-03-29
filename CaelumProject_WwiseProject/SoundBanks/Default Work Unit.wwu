@@ -5,13 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Weapons" ID="{DF8F9DFC-8B25-425B-9874-5756E967C367}" WorkUnitID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Environment" ID="{7A7B0056-B01C-4460-821B-620A1BEEC23B}" WorkUnitID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Pickups" ID="{B56F43CC-D04F-4589-B691-8FCAF0465AE0}" WorkUnitID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Player" ID="{9FDED102-ABE8-463A-B86E-B295F26901BD}" WorkUnitID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Train" ID="{82DBB88D-8EED-489C-96C3-3ADE19DA6588}" WorkUnitID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Enemy" ID="{B6485643-5B75-499A-9F40-C1F48CD7ED2C}" WorkUnitID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="UI" ID="{EC7F7DBE-D1B6-4BE0-9AD0-2ECB0B2397D8}" WorkUnitID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" WorkUnitID="{3B266D1F-37F5-4E71-BA9D-F89608685C55}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

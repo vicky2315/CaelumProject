@@ -22,10 +22,11 @@
 						<Switch Name="Hurt" ID="{9F75790B-7D75-433D-8B91-8E03235BBD01}"/>
 					</ChildrenList>
 				</SwitchGroup>
-				<SwitchGroup Name="BulletMaterial" ID="{E0C67A68-5CBF-4ECB-AD88-7CCF048E33A6}">
+				<SwitchGroup Name="BulletMaterial" ID="{2D453154-AC50-4CA2-98F5-E2FC2FC38481}">
 					<ChildrenList>
-						<Switch Name="Metal" ID="{56B5FC07-35C1-44AA-8A2E-DE2E355C5968}"/>
-						<Switch Name="Wood" ID="{08481912-F01C-4B75-88C5-9CAFFA9578CC}"/>
+						<Switch Name="Glass" ID="{63E2EDEC-6616-402D-B9C8-D0FD15C4BD57}"/>
+						<Switch Name="Wood" ID="{1E1A577E-F3D7-4D10-B70C-B659C6330982}"/>
+						<Switch Name="Metal" ID="{8A1329C6-0665-40AE-A108-D9FBB58F0FBB}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
