@@ -130,6 +130,12 @@
         "GUID": "{1E1A577E-F3D7-4D10-B70C-B659C6330982}"
        },
        {
+        "Id": "2299321487",
+        "Name": "Enemy",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BulletMaterial\\Enemy",
+        "GUID": "{6C6EDF18-8804-4B66-B682-2770469720A9}"
+       },
+       {
         "Id": "2449969375",
         "Name": "Glass",
         "ObjectPath": "\\Switches\\Default Work Unit\\BulletMaterial\\Glass",
@@ -150,11 +156,19 @@
     "Type": "User",
     "GUID": "{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}",
     "Language": "SFX",
-    "Hash": "{B883E029-5493-5CB4-F084-E9EB2031FB08}",
+    "Hash": "{8348B386-E3D0-0EF1-C5AF-F81B0F7B5E25}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "10706007",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "parasite_death.wav",
+      "CachePath": "SFX/parasite_death_10C4C929.wem"
+     },
      {
       "Id": "12978726",
       "Language": "SFX",
@@ -234,6 +248,14 @@
       "Location": "Memory",
       "ShortName": "env_bulletImpact_glass-004.wav",
       "CachePath": "SFX/env_bulletImpact_glass-004_10C4C929.wem"
+     },
+     {
+      "Id": "135142535",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "env_bulletImpact_parasite.wav",
+      "CachePath": "SFX/env_bulletImpact_parasite_10C4C929.wem"
      },
      {
       "Id": "146505309",
@@ -898,6 +920,19 @@
       "DurationMin": "0.25477085",
       "DurationMax": "1.8126458",
       "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3580780794",
+         "Id": "2299321487",
+         "GUID": "{6C6EDF18-8804-4B66-B682-2770469720A9}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "135142535"
+         }
+        ]
+       },
        {
         "SwitchValue": {
          "GroupType": "Switch",
@@ -1617,6 +1652,21 @@
       ]
      },
      {
+      "Id": "1455463447",
+      "Name": "walkerDeath",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Walker\\walkerDeath",
+      "GUID": "{32AA9490-1366-4C15-814D-D67A5D27B0E4}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4066875",
+      "DurationMax": "1.4066875",
+      "MediaRefs": [
+       {
+        "Id": "10706007"
+       }
+      ]
+     },
+     {
       "Id": "1526193385",
       "Name": "WalkerFootstep",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Walker\\WalkerFootstep",
@@ -1724,6 +1774,12 @@
         "GUID": "{1E1A577E-F3D7-4D10-B70C-B659C6330982}"
        },
        {
+        "Id": "2299321487",
+        "Name": "Enemy",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BulletMaterial\\Enemy",
+        "GUID": "{6C6EDF18-8804-4B66-B682-2770469720A9}"
+       },
+       {
         "Id": "2449969375",
         "Name": "Glass",
         "ObjectPath": "\\Switches\\Default Work Unit\\BulletMaterial\\Glass",
@@ -1740,6 +1796,6 @@
     ]
    }
   ],
-  "FileHash": "{59E33BD2-3A67-2845-B6BD-9B9AC0D184AB}"
+  "FileHash": "{1E15A26F-1D37-2B6D-36C1-B905DB433FAC}"
  }
 }

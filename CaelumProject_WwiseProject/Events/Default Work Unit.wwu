@@ -251,6 +251,27 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="walkerDeath" ID="{32AA9490-1366-4C15-814D-D67A5D27B0E4}">
+									<ChildrenList>
+										<Action Name="" ID="{3DB169CD-D4AB-4EE2-8296-521F65EBCE64}" ShortID="168930845">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="walker_idle" ID="{1E940ECD-4AD5-4A8C-83D0-58E2BBBCDECD}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{BA735D07-0548-4B5A-8524-38001FF0C971}" ShortID="355978304">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="parasite_death" ID="{5C24FB85-EB09-47AD-B94D-BEC5105C3371}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Turret" ID="{2FDA5213-F736-46D7-958E-63F6286D0710}" ShortID="411859063">

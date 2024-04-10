@@ -45,17 +45,22 @@
 				<SwitchGroup Id="3580780794" Name="BulletMaterial" ObjectPath="\Switches\Default Work Unit\BulletMaterial" GUID="{2D453154-AC50-4CA2-98F5-E2FC2FC38481}">
 					<Switches>
 						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\BulletMaterial\Wood" GUID="{1E1A577E-F3D7-4D10-B70C-B659C6330982}"/>
+						<Switch Id="2299321487" Name="Enemy" ObjectPath="\Switches\Default Work Unit\BulletMaterial\Enemy" GUID="{6C6EDF18-8804-4B66-B682-2770469720A9}"/>
 						<Switch Id="2449969375" Name="Glass" ObjectPath="\Switches\Default Work Unit\BulletMaterial\Glass" GUID="{63E2EDEC-6616-402D-B9C8-D0FD15C4BD57}"/>
 						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\BulletMaterial\Metal" GUID="{8A1329C6-0665-40AE-A108-D9FBB58F0FBB}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{B883E029-5493-5CB4-F084-E9EB2031FB08}">
+		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{8348B386-E3D0-0EF1-C5AF-F81B0F7B5E25}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="10706007" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>parasite_death.wav</ShortName>
+					<CachePath>SFX/parasite_death_10C4C929.wem</CachePath>
+				</File>
 				<File Id="12978726" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_woodHeavy.wav</ShortName>
 					<CachePath>SFX/footstep_woodHeavy_10C4C929.wem</CachePath>
@@ -95,6 +100,10 @@
 				<File Id="114460912" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_bulletImpact_glass-004.wav</ShortName>
 					<CachePath>SFX/env_bulletImpact_glass-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="135142535" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>env_bulletImpact_parasite.wav</ShortName>
+					<CachePath>SFX/env_bulletImpact_parasite_10C4C929.wem</CachePath>
 				</File>
 				<File Id="146505309" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_metalHeavy-001.wav</ShortName>
@@ -418,6 +427,12 @@
 				<Event Id="1918071375" Name="BulletImpact" ObjectPath="\Events\Default Work Unit\Weapons\Bullet\BulletImpact" GUID="{C32070BE-75C8-4FEF-B53C-0157D00F9882}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="0.25477085" DurationMax="1.8126458">
 					<SwitchContainers>
 						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3580780794" Id="2299321487" GUID="{6C6EDF18-8804-4B66-B682-2770469720A9}"/>
+							<MediaRefs>
+								<MediaRef Id="135142535"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3580780794" Id="2058049674" GUID="{1E1A577E-F3D7-4D10-B70C-B659C6330982}" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="113330765"/>
@@ -689,6 +704,11 @@
 						<MediaRef Id="541407467"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1455463447" Name="walkerDeath" ObjectPath="\Events\Default Work Unit\Enemy\Walker\walkerDeath" GUID="{32AA9490-1366-4C15-814D-D67A5D27B0E4}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="1.4066875" DurationMax="1.4066875">
+					<MediaRefs>
+						<MediaRef Id="10706007"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1526193385" Name="WalkerFootstep" ObjectPath="\Events\Default Work Unit\Enemy\Walker\WalkerFootstep" GUID="{5D90BBE1-FB94-4499-A01D-B292FE366E36}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="0.30285418" DurationMax="0.46435416">
 					<MediaRefs>
 						<MediaRef Id="77791233"/>
@@ -722,6 +742,7 @@
 				<SwitchGroup Id="3580780794" Name="BulletMaterial" ObjectPath="\Switches\Default Work Unit\BulletMaterial" GUID="{2D453154-AC50-4CA2-98F5-E2FC2FC38481}">
 					<Switches>
 						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\BulletMaterial\Wood" GUID="{1E1A577E-F3D7-4D10-B70C-B659C6330982}"/>
+						<Switch Id="2299321487" Name="Enemy" ObjectPath="\Switches\Default Work Unit\BulletMaterial\Enemy" GUID="{6C6EDF18-8804-4B66-B682-2770469720A9}"/>
 						<Switch Id="2449969375" Name="Glass" ObjectPath="\Switches\Default Work Unit\BulletMaterial\Glass" GUID="{63E2EDEC-6616-402D-B9C8-D0FD15C4BD57}"/>
 						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\BulletMaterial\Metal" GUID="{8A1329C6-0665-40AE-A108-D9FBB58F0FBB}"/>
 					</Switches>
@@ -729,5 +750,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A43D33EE-93B0-2D71-CD56-689F1742CF0E}</FileHash>
+	<FileHash>{96E008E6-5FEA-2940-78CE-6AAB6DCFE90B}</FileHash>
 </SoundBanksInfo>

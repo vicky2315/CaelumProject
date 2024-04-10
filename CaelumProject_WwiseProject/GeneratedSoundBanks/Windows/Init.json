@@ -122,6 +122,12 @@
         "GUID": "{1E1A577E-F3D7-4D10-B70C-B659C6330982}"
        },
        {
+        "Id": "2299321487",
+        "Name": "Enemy",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BulletMaterial\\Enemy",
+        "GUID": "{6C6EDF18-8804-4B66-B682-2770469720A9}"
+       },
+       {
         "Id": "2449969375",
         "Name": "Glass",
         "ObjectPath": "\\Switches\\Default Work Unit\\BulletMaterial\\Glass",
@@ -138,6 +144,6 @@
     ]
    }
   ],
-  "FileHash": "{92585F8D-D579-3A13-40A8-46B4C145A9E7}"
+  "FileHash": "{DF3DB882-DF59-A951-3CAB-F8586BC1E52E}"
  }
 }

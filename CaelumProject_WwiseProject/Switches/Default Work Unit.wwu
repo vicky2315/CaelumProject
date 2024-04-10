@@ -27,6 +27,7 @@
 						<Switch Name="Glass" ID="{63E2EDEC-6616-402D-B9C8-D0FD15C4BD57}"/>
 						<Switch Name="Wood" ID="{1E1A577E-F3D7-4D10-B70C-B659C6330982}"/>
 						<Switch Name="Metal" ID="{8A1329C6-0665-40AE-A108-D9FBB58F0FBB}"/>
+						<Switch Name="Enemy" ID="{6C6EDF18-8804-4B66-B682-2770469720A9}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
