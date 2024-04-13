@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{8348B386-E3D0-0EF1-C5AF-F81B0F7B5E25}">
+		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{0694345C-B80A-C0DA-5C1B-B53220621A7F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -109,10 +109,6 @@
 				<File Id="291941750" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_woodHeavy-004.wav</ShortName>
 					<CachePath>SFX/footstep_woodHeavy-004_10C4C929.wem</CachePath>
-				</File>
-				<File Id="293563334" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>turret_hurt-002.wav</ShortName>
-					<CachePath>SFX/turret_hurt-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="298935903" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_wood-002.wav</ShortName>
@@ -376,12 +372,6 @@
 				<Event Id="1918071375" Name="BulletImpact" ObjectPath="\Events\Default Work Unit\Weapons\Bullet\BulletImpact" GUID="{C32070BE-75C8-4FEF-B53C-0157D00F9882}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="0.25477085" DurationMax="1.8126458">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3580780794" Id="2299321487" GUID="{6C6EDF18-8804-4B66-B682-2770469720A9}"/>
-							<MediaRefs>
-								<MediaRef Id="135142535"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3580780794" Id="2058049674" GUID="{1E1A577E-F3D7-4D10-B70C-B659C6330982}" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="113330765"/>
@@ -412,6 +402,11 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="1338769201" Name="BulletImpactEnemy" ObjectPath="\Events\Default Work Unit\Weapons\Bullet\BulletImpactEnemy" GUID="{83711DF4-AD49-4B8E-8409-3834676D19FC}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="1.384625" DurationMax="1.384625">
+					<MediaRefs>
+						<MediaRef Id="135142535"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="779278001" Name="Death" ObjectPath="\Events\Default Work Unit\Player\Death" GUID="{2AAA8F1F-51DD-4A37-8845-1BD53CC746E2}" DurationType="OneShot" DurationMin="1.7835625" DurationMax="1.7835625">
 					<MediaRefs>
@@ -647,9 +642,8 @@
 						<MediaRef Id="190321628"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1605625300" Name="TurretHurt" ObjectPath="\Events\Default Work Unit\Enemy\Turret\TurretHurt" GUID="{0D042D75-A8A3-43D3-9068-24F4E73BD3F9}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="1.1414584" DurationMax="1.2176459">
+				<Event Id="1605625300" Name="TurretHurt" ObjectPath="\Events\Default Work Unit\Enemy\Turret\TurretHurt" GUID="{0D042D75-A8A3-43D3-9068-24F4E73BD3F9}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="1.1165862" DurationMax="1.3278522">
 					<MediaRefs>
-						<MediaRef Id="293563334"/>
 						<MediaRef Id="541407467"/>
 					</MediaRefs>
 				</Event>
@@ -699,5 +693,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E282E4BC-93EA-1D29-4007-CC0EA5F4DC6D}</FileHash>
+	<FileHash>{676839EE-BCB1-983E-D4E7-D6B62744ED1E}</FileHash>
 </SoundBanksInfo>

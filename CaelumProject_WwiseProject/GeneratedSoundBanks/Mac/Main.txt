@@ -7,6 +7,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	979865097	titleAmbienceStop			\Default Work Unit\UI\titleAmbienceStop	
 	1108627404	pistolFire			\Default Work Unit\Weapons\Pistol\pistolFire	
 	1165913927	AmmoPickup			\Default Work Unit\Pickups\AmmoPickup	
+	1338769201	BulletImpactEnemy			\Default Work Unit\Weapons\Bullet\BulletImpactEnemy	
 	1455463447	walkerDeath			\Default Work Unit\Enemy\Walker\walkerDeath	
 	1526193385	WalkerFootstep			\Default Work Unit\Enemy\Walker\WalkerFootstep	
 	1548130050	JumpLand			\Default Work Unit\Player\JumpLand	
@@ -55,7 +56,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	104920231	walker_alert	E:\Uni\DES207\github\NEWEST\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\parasite_alert_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Walker\State\walker_alert		207436
 	113330765	env_bulletImpact_wood-002	E:\Uni\DES207\github\NEWEST\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\env_bulletImpact_wood-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Bullet\BulletSurface\bulletWood\env_bulletImpact_wood-002		53904
 	114460912	env_bulletImpact_glass-004	E:\Uni\DES207\github\NEWEST\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\env_bulletImpact_glass-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Bullet\BulletSurface\bulletGlass\env_bulletImpact_glass-004		297128
-	135142535	env_bulletImpact_parasite	E:\Uni\DES207\github\NEWEST\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\env_bulletImpact_parasite_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Bullet\BulletSurface\env_bulletImpact_parasite		265944
+	135142535	env_bulletImpact_parasite	E:\Uni\DES207\github\NEWEST\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\env_bulletImpact_parasite_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Bullet\env_bulletImpact_parasite		265944
 	146505309	footstep_metalHeavy-001	E:\Uni\DES207\github\NEWEST\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_metalHeavy-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Heavy\metalFoostepHeavy\footstep_metalHeavy-001		106124
 	152056686	footstep_metalHeavy-007	E:\Uni\DES207\github\NEWEST\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_metalHeavy-007_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Heavy\metalFoostepHeavy\footstep_metalHeavy-007		111948
 	157773929	jump_woodUp	E:\Uni\DES207\github\NEWEST\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\jump_woodUp_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\JumpUp\jump_woodUp		284976
@@ -70,7 +71,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	253501304	env_bulletImpact_metal-001	E:\Uni\DES207\github\NEWEST\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\env_bulletImpact_metal-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Bullet\BulletSurface\bulletMetal\env_bulletImpact_metal-001		294820
 	263064207	pistol_reload_fullv2	E:\Uni\DES207\github\NEWEST\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\pistol_reload_fullv2_FE8BCCA8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Pistol\pistol_reload_fullv2		554536
 	291941750	footstep_woodHeavy-004	E:\Uni\DES207\github\NEWEST\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_woodHeavy-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Heavy\woodFootsepHeavy\footstep_woodHeavy-004		71808
-	293563334	turret_hurt-002	E:\Uni\DES207\github\NEWEST\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\turret_hurt-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Turret\TurretHurt\turret_hurt-002		219256
 	298935903	footstep_wood-002	E:\Uni\DES207\github\NEWEST\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_wood-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Light\woodFootstep\footstep_wood-002		238176
 	319249551	env_bulletImpact_wood-001	E:\Uni\DES207\github\NEWEST\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\env_bulletImpact_wood-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Bullet\BulletSurface\bulletWood\env_bulletImpact_wood-001		59284
 	337524377	footstep_metal-002	E:\Uni\DES207\github\NEWEST\CaelumProject\CaelumProject_WwiseProject\.cache\Mac\SFX\footstep_metal-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Light\metalFootstep\footstep_metal-002		274832

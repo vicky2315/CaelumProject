@@ -48,16 +48,6 @@
 					<ChildrenList>
 						<Event Name="Footstep" ID="{50BECF9F-11A9-4E76-ADB9-53DFDA57BE35}">
 							<ChildrenList>
-								<Action Name="" ID="{9D7B5643-A7B5-49C2-A93B-B2B29CF9C178}" ShortID="255544385">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="16"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Footsteps" ID="{0DE4DF4E-5658-46B9-B0B9-7317B8C052AB}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{EB60E2D4-A5DC-415F-8373-9E4BEDB7D055}" ShortID="255581401">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -91,6 +81,17 @@
 						</Event>
 						<Event Name="JumpUp" ID="{DB91E62E-04FC-4061-A788-D39368F3F8E9}">
 							<ChildrenList>
+								<Action Name="" ID="{8DE6ED94-2C74-47E2-882F-F6F2DF8663BD}" ShortID="768973668">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="-96"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{0DE4DF4E-5658-46B9-B0B9-7317B8C052AB}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{ED9B76D8-54A4-42DA-93C7-9C1AE7B3D065}" ShortID="426978259">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -112,7 +113,6 @@
 								<Action Name="" ID="{4FB72F45-7C3D-413C-BFC7-513D0AA97761}" ShortID="814147505">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="12"/>
-										<Property Name="Volume" Type="Real64" Value="4"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -334,6 +334,17 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="BulletSurface" ID="{BFAC46D1-07C6-4E3E-9D85-C90026B39FB8}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="BulletImpactEnemy" ID="{83711DF4-AD49-4B8E-8409-3834676D19FC}">
+									<ChildrenList>
+										<Action Name="" ID="{84A6FC33-EFB8-4360-895A-543EBA644C89}" ShortID="299878407">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="env_bulletImpact_parasite" ID="{9C6A5528-9318-43F6-B2AC-0ADA09E4330A}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
