@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{0694345C-B80A-C0DA-5C1B-B53220621A7F}">
+		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{90EFCA74-57B9-5E87-7514-18722B70319B}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -197,6 +197,10 @@
 				<File Id="548374835" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_metal-010.wav</ShortName>
 					<CachePath>SFX/footstep_metal-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="549836913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_respawn.wav</ShortName>
+					<CachePath>SFX/player_respawn_10C4C929.wem</CachePath>
 				</File>
 				<File Id="566556049" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_metalHeavy-006.wav</ShortName>
@@ -621,6 +625,11 @@
 						<MediaRef Id="263064207"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4279841335" Name="Respawn" ObjectPath="\Events\Default Work Unit\Player\Respawn" GUID="{CEFFD4DB-9EFC-429C-B897-D34FB8D77183}" DurationType="OneShot" DurationMin="2.24" DurationMax="2.24">
+					<MediaRefs>
+						<MediaRef Id="549836913"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3076102481" Name="titleAmbience" ObjectPath="\Events\Default Work Unit\UI\titleAmbience" GUID="{E2171221-9D2A-44BC-B378-9B9CFBCB98FA}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="479373908"/>
@@ -693,5 +702,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2AD2E4EC-F2ED-A0F0-90E1-F9A5CED8E9B5}</FileHash>
+	<FileHash>{6CB458BC-B661-BE5B-CBC9-D57EC0330668}</FileHash>
 </SoundBanksInfo>

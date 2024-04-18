@@ -156,7 +156,7 @@
     "Type": "User",
     "GUID": "{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}",
     "Language": "SFX",
-    "Hash": "{0694345C-B80A-C0DA-5C1B-B53220621A7F}",
+    "Hash": "{90EFCA74-57B9-5E87-7514-18722B70319B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -544,6 +544,14 @@
       "Location": "Memory",
       "ShortName": "footstep_metal-010.wav",
       "CachePath": "SFX/footstep_metal-010_10C4C929.wem"
+     },
+     {
+      "Id": "549836913",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "player_respawn.wav",
+      "CachePath": "SFX/player_respawn_10C4C929.wem"
      },
      {
       "Id": "566556049",
@@ -1561,6 +1569,20 @@
       ]
      },
      {
+      "Id": "4279841335",
+      "Name": "Respawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Respawn",
+      "GUID": "{CEFFD4DB-9EFC-429C-B897-D34FB8D77183}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.24",
+      "DurationMax": "2.24",
+      "MediaRefs": [
+       {
+        "Id": "549836913"
+       }
+      ]
+     },
+     {
       "Id": "3076102481",
       "Name": "titleAmbience",
       "ObjectPath": "\\Events\\Default Work Unit\\UI\\titleAmbience",
@@ -1787,6 +1809,6 @@
     ]
    }
   ],
-  "FileHash": "{90E98A59-ED29-F20D-6DF0-7E7D0D92F3D1}"
+  "FileHash": "{CC845873-F816-1FC2-9741-940B88FD3910}"
  }
 }
