@@ -52,7 +52,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{90EFCA74-57B9-5E87-7514-18722B70319B}">
+		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{4019A958-0416-5ACE-F2B1-3FD3A2D1C6E9}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -64,6 +64,10 @@
 				<File Id="12978726" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_woodHeavy.wav</ShortName>
 					<CachePath>SFX/footstep_woodHeavy_10C4C929.wem</CachePath>
+				</File>
+				<File Id="25241164" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pistol_reloadEmpty.wav</ShortName>
+					<CachePath>SFX/pistol_reloadEmpty_10C4C929.wem</CachePath>
 				</File>
 				<File Id="28976191" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_wood-008.wav</ShortName>
@@ -153,10 +157,6 @@
 					<ShortName>env_bulletImpact_metal-001.wav</ShortName>
 					<CachePath>SFX/env_bulletImpact_metal-001_10C4C929.wem</CachePath>
 				</File>
-				<File Id="263064207" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>pistol_reload_fullv2.wav</ShortName>
-					<CachePath>SFX/pistol_reload_fullv2_FE8BCCA8.wem</CachePath>
-				</File>
 				<File Id="291941750" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_woodHeavy-004.wav</ShortName>
 					<CachePath>SFX/footstep_woodHeavy-004_10C4C929.wem</CachePath>
@@ -184,6 +184,10 @@
 				<File Id="364630623" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_wood-007.wav</ShortName>
 					<CachePath>SFX/footstep_wood-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="377051551" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pistol_reload.wav</ShortName>
+					<CachePath>SFX/pistol_reload_10C4C929.wem</CachePath>
 				</File>
 				<File Id="379334315" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_wood-001.wav</ShortName>
@@ -248,10 +252,6 @@
 				<File Id="548374835" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_metal-010.wav</ShortName>
 					<CachePath>SFX/footstep_metal-010_10C4C929.wem</CachePath>
-				</File>
-				<File Id="549836913" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>player_respawn.wav</ShortName>
-					<CachePath>SFX/player_respawn_10C4C929.wem</CachePath>
 				</File>
 				<File Id="566556049" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_metalHeavy-006.wav</ShortName>
@@ -427,7 +427,7 @@
 				<Event Id="1918071375" Name="BulletImpact" ObjectPath="\Events\Default Work Unit\Weapons\Bullet\BulletImpact" GUID="{C32070BE-75C8-4FEF-B53C-0157D00F9882}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="0.25477085" DurationMax="1.8126458">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3580780794" Id="2058049674" GUID="{1E1A577E-F3D7-4D10-B70C-B659C6330982}" Default="true"/>
+							<SwitchValue GroupType="Switch" GroupId="3580780794" Id="2058049674" GUID="{1E1A577E-F3D7-4D10-B70C-B659C6330982}"/>
 							<MediaRefs>
 								<MediaRef Id="113330765"/>
 								<MediaRef Id="319249551"/>
@@ -437,7 +437,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="3580780794" Id="2473969246" GUID="{8A1329C6-0665-40AE-A108-D9FBB58F0FBB}"/>
+							<SwitchValue GroupType="Switch" GroupId="3580780794" Id="2473969246" GUID="{8A1329C6-0665-40AE-A108-D9FBB58F0FBB}" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="182765028"/>
 								<MediaRef Id="214768809"/>
@@ -666,19 +666,19 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1108627404" Name="pistolFire" ObjectPath="\Events\Default Work Unit\Weapons\Pistol\pistolFire" GUID="{08203B80-5359-4A19-AAEA-C289BABCA8FD}" DurationType="OneShot" DurationMin="1.3590417" DurationMax="1.3590417">
+				<Event Id="1108627404" Name="pistolFire" ObjectPath="\Events\Default Work Unit\Weapons\Pistol\pistolFire" GUID="{08203B80-5359-4A19-AAEA-C289BABCA8FD}" DurationType="OneShot" DurationMin="1.5020417" DurationMax="1.5020417">
 					<MediaRefs>
 						<MediaRef Id="745364205"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1972462343" Name="pistolReload" ObjectPath="\Events\Default Work Unit\Weapons\Pistol\pistolReload" GUID="{88344112-A935-4E4F-B917-CFB4FCC59B17}" DurationType="OneShot" DurationMin="2.8877072" DurationMax="2.8877072">
+				<Event Id="1972462343" Name="pistolReload" ObjectPath="\Events\Default Work Unit\Weapons\Pistol\pistolReload" GUID="{88344112-A935-4E4F-B917-CFB4FCC59B17}" DurationType="OneShot" DurationMin="2.9999375" DurationMax="2.9999375">
 					<MediaRefs>
-						<MediaRef Id="263064207"/>
+						<MediaRef Id="377051551"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4279841335" Name="Respawn" ObjectPath="\Events\Default Work Unit\Player\Respawn" GUID="{CEFFD4DB-9EFC-429C-B897-D34FB8D77183}" DurationType="OneShot" DurationMin="2.24" DurationMax="2.24">
+				<Event Id="1043715546" Name="pistolReloadEmpty" ObjectPath="\Events\Default Work Unit\Weapons\Pistol\pistolReloadEmpty" GUID="{29210FD7-BEF4-4B83-9EF6-29BDD28C22DC}" DurationType="OneShot" DurationMin="3.1697083" DurationMax="3.1697083">
 					<MediaRefs>
-						<MediaRef Id="549836913"/>
+						<MediaRef Id="25241164"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3076102481" Name="titleAmbience" ObjectPath="\Events\Default Work Unit\UI\titleAmbience" GUID="{E2171221-9D2A-44BC-B378-9B9CFBCB98FA}" DurationType="Infinite">
@@ -753,5 +753,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{483B5DB2-FA21-ED3B-C11C-D422F6546A22}</FileHash>
+	<FileHash>{05D7AF43-CF8A-334E-7555-B14904953C72}</FileHash>
 </SoundBanksInfo>

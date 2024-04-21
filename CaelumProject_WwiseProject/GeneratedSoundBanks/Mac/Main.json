@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}",
     "Language": "SFX",
-    "Hash": "{90EFCA74-57B9-5E87-7514-18722B70319B}",
+    "Hash": "{4019A958-0416-5ACE-F2B1-3FD3A2D1C6E9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "footstep_woodHeavy.wav",
       "CachePath": "SFX/footstep_woodHeavy_10C4C929.wem"
+     },
+     {
+      "Id": "25241164",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "pistol_reloadEmpty.wav",
+      "CachePath": "SFX/pistol_reloadEmpty_10C4C929.wem"
      },
      {
       "Id": "28976191",
@@ -208,14 +216,6 @@
       "CachePath": "SFX/env_bulletImpact_metal-001_10C4C929.wem"
      },
      {
-      "Id": "263064207",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "pistol_reload_fullv2.wav",
-      "CachePath": "SFX/pistol_reload_fullv2_FE8BCCA8.wem"
-     },
-     {
       "Id": "291941750",
       "Language": "SFX",
       "Streaming": "false",
@@ -270,6 +270,14 @@
       "Location": "Memory",
       "ShortName": "footstep_wood-007.wav",
       "CachePath": "SFX/footstep_wood-007_10C4C929.wem"
+     },
+     {
+      "Id": "377051551",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "pistol_reload.wav",
+      "CachePath": "SFX/pistol_reload_10C4C929.wem"
      },
      {
       "Id": "379334315",
@@ -398,14 +406,6 @@
       "Location": "Memory",
       "ShortName": "footstep_metal-010.wav",
       "CachePath": "SFX/footstep_metal-010_10C4C929.wem"
-     },
-     {
-      "Id": "549836913",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "player_respawn.wav",
-      "CachePath": "SFX/player_respawn_10C4C929.wem"
      },
      {
       "Id": "566556049",
@@ -779,8 +779,7 @@
          "GroupType": "Switch",
          "GroupId": "3580780794",
          "Id": "2058049674",
-         "GUID": "{1E1A577E-F3D7-4D10-B70C-B659C6330982}",
-         "Default": "true"
+         "GUID": "{1E1A577E-F3D7-4D10-B70C-B659C6330982}"
         },
         "MediaRefs": [
          {
@@ -805,7 +804,8 @@
          "GroupType": "Switch",
          "GroupId": "3580780794",
          "Id": "2473969246",
-         "GUID": "{8A1329C6-0665-40AE-A108-D9FBB58F0FBB}"
+         "GUID": "{8A1329C6-0665-40AE-A108-D9FBB58F0FBB}",
+         "Default": "true"
         },
         "MediaRefs": [
          {
@@ -1400,8 +1400,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Pistol\\pistolFire",
       "GUID": "{08203B80-5359-4A19-AAEA-C289BABCA8FD}",
       "DurationType": "OneShot",
-      "DurationMin": "1.3590417",
-      "DurationMax": "1.3590417",
+      "DurationMin": "1.5020417",
+      "DurationMax": "1.5020417",
       "MediaRefs": [
        {
         "Id": "745364205"
@@ -1414,25 +1414,25 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Pistol\\pistolReload",
       "GUID": "{88344112-A935-4E4F-B917-CFB4FCC59B17}",
       "DurationType": "OneShot",
-      "DurationMin": "2.8877072",
-      "DurationMax": "2.8877072",
+      "DurationMin": "2.9999375",
+      "DurationMax": "2.9999375",
       "MediaRefs": [
        {
-        "Id": "263064207"
+        "Id": "377051551"
        }
       ]
      },
      {
-      "Id": "4279841335",
-      "Name": "Respawn",
-      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Respawn",
-      "GUID": "{CEFFD4DB-9EFC-429C-B897-D34FB8D77183}",
+      "Id": "1043715546",
+      "Name": "pistolReloadEmpty",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Pistol\\pistolReloadEmpty",
+      "GUID": "{29210FD7-BEF4-4B83-9EF6-29BDD28C22DC}",
       "DurationType": "OneShot",
-      "DurationMin": "2.24",
-      "DurationMax": "2.24",
+      "DurationMin": "3.1697083",
+      "DurationMax": "3.1697083",
       "MediaRefs": [
        {
-        "Id": "549836913"
+        "Id": "25241164"
        }
       ]
      },
@@ -1663,6 +1663,6 @@
     ]
    }
   ],
-  "FileHash": "{40974564-BF72-9CF2-2D29-C0B012571C9D}"
+  "FileHash": "{14C2993A-FC99-7EE5-3EEA-DD21E3D91CED}"
  }
 }

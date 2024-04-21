@@ -2955,7 +2955,7 @@
 					<ChildrenList>
 						<Folder Name="Pistol" ID="{B2B157E4-97DB-49CA-9021-97AF5D1812B1}" ShortID="1001921441">
 							<ChildrenList>
-								<Sound Name="pistol_draw" ID="{A5857A0A-2E6A-473E-9B20-0A115FDE0E1C}" ShortID="477389744">
+								<Sound Name="pistol_draw" ID="{78A05452-7550-43F1-90FA-79052E4D8ABC}" ShortID="507050158">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
@@ -2965,7 +2965,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="pistol_draw" ID="{0CE57713-6B19-40E2-AB62-71AB1BFBC8AE}">
+										<AudioFileSource Name="pistol_draw" ID="{67385D77-263A-4F54-9DBC-40CE237D4BAB}">
 											<Language>SFX</Language>
 											<AudioFile>pistol_draw.wav</AudioFile>
 											<MediaIDList>
@@ -2974,17 +2974,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="pistol_draw" ID="{0CE57713-6B19-40E2-AB62-71AB1BFBC8AE}" Platform="Linked"/>
+										<ActiveSource Name="pistol_draw" ID="{67385D77-263A-4F54-9DBC-40CE237D4BAB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="pistol_fire" ID="{E3AB3B9F-221D-4393-A08D-47CAA6A5E8C2}" ShortID="279431999">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-2</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
+								<Sound Name="pistol_fire" ID="{3094C636-2293-43B6-8E94-969342FEB810}" ShortID="549060877">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
@@ -2994,7 +2987,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="pistol_fire" ID="{084A073F-63C7-448E-B3AE-8A402A2308DB}">
+										<AudioFileSource Name="pistol_fire" ID="{D08E3CE7-9657-468B-85C7-763608D0E803}">
 											<Language>SFX</Language>
 											<AudioFile>pistol_fire.wav</AudioFile>
 											<MediaIDList>
@@ -3003,10 +2996,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="pistol_fire" ID="{084A073F-63C7-448E-B3AE-8A402A2308DB}" Platform="Linked"/>
+										<ActiveSource Name="pistol_fire" ID="{D08E3CE7-9657-468B-85C7-763608D0E803}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="pistol_firstDraw" ID="{6D4FB6F7-85CB-40A3-81D4-5F07B82267F8}" ShortID="250844830">
+								<Sound Name="pistol_firstDraw" ID="{336C917E-E647-4E03-8F44-7C737BD6DF3B}" ShortID="427821247">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
@@ -3016,7 +3009,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="pistol_firstDraw" ID="{30955772-CBF9-4632-974A-39CF0158C423}">
+										<AudioFileSource Name="pistol_firstDraw" ID="{87F223F6-86D4-4690-A6D0-510704ED0A43}">
 											<Language>SFX</Language>
 											<AudioFile>pistol_firstDraw.wav</AudioFile>
 											<MediaIDList>
@@ -3025,10 +3018,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="pistol_firstDraw" ID="{30955772-CBF9-4632-974A-39CF0158C423}" Platform="Linked"/>
+										<ActiveSource Name="pistol_firstDraw" ID="{87F223F6-86D4-4690-A6D0-510704ED0A43}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="pistol_holster" ID="{234A364F-23A2-482E-86F5-1C4A076EFB8F}" ShortID="540036433">
+								<Sound Name="pistol_holster" ID="{7E9A5C06-F95D-4C92-A624-8EF9ACCBB169}" ShortID="309703109">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
@@ -3038,7 +3031,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="pistol_holster" ID="{C7CF5AD7-7AE3-460D-9198-45D1B49BAD51}">
+										<AudioFileSource Name="pistol_holster" ID="{FE02A117-1E74-412A-9CFD-37E55B01C53B}">
 											<Language>SFX</Language>
 											<AudioFile>pistol_holster.wav</AudioFile>
 											<MediaIDList>
@@ -3047,22 +3040,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="pistol_holster" ID="{C7CF5AD7-7AE3-460D-9198-45D1B49BAD51}" Platform="Linked"/>
+										<ActiveSource Name="pistol_holster" ID="{FE02A117-1E74-412A-9CFD-37E55B01C53B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="pistol_reload_fullv2" ID="{8D890DA1-C968-439A-A8A9-02CC2F380FDD}" ShortID="192227675">
-									<PropertyList>
-										<Property Name="Lowpass" Type="int16">
-											<ValueList>
-												<Value>21</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
+								<Sound Name="pistol_reload" ID="{2FC1421C-8951-460A-B015-500B5BE101DE}" ShortID="789142220">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
@@ -3072,23 +3053,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="pistol_reload_fullv2" ID="{BB24BD55-0622-466D-AA6C-5377705F2591}">
-											<PropertyList>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0676051879084967"/>
-											</PropertyList>
+										<AudioFileSource Name="pistol_reload" ID="{14A477CF-30E7-4383-81EB-3D4CF065C6C8}">
 											<Language>SFX</Language>
-											<AudioFile>pistol_reload_fullv2.wav</AudioFile>
+											<AudioFile>pistol_reload.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="263064207"/>
+												<MediaID ID="377051551"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="pistol_reload_fullv2" ID="{BB24BD55-0622-466D-AA6C-5377705F2591}" Platform="Linked"/>
+										<ActiveSource Name="pistol_reload" ID="{14A477CF-30E7-4383-81EB-3D4CF065C6C8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="pistol_reloadv2" ID="{0F6E0536-9D1E-49C4-ACE6-39F702CAE3AF}" ShortID="921749562">
+								<Sound Name="pistol_reloadEmpty" ID="{A41ACA4D-4FD5-446B-9860-E0C9610FFD23}" ShortID="898464072">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
@@ -3098,16 +3075,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="pistol_reloadv2" ID="{7A7265F4-09E7-4F0B-9A39-6D95CDB15DE1}">
+										<AudioFileSource Name="pistol_reloadEmpty" ID="{E8A1AD93-23EA-44A9-BE85-68C9FE53C4D0}">
 											<Language>SFX</Language>
-											<AudioFile>pistol_reloadv2.wav</AudioFile>
+											<AudioFile>pistol_reloadEmpty.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="173754775"/>
+												<MediaID ID="25241164"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="pistol_reloadv2" ID="{7A7265F4-09E7-4F0B-9A39-6D95CDB15DE1}" Platform="Linked"/>
+										<ActiveSource Name="pistol_reloadEmpty" ID="{E8A1AD93-23EA-44A9-BE85-68C9FE53C4D0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -3209,7 +3186,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
 										</Reference>
 										<Reference Name="DefaultSwitchOrState">
-											<ObjectRef Name="Wood" ID="{1E1A577E-F3D7-4D10-B70C-B659C6330982}" WorkUnitID="{9D611875-6E7C-491E-8601-37B57F2900E6}"/>
+											<ObjectRef Name="Metal" ID="{8A1329C6-0665-40AE-A108-D9FBB58F0FBB}" WorkUnitID="{9D611875-6E7C-491E-8601-37B57F2900E6}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
