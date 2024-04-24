@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo>
-	<Project Name="CaelumProject_WwiseProject" GUID="{183D95C1-1C35-4DA4-9D88-BEC2D116AB9A}" Generator="2022.1.11.8414"/>
+	<Project Name="CaelumProject_WwiseProject" GUID="{183D95C1-1C35-4DA4-9D88-BEC2D116AB9A}" Generator="2022.1.6.8263"/>
 	<CacheRoot>../.cache</CacheRoot>
 	<Platforms>
 		<Platform Name="Mac" GUID="{5C235685-0FBF-4214-B1D7-CC109C143EBF}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="Mac"/>
@@ -9,5 +9,5 @@
 	<Languages>
 		<Language Name="English(US)" Id="684519430" GUID="{1AC584BA-FE38-4DE7-8072-748758A223BF}" Default="true" UseAsStandIn="true"/>
 	</Languages>
-	<FileHash>{FBBA967B-BE8A-00AF-2F0F-8CDD8361DBC8}</FileHash>
+	<FileHash>{33319CD8-CB82-AA13-65AA-3D372A3732D5}</FileHash>
 </ProjectInfo>

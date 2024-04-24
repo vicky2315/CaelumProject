@@ -19,6 +19,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1531,7 +1536,7 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+												<Property Name="RadiusMax" Type="Real64" Value="2000"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -1547,7 +1552,7 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>1000</XPos>
+																	<XPos>2000</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -1575,13 +1580,13 @@
 																	<SegmentShape>Log2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>871.897509090909</XPos>
+																	<XPos>1743.79501818182</XPos>
 																	<YPos>22</YPos>
 																	<Flags>0</Flags>
 																	<SegmentShape>Exp2</SegmentShape>
 																</Point>
 																<Point>
-																	<XPos>1000</XPos>
+																	<XPos>2000</XPos>
 																	<YPos>100</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -1680,7 +1685,7 @@
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{CCD8A250-3A49-4FD2-ACC2-328B99EB9BF4}" ShortID="759287273">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+														<Property Name="RadiusMax" Type="Real64" Value="3000"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -1696,7 +1701,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>1000</XPos>
+																			<XPos>3000</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -2119,6 +2124,19 @@
 										<RandomSequenceContainer Name="walker_hurt" ID="{AB327CEC-B7F8-442A-9E14-BADEE7438A4B}" ShortID="416598928">
 											<PropertyList>
 												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{963B4BD0-206B-49EB-9EB1-350BBE4F2CCB}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="150"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2260,15 +2278,25 @@
 								<RandomSequenceContainer Name="Walking" ID="{23E7EFC7-548E-4311-8E15-6833EE1FE8F6}" ShortID="720609488">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{2EDCE4DC-9385-48A3-AB88-4E44D8419E26}" ShortID="75313030">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="1500"/>
+														<Property Name="RadiusMax" Type="Real64" Value="3000"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -2284,7 +2312,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>1500</XPos>
+																			<XPos>3000</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -3094,6 +3122,11 @@
 								<SwitchContainer Name="BulletSurface" ID="{BFAC46D1-07C6-4E3E-9D85-C90026B39FB8}" ShortID="230056546">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">

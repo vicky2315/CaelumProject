@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}",
     "Language": "SFX",
-    "Hash": "{4019A958-0416-5ACE-F2B1-3FD3A2D1C6E9}",
+    "Hash": "{D57FDD22-B28A-F35D-0A25-929FB526F699}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -88,6 +88,14 @@
       "CachePath": "SFX/footstep_parasite_10C4C929.wem"
      },
      {
+      "Id": "90305562",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "parasite_hurt-002.wav",
+      "CachePath": "SFX/parasite_hurt-002_10C4C929.wem"
+     },
+     {
       "Id": "104920231",
       "Language": "SFX",
       "Streaming": "false",
@@ -126,6 +134,14 @@
       "Location": "Memory",
       "ShortName": "footstep_metalHeavy-001.wav",
       "CachePath": "SFX/footstep_metalHeavy-001_10C4C929.wem"
+     },
+     {
+      "Id": "151595466",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "pistol_holster.wav",
+      "CachePath": "SFX/pistol_holster_10C4C929.wem"
      },
      {
       "Id": "152056686",
@@ -184,6 +200,14 @@
       "CachePath": "SFX/footstep_metalHeavy-003_10C4C929.wem"
      },
      {
+      "Id": "207958097",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "pistol_draw.wav",
+      "CachePath": "SFX/pistol_draw_10C4C929.wem"
+     },
+     {
       "Id": "214768809",
       "Language": "SFX",
       "Streaming": "false",
@@ -214,6 +238,22 @@
       "Location": "Memory",
       "ShortName": "env_bulletImpact_metal-001.wav",
       "CachePath": "SFX/env_bulletImpact_metal-001_10C4C929.wem"
+     },
+     {
+      "Id": "275664607",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "shotgun_dequip.wav",
+      "CachePath": "SFX/shotgun_dequip_10C4C929.wem"
+     },
+     {
+      "Id": "279671420",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "shotgunDraw.wav",
+      "CachePath": "SFX/shotgunDraw_10C4C929.wem"
      },
      {
       "Id": "291941750",
@@ -360,6 +400,14 @@
       "CachePath": "SFX/turret_charge_10C4C929.wem"
      },
      {
+      "Id": "450159707",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "parasite_hurt-001.wav",
+      "CachePath": "SFX/parasite_hurt-001_10C4C929.wem"
+     },
+     {
       "Id": "465382030",
       "Language": "SFX",
       "Streaming": "false",
@@ -486,6 +534,14 @@
       "Location": "Memory",
       "ShortName": "player_hurt-001.wav",
       "CachePath": "SFX/player_hurt-001_10C4C929.wem"
+     },
+     {
+      "Id": "721198250",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "parasite_hurt.wav",
+      "CachePath": "SFX/parasite_hurt_10C4C929.wem"
      },
      {
       "Id": "737956456",
@@ -702,7 +758,7 @@
       "Name": "Alarm",
       "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Alarm",
       "GUID": "{F97E8888-EBD0-45A4-9B8C-92EC919E77BC}",
-      "MaxAttenuation": "1000",
+      "MaxAttenuation": "2000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -715,7 +771,7 @@
       "Name": "Alert",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Walker\\Alert",
       "GUID": "{BB936426-A5CE-471D-A13E-0B236F54109E}",
-      "MaxAttenuation": "1000",
+      "MaxAttenuation": "3000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1437,6 +1493,70 @@
       ]
      },
      {
+      "Id": "1073734435",
+      "Name": "pistolTOshotgun",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\pistolTOshotgun",
+      "GUID": "{17BDFA8D-62A1-4294-9D53-83A72623005A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4518334",
+      "DurationMax": "1.4518334",
+      "MediaRefs": [
+       {
+        "Id": "151595466"
+       },
+       {
+        "Id": "279671420"
+       }
+      ]
+     },
+     {
+      "Id": "3136177405",
+      "Name": "shotgunFire",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Shotgun\\shotgunFire",
+      "GUID": "{65BE1114-0245-4474-AE5B-C2C6F4CB466C}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3626309542",
+      "Name": "shotgunReload",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Shotgun\\shotgunReload",
+      "GUID": "{05BD9BB7-AEAC-4508-9507-AF78614FF06E}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2967496845",
+      "Name": "shotgunReloadEmpty",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Shotgun\\shotgunReloadEmpty",
+      "GUID": "{0A4D487E-26D3-4B6B-BA78-70442CC94831}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "4024192279",
+      "Name": "shotgunTOpistol",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\shotgunTOpistol",
+      "GUID": "{19384F93-63ED-4155-A1E5-FA265C1ED6D7}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6965",
+      "DurationMax": "1.6965",
+      "MediaRefs": [
+       {
+        "Id": "207958097"
+       },
+       {
+        "Id": "275664607"
+       }
+      ]
+     },
+     {
       "Id": "3076102481",
       "Name": "titleAmbience",
       "ObjectPath": "\\Events\\Default Work Unit\\UI\\titleAmbience",
@@ -1523,7 +1643,7 @@
       "Name": "walkerDeath",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Walker\\walkerDeath",
       "GUID": "{32AA9490-1366-4C15-814D-D67A5D27B0E4}",
-      "MaxAttenuation": "1000",
+      "MaxAttenuation": "3000",
       "DurationType": "OneShot",
       "DurationMin": "1.4066875",
       "DurationMax": "1.4066875",
@@ -1538,7 +1658,7 @@
       "Name": "WalkerFootstep",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Walker\\WalkerFootstep",
       "GUID": "{5D90BBE1-FB94-4499-A01D-B292FE366E36}",
-      "MaxAttenuation": "1500",
+      "MaxAttenuation": "3000",
       "DurationType": "OneShot",
       "DurationMin": "0.30285418",
       "DurationMax": "0.46435416",
@@ -1557,6 +1677,27 @@
        },
        {
         "Id": "940955890"
+       }
+      ]
+     },
+     {
+      "Id": "3105797008",
+      "Name": "walkerHurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemy\\Walker\\walkerHurt",
+      "GUID": "{980B3A2D-C102-450D-88F3-93DE0C1DB118}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4625521",
+      "DurationMax": "0.705036",
+      "MediaRefs": [
+       {
+        "Id": "90305562"
+       },
+       {
+        "Id": "450159707"
+       },
+       {
+        "Id": "721198250"
        }
       ]
      }
@@ -1663,6 +1804,6 @@
     ]
    }
   ],
-  "FileHash": "{113929A4-797F-EFD5-6C15-F917132FD1BB}"
+  "FileHash": "{10251A62-714F-EA18-88DE-B1E9618EB9FE}"
  }
 }
