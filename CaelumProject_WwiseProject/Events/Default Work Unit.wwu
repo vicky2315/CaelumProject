@@ -272,6 +272,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="walkerHurt" ID="{980B3A2D-C102-450D-88F3-93DE0C1DB118}">
+									<ChildrenList>
+										<Action Name="" ID="{6F1F4DA4-FB61-4934-8F0E-37DD45966E09}" ShortID="788837309">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="walker_hurt" ID="{AB327CEC-B7F8-442A-9E14-BADEE7438A4B}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Turret" ID="{2FDA5213-F736-46D7-958E-63F6286D0710}" ShortID="411859063">

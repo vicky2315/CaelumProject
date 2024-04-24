@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{49949D94-B5E0-C3DE-D9D0-8B3EC86BCBDD}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{EF673080-4653-D797-A956-4A1F6B727BB4}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -52,7 +52,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{4019A958-0416-5ACE-F2B1-3FD3A2D1C6E9}">
+		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{D57FDD22-B28A-F35D-0A25-929FB526F699}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -93,6 +93,10 @@
 					<ShortName>footstep_parasite.wav</ShortName>
 					<CachePath>SFX/footstep_parasite_10C4C929.wem</CachePath>
 				</File>
+				<File Id="90305562" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>parasite_hurt-002.wav</ShortName>
+					<CachePath>SFX/parasite_hurt-002_10C4C929.wem</CachePath>
+				</File>
 				<File Id="104920231" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>parasite_alert.wav</ShortName>
 					<CachePath>SFX/parasite_alert_10C4C929.wem</CachePath>
@@ -112,6 +116,10 @@
 				<File Id="146505309" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_metalHeavy-001.wav</ShortName>
 					<CachePath>SFX/footstep_metalHeavy-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="151595466" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pistol_holster.wav</ShortName>
+					<CachePath>SFX/pistol_holster_10C4C929.wem</CachePath>
 				</File>
 				<File Id="152056686" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_metalHeavy-007.wav</ShortName>
@@ -141,6 +149,10 @@
 					<ShortName>footstep_metalHeavy-003.wav</ShortName>
 					<CachePath>SFX/footstep_metalHeavy-003_10C4C929.wem</CachePath>
 				</File>
+				<File Id="207958097" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pistol_draw.wav</ShortName>
+					<CachePath>SFX/pistol_draw_10C4C929.wem</CachePath>
+				</File>
 				<File Id="214768809" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_bulletImpact_metal-005.wav</ShortName>
 					<CachePath>SFX/env_bulletImpact_metal-005_10C4C929.wem</CachePath>
@@ -156,6 +168,14 @@
 				<File Id="253501304" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_bulletImpact_metal-001.wav</ShortName>
 					<CachePath>SFX/env_bulletImpact_metal-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="275664607" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>shotgun_dequip.wav</ShortName>
+					<CachePath>SFX/shotgun_dequip_10C4C929.wem</CachePath>
+				</File>
+				<File Id="279671420" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>shotgunDraw.wav</ShortName>
+					<CachePath>SFX/shotgunDraw_10C4C929.wem</CachePath>
 				</File>
 				<File Id="291941750" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_woodHeavy-004.wav</ShortName>
@@ -229,6 +249,10 @@
 					<ShortName>turret_charge.wav</ShortName>
 					<CachePath>SFX/turret_charge_10C4C929.wem</CachePath>
 				</File>
+				<File Id="450159707" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>parasite_hurt-001.wav</ShortName>
+					<CachePath>SFX/parasite_hurt-001_10C4C929.wem</CachePath>
+				</File>
 				<File Id="465382030" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_metal-003.wav</ShortName>
 					<CachePath>SFX/footstep_metal-003_10C4C929.wem</CachePath>
@@ -292,6 +316,10 @@
 				<File Id="717433756" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>player_hurt-001.wav</ShortName>
 					<CachePath>SFX/player_hurt-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="721198250" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>parasite_hurt.wav</ShortName>
+					<CachePath>SFX/parasite_hurt_10C4C929.wem</CachePath>
 				</File>
 				<File Id="737956456" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_parasite-004.wav</ShortName>
@@ -399,12 +427,12 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="855317084" Name="Alarm" ObjectPath="\Events\Default Work Unit\Environment\Alarm" GUID="{F97E8888-EBD0-45A4-9B8C-92EC919E77BC}" MaxAttenuation="1000" DurationType="Infinite">
+				<Event Id="855317084" Name="Alarm" ObjectPath="\Events\Default Work Unit\Environment\Alarm" GUID="{F97E8888-EBD0-45A4-9B8C-92EC919E77BC}" MaxAttenuation="2000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1010906593"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="721787521" Name="Alert" ObjectPath="\Events\Default Work Unit\Enemy\Walker\Alert" GUID="{BB936426-A5CE-471D-A13E-0B236F54109E}" MaxAttenuation="1000" DurationType="Infinite">
+				<Event Id="721787521" Name="Alert" ObjectPath="\Events\Default Work Unit\Enemy\Walker\Alert" GUID="{BB936426-A5CE-471D-A13E-0B236F54109E}" MaxAttenuation="3000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="104920231"/>
 						<MediaRef Id="598698959"/>
@@ -681,6 +709,21 @@
 						<MediaRef Id="25241164"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1073734435" Name="pistolTOshotgun" ObjectPath="\Events\Default Work Unit\Weapons\pistolTOshotgun" GUID="{17BDFA8D-62A1-4294-9D53-83A72623005A}" DurationType="OneShot" DurationMin="1.4518334" DurationMax="1.4518334">
+					<MediaRefs>
+						<MediaRef Id="151595466"/>
+						<MediaRef Id="279671420"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3136177405" Name="shotgunFire" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\shotgunFire" GUID="{65BE1114-0245-4474-AE5B-C2C6F4CB466C}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3626309542" Name="shotgunReload" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\shotgunReload" GUID="{05BD9BB7-AEAC-4508-9507-AF78614FF06E}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2967496845" Name="shotgunReloadEmpty" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\shotgunReloadEmpty" GUID="{0A4D487E-26D3-4B6B-BA78-70442CC94831}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4024192279" Name="shotgunTOpistol" ObjectPath="\Events\Default Work Unit\Weapons\shotgunTOpistol" GUID="{19384F93-63ED-4155-A1E5-FA265C1ED6D7}" DurationType="OneShot" DurationMin="1.6965" DurationMax="1.6965">
+					<MediaRefs>
+						<MediaRef Id="207958097"/>
+						<MediaRef Id="275664607"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3076102481" Name="titleAmbience" ObjectPath="\Events\Default Work Unit\UI\titleAmbience" GUID="{E2171221-9D2A-44BC-B378-9B9CFBCB98FA}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="479373908"/>
@@ -707,18 +750,25 @@
 						<MediaRef Id="541407467"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1455463447" Name="walkerDeath" ObjectPath="\Events\Default Work Unit\Enemy\Walker\walkerDeath" GUID="{32AA9490-1366-4C15-814D-D67A5D27B0E4}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="1.4066875" DurationMax="1.4066875">
+				<Event Id="1455463447" Name="walkerDeath" ObjectPath="\Events\Default Work Unit\Enemy\Walker\walkerDeath" GUID="{32AA9490-1366-4C15-814D-D67A5D27B0E4}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="1.4066875" DurationMax="1.4066875">
 					<MediaRefs>
 						<MediaRef Id="10706007"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1526193385" Name="WalkerFootstep" ObjectPath="\Events\Default Work Unit\Enemy\Walker\WalkerFootstep" GUID="{5D90BBE1-FB94-4499-A01D-B292FE366E36}" MaxAttenuation="1500" DurationType="OneShot" DurationMin="0.30285418" DurationMax="0.46435416">
+				<Event Id="1526193385" Name="WalkerFootstep" ObjectPath="\Events\Default Work Unit\Enemy\Walker\WalkerFootstep" GUID="{5D90BBE1-FB94-4499-A01D-B292FE366E36}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="0.30285418" DurationMax="0.46435416">
 					<MediaRefs>
 						<MediaRef Id="77791233"/>
 						<MediaRef Id="412561789"/>
 						<MediaRef Id="575108706"/>
 						<MediaRef Id="737956456"/>
 						<MediaRef Id="940955890"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3105797008" Name="walkerHurt" ObjectPath="\Events\Default Work Unit\Enemy\Walker\walkerHurt" GUID="{980B3A2D-C102-450D-88F3-93DE0C1DB118}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="0.4625521" DurationMax="0.705036">
+					<MediaRefs>
+						<MediaRef Id="90305562"/>
+						<MediaRef Id="450159707"/>
+						<MediaRef Id="721198250"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -753,5 +803,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{05D7AF43-CF8A-334E-7555-B14904953C72}</FileHash>
+	<FileHash>{A66BBC95-1A36-7031-0A59-16786DDB59AA}</FileHash>
 </SoundBanksInfo>
