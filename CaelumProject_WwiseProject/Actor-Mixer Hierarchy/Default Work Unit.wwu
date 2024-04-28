@@ -3750,6 +3750,164 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Shotgun" ID="{E00DF24E-2B7D-4EF3-A49D-7C345C1DD064}" ShortID="832276973">
+							<ChildrenList>
+								<Sound Name="shotgun_dequip" ID="{42CEC62A-3BE4-498F-A309-63683875B543}" ShortID="106896268">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="shotgun_dequip" ID="{3CEE0850-385C-48C5-BA82-C92D3BBE3FD9}">
+											<Language>SFX</Language>
+											<AudioFile>shotgun_dequip.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="119503161"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="shotgun_dequip" ID="{3CEE0850-385C-48C5-BA82-C92D3BBE3FD9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="shotgun_fireDouble" ID="{1D74DAB8-1BF8-44F0-8507-CB19F44259DC}" ShortID="20983110">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="shotgun_fireDouble" ID="{CC4AA057-A1E3-4204-8445-A3DF9284B67B}">
+											<Language>SFX</Language>
+											<AudioFile>shotgun_fireDouble.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="277794996"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="shotgun_fireDouble" ID="{CC4AA057-A1E3-4204-8445-A3DF9284B67B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="shotgun_fireQuad" ID="{2DC5F4B0-E440-4E45-B21A-010323F9B5FA}" ShortID="157395303">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="shotgun_fireQuad" ID="{352EDFE7-DD61-4822-B39A-A5B12C2852B5}">
+											<Language>SFX</Language>
+											<AudioFile>shotgun_fireQuad.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="24422680"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="shotgun_fireQuad" ID="{352EDFE7-DD61-4822-B39A-A5B12C2852B5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="shotgun_firstDraw" ID="{542490CD-1A8D-4FB9-AB31-345FCDB935F1}" ShortID="987990450">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="shotgun_firstDraw" ID="{CA6832B7-7694-4C50-AF0F-1539C049FCEC}">
+											<Language>SFX</Language>
+											<AudioFile>shotgun_firstDraw.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="932919359"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="shotgun_firstDraw" ID="{CA6832B7-7694-4C50-AF0F-1539C049FCEC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="shotgun_reload" ID="{218BC73C-E966-44B8-9353-731240808799}" ShortID="255704950">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="shotgun_reload" ID="{B6E2A28A-E73F-4A49-AA26-FA9EF64CAB60}">
+											<Language>SFX</Language>
+											<AudioFile>shotgun_reload.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="137036758"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="shotgun_reload" ID="{B6E2A28A-E73F-4A49-AA26-FA9EF64CAB60}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="shotgun_reloadEmpty" ID="{782EAEDA-BEE5-42D2-B1FA-55456EEFBC47}" ShortID="701124453">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="shotgun_reloadEmpty" ID="{1698B63F-BA4B-410B-81F5-C2CF7C084449}">
+											<Language>SFX</Language>
+											<AudioFile>shotgun_reloadEmpty.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="228388078"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="shotgun_reloadEmpty" ID="{1698B63F-BA4B-410B-81F5-C2CF7C084449}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="shotgunDraw" ID="{EFAF9706-BC71-4E86-AB32-DB5B916152D8}" ShortID="213262998">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="shotgunDraw" ID="{9255EFC2-ED72-4D93-B760-B356CA0A2E38}">
+											<Language>SFX</Language>
+											<AudioFile>shotgunDraw.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="980177661"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="shotgunDraw" ID="{9255EFC2-ED72-4D93-B760-B356CA0A2E38}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

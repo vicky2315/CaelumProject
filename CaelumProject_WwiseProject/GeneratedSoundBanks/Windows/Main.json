@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}",
     "Language": "SFX",
-    "Hash": "{D57FDD22-B28A-F35D-0A25-929FB526F699}",
+    "Hash": "{2E2F690D-824C-D87A-B6E4-1D48D2667143}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "footstep_woodHeavy.wav",
       "CachePath": "SFX/footstep_woodHeavy_10C4C929.wem"
+     },
+     {
+      "Id": "24422680",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "shotgun_fireQuad.wav",
+      "CachePath": "SFX/shotgun_fireQuad_10C4C929.wem"
      },
      {
       "Id": "25241164",
@@ -120,12 +128,28 @@
       "CachePath": "SFX/env_bulletImpact_glass-004_10C4C929.wem"
      },
      {
+      "Id": "119503161",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "shotgun_dequip.wav",
+      "CachePath": "SFX/shotgun_dequip_10C4C929.wem"
+     },
+     {
       "Id": "135142535",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "env_bulletImpact_parasite.wav",
       "CachePath": "SFX/env_bulletImpact_parasite_10C4C929.wem"
+     },
+     {
+      "Id": "137036758",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "shotgun_reload.wav",
+      "CachePath": "SFX/shotgun_reload_10C4C929.wem"
      },
      {
       "Id": "146505309",
@@ -216,6 +240,14 @@
       "CachePath": "SFX/env_bulletImpact_metal-005_10C4C929.wem"
      },
      {
+      "Id": "228388078",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "shotgun_reloadEmpty.wav",
+      "CachePath": "SFX/shotgun_reloadEmpty_10C4C929.wem"
+     },
+     {
       "Id": "241466283",
       "Language": "SFX",
       "Streaming": "false",
@@ -240,20 +272,12 @@
       "CachePath": "SFX/env_bulletImpact_metal-001_10C4C929.wem"
      },
      {
-      "Id": "275664607",
+      "Id": "277794996",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "shotgun_dequip.wav",
-      "CachePath": "SFX/shotgun_dequip_10C4C929.wem"
-     },
-     {
-      "Id": "279671420",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "shotgunDraw.wav",
-      "CachePath": "SFX/shotgunDraw_10C4C929.wem"
+      "ShortName": "shotgun_fireDouble.wav",
+      "CachePath": "SFX/shotgun_fireDouble_10C4C929.wem"
      },
      {
       "Id": "291941750",
@@ -680,6 +704,14 @@
       "CachePath": "SFX/parasite_idle-001_10C4C929.wem"
      },
      {
+      "Id": "932919359",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "shotgun_firstDraw.wav",
+      "CachePath": "SFX/shotgun_firstDraw_10C4C929.wem"
+     },
+     {
       "Id": "940955890",
       "Language": "SFX",
       "Streaming": "false",
@@ -702,6 +734,14 @@
       "Location": "Memory",
       "ShortName": "env_bulletImpact_glass-001.wav",
       "CachePath": "SFX/env_bulletImpact_glass-001_10C4C929.wem"
+     },
+     {
+      "Id": "980177661",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "shotgunDraw.wav",
+      "CachePath": "SFX/shotgunDraw_10C4C929.wem"
      },
      {
       "Id": "1010906593",
@@ -1495,8 +1535,8 @@
      {
       "Id": "1073734435",
       "Name": "pistolTOshotgun",
-      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\pistolTOshotgun",
-      "GUID": "{17BDFA8D-62A1-4294-9D53-83A72623005A}",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Shotgun\\pistolTOshotgun",
+      "GUID": "{D9ED5205-1714-4F69-834D-91992E26F359}",
       "DurationType": "OneShot",
       "DurationMin": "1.4518334",
       "DurationMax": "1.4518334",
@@ -1505,7 +1545,21 @@
         "Id": "151595466"
        },
        {
-        "Id": "279671420"
+        "Id": "980177661"
+       }
+      ]
+     },
+     {
+      "Id": "1733808942",
+      "Name": "shotgunDoubleFire",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Shotgun\\shotgunDoubleFire",
+      "GUID": "{9F1B924C-3F01-4C1F-84CB-2EC78878CF4E}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1184167",
+      "DurationMax": "1.1184167",
+      "MediaRefs": [
+       {
+        "Id": "24422680"
        }
       ]
      },
@@ -1513,46 +1567,72 @@
       "Id": "3136177405",
       "Name": "shotgunFire",
       "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Shotgun\\shotgunFire",
-      "GUID": "{65BE1114-0245-4474-AE5B-C2C6F4CB466C}",
-      "MaxAttenuation": "0",
+      "GUID": "{414DF010-5D57-4A6F-A382-5245A416DE2E}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.7872292",
+      "DurationMax": "0.7872292",
+      "MediaRefs": [
+       {
+        "Id": "277794996"
+       }
+      ]
+     },
+     {
+      "Id": "2469788739",
+      "Name": "shotgunFirstEquip",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Shotgun\\shotgunFirstEquip",
+      "GUID": "{FADF11EA-5BC8-40DC-86B6-DD323399B65B}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.9947917",
+      "DurationMax": "2.9947917",
+      "MediaRefs": [
+       {
+        "Id": "932919359"
+       }
+      ]
      },
      {
       "Id": "3626309542",
       "Name": "shotgunReload",
       "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Shotgun\\shotgunReload",
-      "GUID": "{05BD9BB7-AEAC-4508-9507-AF78614FF06E}",
-      "MaxAttenuation": "0",
+      "GUID": "{2E77CFBD-C8BC-4F44-9BE9-CC0B8E12A414}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "3.2",
+      "DurationMax": "3.2",
+      "MediaRefs": [
+       {
+        "Id": "137036758"
+       }
+      ]
      },
      {
       "Id": "2967496845",
       "Name": "shotgunReloadEmpty",
       "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Shotgun\\shotgunReloadEmpty",
-      "GUID": "{0A4D487E-26D3-4B6B-BA78-70442CC94831}",
-      "MaxAttenuation": "0",
+      "GUID": "{85F36A55-209B-4472-A9B5-23B03AF2FDD4}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "3.8791666",
+      "DurationMax": "3.8791666",
+      "MediaRefs": [
+       {
+        "Id": "228388078"
+       }
+      ]
      },
      {
       "Id": "4024192279",
       "Name": "shotgunTOpistol",
-      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\shotgunTOpistol",
-      "GUID": "{19384F93-63ED-4155-A1E5-FA265C1ED6D7}",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Pistol\\shotgunTOpistol",
+      "GUID": "{EE7811DD-FE5B-4C43-9AB0-B7415DE765FD}",
       "DurationType": "OneShot",
       "DurationMin": "1.6965",
       "DurationMax": "1.6965",
       "MediaRefs": [
        {
-        "Id": "207958097"
+        "Id": "119503161"
        },
        {
-        "Id": "275664607"
+        "Id": "207958097"
        }
       ]
      },
@@ -1804,6 +1884,6 @@
     ]
    }
   ],
-  "FileHash": "{10251A62-714F-EA18-88DE-B1E9618EB9FE}"
+  "FileHash": "{FEE48682-E8CA-B3FC-888E-A211061933A7}"
  }
 }

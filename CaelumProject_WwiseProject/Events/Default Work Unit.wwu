@@ -398,6 +398,101 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="shotgunTOpistol" ID="{EE7811DD-FE5B-4C43-9AB0-B7415DE765FD}">
+									<ChildrenList>
+										<Action Name="" ID="{5BCA32E9-A0CF-496F-97CD-65298241DB8F}" ShortID="169341650">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="shotgun_dequip" ID="{42CEC62A-3BE4-498F-A309-63683875B543}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{42792414-CBD4-42F9-9B5C-00056E236A07}" ShortID="634611775">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="pistol_draw" ID="{78A05452-7550-43F1-90FA-79052E4D8ABC}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Shotgun" ID="{609817F2-315C-4CDC-BF4A-B3E4ADE5CD14}" ShortID="892009647">
+							<ChildrenList>
+								<Event Name="shotgunFire" ID="{414DF010-5D57-4A6F-A382-5245A416DE2E}">
+									<ChildrenList>
+										<Action Name="" ID="{27F0C5DB-CFAC-499B-9BA1-D16354E9A259}" ShortID="356044616">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="shotgun_fireDouble" ID="{1D74DAB8-1BF8-44F0-8507-CB19F44259DC}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="shotgunDoubleFire" ID="{9F1B924C-3F01-4C1F-84CB-2EC78878CF4E}">
+									<ChildrenList>
+										<Action Name="" ID="{7EA08533-3E4E-4C60-9404-7679E14C404C}" ShortID="353094710">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="shotgun_fireQuad" ID="{2DC5F4B0-E440-4E45-B21A-010323F9B5FA}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="shotgunReload" ID="{2E77CFBD-C8BC-4F44-9BE9-CC0B8E12A414}">
+									<ChildrenList>
+										<Action Name="" ID="{2F834DDA-9198-4E96-A3E3-165BDFC4A128}" ShortID="426763689">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="shotgun_reload" ID="{218BC73C-E966-44B8-9353-731240808799}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="shotgunReloadEmpty" ID="{85F36A55-209B-4472-A9B5-23B03AF2FDD4}">
+									<ChildrenList>
+										<Action Name="" ID="{74E36DB4-85AD-43C6-98EE-84FAFA7C503B}" ShortID="68231331">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="shotgun_reloadEmpty" ID="{782EAEDA-BEE5-42D2-B1FA-55456EEFBC47}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="pistolTOshotgun" ID="{D9ED5205-1714-4F69-834D-91992E26F359}">
+									<ChildrenList>
+										<Action Name="" ID="{BA624C9B-78C3-4C50-88CA-5B8AAF8E8CD2}" ShortID="268803666">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="pistol_holster" ID="{7E9A5C06-F95D-4C92-A624-8EF9ACCBB169}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{E00D1505-4F38-4094-AB0E-7A4DD6623811}" ShortID="1045364529">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="shotgunDraw" ID="{EFAF9706-BC71-4E86-AB32-DB5B916152D8}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="shotgunFirstEquip" ID="{FADF11EA-5BC8-40DC-86B6-DD323399B65B}">
+									<ChildrenList>
+										<Action Name="" ID="{EAABE3B9-0BBB-4DE7-A4FA-5E0F7C921AB1}" ShortID="769825650">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="shotgun_firstDraw" ID="{542490CD-1A8D-4FB9-AB31-345FCDB935F1}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

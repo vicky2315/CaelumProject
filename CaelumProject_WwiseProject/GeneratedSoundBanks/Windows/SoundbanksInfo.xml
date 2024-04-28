@@ -52,7 +52,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{D57FDD22-B28A-F35D-0A25-929FB526F699}">
+		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{2E2F690D-824C-D87A-B6E4-1D48D2667143}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -64,6 +64,10 @@
 				<File Id="12978726" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_woodHeavy.wav</ShortName>
 					<CachePath>SFX/footstep_woodHeavy_10C4C929.wem</CachePath>
+				</File>
+				<File Id="24422680" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>shotgun_fireQuad.wav</ShortName>
+					<CachePath>SFX/shotgun_fireQuad_10C4C929.wem</CachePath>
 				</File>
 				<File Id="25241164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>pistol_reloadEmpty.wav</ShortName>
@@ -109,9 +113,17 @@
 					<ShortName>env_bulletImpact_glass-004.wav</ShortName>
 					<CachePath>SFX/env_bulletImpact_glass-004_10C4C929.wem</CachePath>
 				</File>
+				<File Id="119503161" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>shotgun_dequip.wav</ShortName>
+					<CachePath>SFX/shotgun_dequip_10C4C929.wem</CachePath>
+				</File>
 				<File Id="135142535" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_bulletImpact_parasite.wav</ShortName>
 					<CachePath>SFX/env_bulletImpact_parasite_10C4C929.wem</CachePath>
+				</File>
+				<File Id="137036758" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>shotgun_reload.wav</ShortName>
+					<CachePath>SFX/shotgun_reload_10C4C929.wem</CachePath>
 				</File>
 				<File Id="146505309" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_metalHeavy-001.wav</ShortName>
@@ -157,6 +169,10 @@
 					<ShortName>env_bulletImpact_metal-005.wav</ShortName>
 					<CachePath>SFX/env_bulletImpact_metal-005_10C4C929.wem</CachePath>
 				</File>
+				<File Id="228388078" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>shotgun_reloadEmpty.wav</ShortName>
+					<CachePath>SFX/shotgun_reloadEmpty_10C4C929.wem</CachePath>
+				</File>
 				<File Id="241466283" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_woodHeavy-005.wav</ShortName>
 					<CachePath>SFX/footstep_woodHeavy-005_10C4C929.wem</CachePath>
@@ -169,13 +185,9 @@
 					<ShortName>env_bulletImpact_metal-001.wav</ShortName>
 					<CachePath>SFX/env_bulletImpact_metal-001_10C4C929.wem</CachePath>
 				</File>
-				<File Id="275664607" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>shotgun_dequip.wav</ShortName>
-					<CachePath>SFX/shotgun_dequip_10C4C929.wem</CachePath>
-				</File>
-				<File Id="279671420" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>shotgunDraw.wav</ShortName>
-					<CachePath>SFX/shotgunDraw_10C4C929.wem</CachePath>
+				<File Id="277794996" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>shotgun_fireDouble.wav</ShortName>
+					<CachePath>SFX/shotgun_fireDouble_10C4C929.wem</CachePath>
 				</File>
 				<File Id="291941750" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_woodHeavy-004.wav</ShortName>
@@ -389,6 +401,10 @@
 					<ShortName>parasite_idle-001.wav</ShortName>
 					<CachePath>SFX/parasite_idle-001_10C4C929.wem</CachePath>
 				</File>
+				<File Id="932919359" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>shotgun_firstDraw.wav</ShortName>
+					<CachePath>SFX/shotgun_firstDraw_10C4C929.wem</CachePath>
+				</File>
 				<File Id="940955890" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_parasite-002.wav</ShortName>
 					<CachePath>SFX/footstep_parasite-002_10C4C929.wem</CachePath>
@@ -400,6 +416,10 @@
 				<File Id="972718180" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_bulletImpact_glass-001.wav</ShortName>
 					<CachePath>SFX/env_bulletImpact_glass-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="980177661" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>shotgunDraw.wav</ShortName>
+					<CachePath>SFX/shotgunDraw_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1010906593" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_alarm-withVoice.wav</ShortName>
@@ -709,19 +729,41 @@
 						<MediaRef Id="25241164"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1073734435" Name="pistolTOshotgun" ObjectPath="\Events\Default Work Unit\Weapons\pistolTOshotgun" GUID="{17BDFA8D-62A1-4294-9D53-83A72623005A}" DurationType="OneShot" DurationMin="1.4518334" DurationMax="1.4518334">
+				<Event Id="1073734435" Name="pistolTOshotgun" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\pistolTOshotgun" GUID="{D9ED5205-1714-4F69-834D-91992E26F359}" DurationType="OneShot" DurationMin="1.4518334" DurationMax="1.4518334">
 					<MediaRefs>
 						<MediaRef Id="151595466"/>
-						<MediaRef Id="279671420"/>
+						<MediaRef Id="980177661"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3136177405" Name="shotgunFire" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\shotgunFire" GUID="{65BE1114-0245-4474-AE5B-C2C6F4CB466C}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3626309542" Name="shotgunReload" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\shotgunReload" GUID="{05BD9BB7-AEAC-4508-9507-AF78614FF06E}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2967496845" Name="shotgunReloadEmpty" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\shotgunReloadEmpty" GUID="{0A4D487E-26D3-4B6B-BA78-70442CC94831}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="4024192279" Name="shotgunTOpistol" ObjectPath="\Events\Default Work Unit\Weapons\shotgunTOpistol" GUID="{19384F93-63ED-4155-A1E5-FA265C1ED6D7}" DurationType="OneShot" DurationMin="1.6965" DurationMax="1.6965">
+				<Event Id="1733808942" Name="shotgunDoubleFire" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\shotgunDoubleFire" GUID="{9F1B924C-3F01-4C1F-84CB-2EC78878CF4E}" DurationType="OneShot" DurationMin="1.1184167" DurationMax="1.1184167">
 					<MediaRefs>
+						<MediaRef Id="24422680"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3136177405" Name="shotgunFire" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\shotgunFire" GUID="{414DF010-5D57-4A6F-A382-5245A416DE2E}" DurationType="OneShot" DurationMin="0.7872292" DurationMax="0.7872292">
+					<MediaRefs>
+						<MediaRef Id="277794996"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2469788739" Name="shotgunFirstEquip" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\shotgunFirstEquip" GUID="{FADF11EA-5BC8-40DC-86B6-DD323399B65B}" DurationType="OneShot" DurationMin="2.9947917" DurationMax="2.9947917">
+					<MediaRefs>
+						<MediaRef Id="932919359"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3626309542" Name="shotgunReload" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\shotgunReload" GUID="{2E77CFBD-C8BC-4F44-9BE9-CC0B8E12A414}" DurationType="OneShot" DurationMin="3.2" DurationMax="3.2">
+					<MediaRefs>
+						<MediaRef Id="137036758"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2967496845" Name="shotgunReloadEmpty" ObjectPath="\Events\Default Work Unit\Weapons\Shotgun\shotgunReloadEmpty" GUID="{85F36A55-209B-4472-A9B5-23B03AF2FDD4}" DurationType="OneShot" DurationMin="3.8791666" DurationMax="3.8791666">
+					<MediaRefs>
+						<MediaRef Id="228388078"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4024192279" Name="shotgunTOpistol" ObjectPath="\Events\Default Work Unit\Weapons\Pistol\shotgunTOpistol" GUID="{EE7811DD-FE5B-4C43-9AB0-B7415DE765FD}" DurationType="OneShot" DurationMin="1.6965" DurationMax="1.6965">
+					<MediaRefs>
+						<MediaRef Id="119503161"/>
 						<MediaRef Id="207958097"/>
-						<MediaRef Id="275664607"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3076102481" Name="titleAmbience" ObjectPath="\Events\Default Work Unit\UI\titleAmbience" GUID="{E2171221-9D2A-44BC-B378-9B9CFBCB98FA}" DurationType="Infinite">
@@ -803,5 +845,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A66BBC95-1A36-7031-0A59-16786DDB59AA}</FileHash>
+	<FileHash>{E7E3D17B-7DC0-58DC-59E0-AF15887FA478}</FileHash>
 </SoundBanksInfo>
