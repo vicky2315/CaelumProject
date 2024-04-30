@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{2E2F690D-824C-D87A-B6E4-1D48D2667143}">
+		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{CBD30A96-70C8-E4C2-9549-3461CC42CD8D}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -93,10 +93,6 @@
 				<File Id="182765028" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_bulletImpact_metal-004.wav</ShortName>
 					<CachePath>SFX/env_bulletImpact_metal-004_10C4C929.wem</CachePath>
-				</File>
-				<File Id="188077103" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>pickup_ammo-001.wav</ShortName>
-					<CachePath>SFX/pickup_ammo-001_10C4C929.wem</CachePath>
 				</File>
 				<File Id="190321628" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>turret_fire.wav</ShortName>
@@ -414,11 +410,6 @@
 				<Event Id="3878475591" Name="AmbientTrain" ObjectPath="\Events\Default Work Unit\Train\AmbientTrain" GUID="{32A9DDB0-7C76-4305-8223-D593185D9925}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="867250235"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1165913927" Name="AmmoPickup" ObjectPath="\Events\Default Work Unit\Pickups\AmmoPickup" GUID="{6A593C9F-650F-43B7-A5B4-F17F64B65D86}" DurationType="OneShot" DurationMin="1.795625" DurationMax="1.795625">
-					<MediaRefs>
-						<MediaRef Id="188077103"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1918071375" Name="BulletImpact" ObjectPath="\Events\Default Work Unit\Weapons\Bullet\BulletImpact" GUID="{C32070BE-75C8-4FEF-B53C-0157D00F9882}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="0.25477085" DurationMax="1.8126458">
@@ -741,12 +732,12 @@
 						<MediaRef Id="541407467"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1455463447" Name="walkerDeath" ObjectPath="\Events\Default Work Unit\Enemy\Walker\walkerDeath" GUID="{32AA9490-1366-4C15-814D-D67A5D27B0E4}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="1.4066875" DurationMax="1.4066875">
+				<Event Id="1455463447" Name="walkerDeath" ObjectPath="\Events\Default Work Unit\Enemy\Walker\walkerDeath" GUID="{32AA9490-1366-4C15-814D-D67A5D27B0E4}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="1.3277361" DurationMax="1.6252202">
 					<MediaRefs>
 						<MediaRef Id="10706007"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1526193385" Name="WalkerFootstep" ObjectPath="\Events\Default Work Unit\Enemy\Walker\WalkerFootstep" GUID="{5D90BBE1-FB94-4499-A01D-B292FE366E36}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="0.30285418" DurationMax="0.46435416">
+				<Event Id="1526193385" Name="WalkerFootstep" ObjectPath="\Events\Default Work Unit\Enemy\Walker\WalkerFootstep" GUID="{5D90BBE1-FB94-4499-A01D-B292FE366E36}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="0.2777185" DurationMax="0.5212199">
 					<MediaRefs>
 						<MediaRef Id="77791233"/>
 						<MediaRef Id="412561789"/>
@@ -794,5 +785,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C335C302-F4F9-3068-FB00-E7713A429D2E}</FileHash>
+	<FileHash>{47BBB285-D7E6-4622-09B8-98DD494FCBDB}</FileHash>
 </SoundBanksInfo>

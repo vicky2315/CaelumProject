@@ -3,7 +3,7 @@
   "Project": {
    "Name": "CaelumProject_WwiseProject",
    "GUID": "{183D95C1-1C35-4DA4-9D88-BEC2D116AB9A}",
-   "Generator": "2022.1.12.8435"
+   "Generator": "2022.1.6.8263"
   },
   "CacheRoot": "../.cache",
   "Platforms": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{208678A5-70D5-CED6-BC06-61A17C90B77E}"
+  "FileHash": "{DE4695C1-62B3-322D-1800-F520968448E9}"
  }
 }

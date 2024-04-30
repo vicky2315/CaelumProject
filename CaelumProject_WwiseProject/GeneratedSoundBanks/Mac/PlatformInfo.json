@@ -3,7 +3,7 @@
   "Platform": {
    "Name": "Mac",
    "BasePlatform": "Mac",
-   "Generator": "2022.1.12.8435"
+   "Generator": "2022.1.6.8263"
   },
   "RootPaths": {
    "ProjectRoot": "../..",
@@ -32,6 +32,6 @@
    "PrintObjectGuid": "true",
    "PrintObjectPath": "true"
   },
-  "FileHash": "{80B43A64-11A5-FD04-EE44-A4859F105568}"
+  "FileHash": "{E8DA5564-1ED7-D9F3-7635-DF2420361E61}"
  }
 }

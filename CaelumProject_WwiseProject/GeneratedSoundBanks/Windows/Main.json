@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}",
     "Language": "SFX",
-    "Hash": "{2E2F690D-824C-D87A-B6E4-1D48D2667143}",
+    "Hash": "{CBD30A96-70C8-E4C2-9549-3461CC42CD8D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -190,14 +190,6 @@
       "Location": "Memory",
       "ShortName": "env_bulletImpact_metal-004.wav",
       "CachePath": "SFX/env_bulletImpact_metal-004_10C4C929.wem"
-     },
-     {
-      "Id": "188077103",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "pickup_ammo-001.wav",
-      "CachePath": "SFX/pickup_ammo-001_10C4C929.wem"
      },
      {
       "Id": "190321628",
@@ -843,20 +835,6 @@
       "MediaRefs": [
        {
         "Id": "867250235"
-       }
-      ]
-     },
-     {
-      "Id": "1165913927",
-      "Name": "AmmoPickup",
-      "ObjectPath": "\\Events\\Default Work Unit\\Pickups\\AmmoPickup",
-      "GUID": "{6A593C9F-650F-43B7-A5B4-F17F64B65D86}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.795625",
-      "DurationMax": "1.795625",
-      "MediaRefs": [
-       {
-        "Id": "188077103"
        }
       ]
      },
@@ -1725,8 +1703,8 @@
       "GUID": "{32AA9490-1366-4C15-814D-D67A5D27B0E4}",
       "MaxAttenuation": "3000",
       "DurationType": "OneShot",
-      "DurationMin": "1.4066875",
-      "DurationMax": "1.4066875",
+      "DurationMin": "1.3277361",
+      "DurationMax": "1.6252202",
       "MediaRefs": [
        {
         "Id": "10706007"
@@ -1740,8 +1718,8 @@
       "GUID": "{5D90BBE1-FB94-4499-A01D-B292FE366E36}",
       "MaxAttenuation": "3000",
       "DurationType": "OneShot",
-      "DurationMin": "0.30285418",
-      "DurationMax": "0.46435416",
+      "DurationMin": "0.2777185",
+      "DurationMax": "0.5212199",
       "MediaRefs": [
        {
         "Id": "77791233"
@@ -1884,6 +1862,6 @@
     ]
    }
   ],
-  "FileHash": "{FEE48682-E8CA-B3FC-888E-A211061933A7}"
+  "FileHash": "{F9453698-D8CC-828A-2057-366CF9A31259}"
  }
 }

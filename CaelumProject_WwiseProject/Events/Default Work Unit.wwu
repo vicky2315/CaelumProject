@@ -5,17 +5,6 @@
 			<ChildrenList>
 				<Folder Name="Pickups" ID="{B56F43CC-D04F-4589-B691-8FCAF0465AE0}" ShortID="1063022672">
 					<ChildrenList>
-						<Event Name="AmmoPickup" ID="{6A593C9F-650F-43B7-A5B4-F17F64B65D86}">
-							<ChildrenList>
-								<Action Name="" ID="{2A839224-0F48-4D3F-97F7-1D5800E648BC}" ShortID="738413657">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="pickup_ammo" ID="{88A4DC86-C4A1-4894-9E05-B765A7D13054}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="HealthPickup" ID="{26C0FDEE-61A5-4DAB-AD87-E353CA183729}">
 							<ChildrenList>
 								<Action Name="" ID="{E5B974B5-4349-40D8-BAB7-D9249C024239}" ShortID="702207082">
