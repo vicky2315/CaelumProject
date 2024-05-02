@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{CBD30A96-70C8-E4C2-9549-3461CC42CD8D}">
+		<SoundBank Id="3161908922" Type="User" GUID="{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}" Language="SFX" Hash="{742279DF-62D8-C34B-D17D-C2FD2CC9ECCB}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -290,6 +290,10 @@
 					<ShortName>pistol_fire.wav</ShortName>
 					<CachePath>SFX/pistol_fire_10C4C929.wem</CachePath>
 				</File>
+				<File Id="747669022" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambient_parasite.wav</ShortName>
+					<CachePath>SFX/ambient_parasite_2D2AEE9A.wem</CachePath>
+				</File>
 				<File Id="773511136" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>env_bulletImpact_wood-005.wav</ShortName>
 					<CachePath>SFX/env_bulletImpact_wood-005_10C4C929.wem</CachePath>
@@ -405,6 +409,11 @@
 						<MediaRef Id="834242732"/>
 						<MediaRef Id="926892948"/>
 						<MediaRef Id="957580969"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1327475548" Name="AmbientParasite" ObjectPath="\Events\Default Work Unit\Train\AmbientParasite" GUID="{D3567174-9D0D-4EAF-912F-A627811D73B4}" MaxAttenuation="1500" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="747669022"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3878475591" Name="AmbientTrain" ObjectPath="\Events\Default Work Unit\Train\AmbientTrain" GUID="{32A9DDB0-7C76-4305-8223-D593185D9925}" DurationType="Infinite">
@@ -785,5 +794,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B38700A3-EEB0-AD30-8821-AADD76473CC5}</FileHash>
+	<FileHash>{BD487B0B-8839-DD17-C9D3-0843559EAABA}</FileHash>
 </SoundBanksInfo>

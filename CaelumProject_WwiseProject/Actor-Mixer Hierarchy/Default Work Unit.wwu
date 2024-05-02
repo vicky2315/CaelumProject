@@ -1388,6 +1388,37 @@
 								<ActiveSource Name="ambient_train" ID="{C51DAA97-A2BF-4877-BB92-7D02B6FFF5F1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="ambient_parasite" ID="{E4D63CF6-9C4D-494C-968A-38FD62D2DCBC}" ShortID="106151211">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80472CFC-FF4A-4282-88AB-521D1F6BB889}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9978586A-B62D-4FFA-B92B-4BF2E0E46EC2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ambient_parasite" ID="{A9761F8F-DE32-4F73-9B8F-AFFC529EB845}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="514.807"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.293"/>
+										<Property Name="LoopEnd" Type="Real64" Value="13.67933"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ambient_parasite.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="747669022"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ambient_parasite" ID="{A9761F8F-DE32-4F73-9B8F-AFFC529EB845}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Pickups" ID="{9E4895B0-4BED-46EB-B608-50D624925B57}" ShortID="116424409">

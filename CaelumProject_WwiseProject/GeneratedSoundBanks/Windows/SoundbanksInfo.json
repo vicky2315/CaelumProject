@@ -156,7 +156,7 @@
     "Type": "User",
     "GUID": "{1F42A43B-B0DC-46B5-B87D-6A3A3F181140}",
     "Language": "SFX",
-    "Hash": "{CBD30A96-70C8-E4C2-9549-3461CC42CD8D}",
+    "Hash": "{742279DF-62D8-C34B-D17D-C2FD2CC9ECCB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -730,6 +730,14 @@
       "CachePath": "SFX/pistol_fire_10C4C929.wem"
      },
      {
+      "Id": "747669022",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ambient_parasite.wav",
+      "CachePath": "SFX/ambient_parasite_2D2AEE9A.wem"
+     },
+     {
       "Id": "773511136",
       "Language": "SFX",
       "Streaming": "false",
@@ -969,6 +977,19 @@
        },
        {
         "Id": "957580969"
+       }
+      ]
+     },
+     {
+      "Id": "1327475548",
+      "Name": "AmbientParasite",
+      "ObjectPath": "\\Events\\Default Work Unit\\Train\\AmbientParasite",
+      "GUID": "{D3567174-9D0D-4EAF-912F-A627811D73B4}",
+      "MaxAttenuation": "1500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "747669022"
        }
       ]
      },
@@ -2008,6 +2029,6 @@
     ]
    }
   ],
-  "FileHash": "{BADA3F2F-2A46-2013-305F-9585A6380228}"
+  "FileHash": "{D342B066-9089-0867-62CC-F651B1FF6C40}"
  }
 }

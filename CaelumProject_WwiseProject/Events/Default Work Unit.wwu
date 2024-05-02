@@ -31,6 +31,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="AmbientParasite" ID="{D3567174-9D0D-4EAF-912F-A627811D73B4}">
+							<ChildrenList>
+								<Action Name="" ID="{B348AD7F-A516-45A5-8D46-506148F7E2CD}" ShortID="820617760">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ambient_parasite" ID="{E4D63CF6-9C4D-494C-968A-38FD62D2DCBC}" WorkUnitID="{25769EAC-0B7E-4E5B-851A-B438F84FAF7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{9FDED102-ABE8-463A-B86E-B295F26901BD}" ShortID="392507012">
