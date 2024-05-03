@@ -2793,3 +2793,121 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.03-15.11.05:137][908]LogShaderCompilers: Display:                        FLumenTranslucencyRadianceCacheMarkVS - 7.78% of total time (compiled    7 times, average 0.78 sec, max 0.85 sec, min 0.70 sec)
 [2024.05.03-15.11.05:138][908]LogShaderCompilers: Display:                        FLumenFrontLayerTranslucencyGBufferVS - 7.56% of total time (compiled    7 times, average 0.76 sec, max 0.83 sec, min 0.68 sec)
 [2024.05.03-15.11.05:138][908]LogShaderCompilers: Display: ================================================
+[2024.05.03-15.13.02:813][126]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.02:813][126]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.02:814][126]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.02:814][126]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.02:814][126]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.02:815][126]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.04:025][198]Cmd: ACTOR HIDE SELECTED
+[2024.05.03-15.13.04:025][198]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'ACTOR'. 
+[2024.05.03-15.13.04:426][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.04:426][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.04:427][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.04:427][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.04:427][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.04:428][215]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.04:457][217]Cmd: ACTOR HIDE SELECTED
+[2024.05.03-15.13.05:338][262]Cmd: ACTOR HIDE SELECTED
+[2024.05.03-15.13.05:672][274]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.05:672][274]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.05:673][274]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.05:673][274]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.05:674][274]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.05:674][274]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.05:700][276]Cmd: ACTOR HIDE SELECTED
+[2024.05.03-15.13.10:003][530]Cmd: TRANSACTION UNDO
+[2024.05.03-15.13.10:003][530]LogEditorTransaction: Undo Hide Selected
+[2024.05.03-15.13.10:103][530]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:104][530]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:106][530]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:107][530]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:108][530]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:108][530]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:110][530]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:380][535]Cmd: TRANSACTION UNDO
+[2024.05.03-15.13.10:380][535]LogEditorTransaction: Undo Clicking on Elements
+[2024.05.03-15.13.10:442][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:442][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:442][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:443][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:443][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:444][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:444][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:597][541]Cmd: TRANSACTION UNDO
+[2024.05.03-15.13.10:598][541]LogEditorTransaction: Undo Hide Selected
+[2024.05.03-15.13.10:627][541]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:628][541]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:629][541]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:629][541]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:630][541]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:631][541]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:632][541]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:870][555]Cmd: TRANSACTION UNDO
+[2024.05.03-15.13.10:870][555]LogEditorTransaction: Undo Clicking on Elements
+[2024.05.03-15.13.10:885][555]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:886][555]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:886][555]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:887][555]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:887][555]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:888][555]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.10:890][555]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.11:215][574]Cmd: TRANSACTION UNDO
+[2024.05.03-15.13.11:215][574]LogEditorTransaction: Undo Hide Selected
+[2024.05.03-15.13.11:244][574]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.11:244][574]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.11:245][574]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.11:246][574]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.11:246][574]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.11:247][574]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.11:248][574]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.12:104][623]Cmd: TRANSACTION UNDO
+[2024.05.03-15.13.12:104][623]LogEditorTransaction: Undo Clicking on Elements
+[2024.05.03-15.13.12:117][623]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.12:118][623]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.12:119][623]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.12:120][623]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.12:120][623]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.12:121][623]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.12:123][623]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.12:526][647]Cmd: TRANSACTION UNDO
+[2024.05.03-15.13.12:526][647]LogEditorTransaction: Undo Hide Selected
+[2024.05.03-15.13.12:569][647]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.12:570][647]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.12:571][647]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.12:572][647]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.12:572][647]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.12:573][647]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.12:574][647]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.15:710][804]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.15:711][804]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.15:711][804]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.15:711][804]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.15:712][804]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.15:713][804]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.16:741][856]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.16:741][856]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.16:742][856]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.16:742][856]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.16:743][856]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.16:743][856]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.17:944][932]Cmd: DELETE
+[2024.05.03-15.13.17:944][932]Cmd: ACTOR DELETE
+[2024.05.03-15.13.17:960][932]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.05.03-15.13.17:961][932]LogEditorActor: Deleted Actor: PointLight
+[2024.05.03-15.13.17:963][932]LogEditorActor: Deleted Actor: PointLight
+[2024.05.03-15.13.17:964][932]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.05.03-15.13.17:979][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.05.03-15.13.17:981][932]LogEditorActor: Deleted 4 Actors (0.037 secs)
+[2024.05.03-15.13.17:992][932]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.17:992][932]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.05.03-15.13.21:630][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.05.03-15.13.21:634][145]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.03-15.13.21:700][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMap" FILE="D:/LocalWorkDir/2103089/DES207/CaelumProject/Content/Maps/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.05.03-15.13.21:712][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.05.03-15.13.21:880][145]LogSavePackage: Moving output files for package: /Game/Maps/MainMap
+[2024.05.03-15.13.21:882][145]LogSavePackage: Moving 'D:/LocalWorkDir/2103089/DES207/CaelumProject/Saved/MainMapF39CDE3341D33F26F51E0A94CE038528.tmp' to 'D:/LocalWorkDir/2103089/DES207/CaelumProject/Content/Maps/MainMap.umap'
+[2024.05.03-15.13.21:903][145]LogFileHelpers: Saving map 'MainMap' took 0.204
+[2024.05.03-15.13.21:923][145]LogFileHelpers: InternalPromptForCheckoutAndSave took 288 ms (total: 880 ms)
+[2024.05.03-15.13.21:929][145]AssetCheck: New page: Asset Save: MainMap
+[2024.05.03-15.13.21:929][145]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MainMap.MainMap
